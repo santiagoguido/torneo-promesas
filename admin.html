@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Panel del torneo</title>
+<meta name="theme-color" content="#1C1C1C">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  color-scheme:dark;
+  --tinta:#1C1C1C; --panel:#2A2A2A; --panel-2:#363636;
+  --linea:rgba(255,255,255,.11); --linea-fuerte:rgba(255,255,255,.26);
+  --azul:#373E98; --azul-vivo:#6570E8; --rosa:#F16775; --amarillo:#FEE36E; --chartreuse:#CEB92C;
+  --texto:#F5F2EB; --texto-2:#A9A59D;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--tinta);color:var(--texto);font-family:"Figtree",system-ui,sans-serif;font-size:15px;line-height:1.5;font-variant-numeric:tabular-nums}
+button,input,select,textarea{font:inherit;color:inherit}
+button{cursor:pointer;background:none;border:0}
+a{color:var(--amarillo)}
+:focus-visible{outline:3px solid var(--amarillo);outline-offset:2px;border-radius:6px}
+.wrap{width:min(1000px,100% - 1.8rem);margin-inline:auto}
+.oculto{display:none !important}
+
+header{position:sticky;top:0;z-index:30;background:rgba(28,28,28,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--linea)}
+.top{display:flex;align-items:center;gap:.7rem;padding:.7rem 0;flex-wrap:wrap}
+.top h1{font-size:1rem;font-weight:900;margin:0;margin-right:auto}
+.estado{font-size:.78rem;font-weight:700;padding:.24rem .62rem;border-radius:999px;background:var(--panel-2);color:var(--texto-2)}
+.estado.on{color:var(--chartreuse)}
+.estado.sucio{color:var(--amarillo)}
+nav.tabs{display:flex;gap:.3rem;overflow-x:auto;padding-bottom:.55rem;scrollbar-width:none}
+nav.tabs::-webkit-scrollbar{display:none}
+nav.tabs button{flex:none;padding:.42rem .85rem;border-radius:999px;font-weight:700;font-size:.87rem;color:var(--texto-2)}
+nav.tabs button[aria-selected="true"]{background:var(--amarillo);color:var(--tinta)}
+
+main{padding:1.4rem 0 5rem}
+h2{font-size:1.15rem;margin:0 0 .2rem}
+.ayuda{color:var(--texto-2);font-size:.86rem;margin:0 0 1.1rem;max-width:68ch}
+
+.tarjeta{background:var(--panel);border:1px solid var(--linea);border-radius:14px;padding:1rem;margin-bottom:1rem}
+.rejilla{display:grid;gap:.8rem;grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}
+label{display:block;font-size:.78rem;font-weight:700;color:var(--texto-2);margin-bottom:.25rem}
+input[type=text],input[type=number],input[type=date],input[type=time],input[type=password],select,textarea{
+  width:100%;padding:.52rem .7rem;border-radius:10px;background:var(--tinta);border:1px solid var(--linea-fuerte);font-size:.92rem;
+}
+input[type=file]{font-size:.82rem;color:var(--texto-2)}
+.pista-campo{color:var(--texto-2);font-size:.76rem;display:block;margin-top:.25rem}
+
+.btn{padding:.52rem 1rem;border-radius:10px;font-weight:700;font-size:.88rem;background:var(--panel-2);border:1px solid var(--linea-fuerte)}
+.btn:hover{border-color:var(--amarillo)}
+.btn.principal{background:var(--amarillo);color:var(--tinta);border-color:var(--amarillo)}
+.btn.principal:disabled{opacity:.45;cursor:not-allowed}
+.btn.azul{background:var(--azul);color:#fff;border-color:var(--azul-vivo)}
+.btn.peligro{color:var(--rosa);border-color:rgba(241,103,117,.45)}
+.btn.chico{padding:.3rem .6rem;font-size:.78rem;border-radius:8px}
+.acciones{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:.9rem}
+
+.lista{border:1px solid var(--linea);border-radius:14px;overflow:hidden;background:var(--panel)}
+.item{display:flex;align-items:center;gap:.7rem;padding:.6rem .8rem;border-top:1px solid rgba(255,255,255,.07)}
+.item:first-child{border-top:0}
+.item img{width:34px;height:38px;object-fit:contain;flex:none}
+.item img.redondo{width:38px;height:38px;border-radius:50%;object-fit:cover;background:var(--panel-2)}
+.item .info{min-width:0;flex:1}
+.item .info b{display:block;font-size:.92rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.item .info small{color:var(--texto-2);font-size:.76rem}
+.item.inactivo{opacity:.5}
+.grupo{margin-bottom:1.4rem}
+.grupo>h3{font-size:.95rem;margin:0 0 .5rem;display:flex;align-items:center;gap:.5rem}
+.grupo>h3 em{font-style:normal;color:var(--texto-2);font-weight:600;font-size:.8rem}
+
+.filtros{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:1rem}
+.filtros select,.filtros input{width:auto;min-width:160px;flex:1}
+
+.chip{padding:.12rem .48rem;border-radius:999px;font-size:.68rem;font-weight:800;flex:none}
+.chip.jugado{background:var(--chartreuse);color:var(--tinta)}
+.chip.programado{background:var(--panel-2);color:var(--texto-2)}
+.chip.pospuesto{background:var(--amarillo);color:var(--tinta)}
+.chip.suspendido{background:var(--rosa);color:var(--tinta)}
+.chip.fase{background:var(--azul);color:#fff}
+
+dialog{border:1px solid var(--linea-fuerte);border-radius:16px;background:var(--panel);color:var(--texto);width:min(580px,94vw);padding:0}
+dialog::backdrop{background:rgba(0,0,0,.75)}
+dialog .cab{padding:.9rem 1.1rem;border-bottom:1px solid var(--linea);font-weight:900}
+dialog .cuerpo{padding:1.1rem;max-height:66vh;overflow:auto;display:grid;gap:.8rem}
+dialog .pie{padding:.8rem 1.1rem;border-top:1px solid var(--linea);display:flex;gap:.5rem;justify-content:flex-end;flex-wrap:wrap}
+dialog .pie .izq{margin-right:auto}
+
+.gol-fila{display:grid;grid-template-columns:1fr 78px auto;gap:.5rem;align-items:center}
+.suma{font-size:.82rem;font-weight:700;align-self:center}
+.suma.ok{color:var(--chartreuse)}
+.suma.mal{color:var(--rosa)}
+
+.aviso{border-radius:12px;padding:.7rem .9rem;font-size:.86rem;margin-bottom:1rem;border:1px solid var(--linea-fuerte);background:var(--panel)}
+.brindis{position:fixed;left:50%;bottom:1.2rem;translate:-50% 0;z-index:80;background:var(--panel-2);border:1px solid var(--linea-fuerte);border-radius:12px;padding:.6rem 1rem;font-size:.88rem;font-weight:700;box-shadow:0 12px 30px rgba(0,0,0,.6)}
+.vacio{padding:1.2rem;text-align:center;color:var(--texto-2);font-size:.88rem}
+code{background:var(--tinta);padding:.1rem .35rem;border-radius:5px;font-size:.85em}
+.jor-fila{display:grid;grid-template-columns:auto 1fr auto;gap:.6rem;align-items:center;padding:.5rem .8rem;border-top:1px solid rgba(255,255,255,.07)}
+.jor-fila:first-child{border-top:0}
+.jor-fila b{font-size:.9rem}
+.jor-fila input{width:170px}
+.jor-fila small{color:var(--texto-2);font-size:.76rem}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="top">
+      <h1>Panel del torneo</h1>
+      <span class="estado" id="estado">Sin conectar</span>
+      <button class="btn principal" id="publicar" disabled>Guardar y publicar</button>
+    </div>
+    <nav class="tabs" id="tabs">
+      <button data-t="conexion" aria-selected="true">Conexión</button>
+      <button data-t="torneo" aria-selected="false">Torneo</button>
+      <button data-t="equipos" aria-selected="false">Equipos</button>
+      <button data-t="jugadores" aria-selected="false">Jugadores</button>
+      <button data-t="calendario" aria-selected="false">Calendario</button>
+      <button data-t="partidos" aria-selected="false">Partidos</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section id="p-conexion"></section>
+  <section id="p-torneo" class="oculto"></section>
+  <section id="p-equipos" class="oculto"></section>
+  <section id="p-jugadores" class="oculto"></section>
+  <section id="p-calendario" class="oculto"></section>
+  <section id="p-partidos" class="oculto"></section>
+</main>
+
+<dialog id="modal">
+  <form method="dialog">
+    <div class="cab" id="modal-titulo">Editar</div>
+    <div class="cuerpo" id="modal-cuerpo"></div>
+    <div class="pie" id="modal-pie"></div>
+  </form>
+</dialog>
+
+<script>
+const CFG_K = "promesas-cfg";
+let cfg = JSON.parse(localStorage.getItem(CFG_K) || "null") || { owner:"", repo:"", rama:"main", token:"" };
+let D = null, sha = null, sucio = false;
+let pendientes = [];
+
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const uid = pre => pre + "-" + Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
+
+function brindis(t, ms = 2800){
+  const d = document.createElement("div");
+  d.className = "brindis"; d.textContent = t;
+  document.body.appendChild(d); setTimeout(() => d.remove(), ms);
+}
+function marcarSucio(){
+  sucio = true;
+  $("#estado").textContent = "Cambios sin publicar";
+  $("#estado").className = "estado sucio";
+  $("#publicar").disabled = false;
+}
+function marcarLimpio(){
+  sucio = false;
+  $("#estado").textContent = cfg.token ? "Publicado" : "Solo en este navegador";
+  $("#estado").className = "estado on";
+  $("#publicar").disabled = !cfg.token;
+}
+addEventListener("beforeunload", e => { if (sucio){ e.preventDefault(); e.returnValue = ""; } });
+
+/* ---------- GitHub ---------- */
+const API = p => "https://api.github.com/repos/" + cfg.owner + "/" + cfg.repo + "/contents/" + p;
+const cabeceras = () => ({
+  "Authorization": "Bearer " + cfg.token,
+  "Accept": "application/vnd.github+json",
+  "X-GitHub-Api-Version": "2022-11-28",
+});
+const b64 = t => btoa(String.fromCharCode(...new TextEncoder().encode(t)));
+const deB64 = b => new TextDecoder().decode(Uint8Array.from(atob(b.replace(/\s/g, "")), c => c.charCodeAt(0)));
+
+async function leerRemoto(){
+  const r = await fetch(API("data.json") + "?ref=" + encodeURIComponent(cfg.rama) + "&t=" + Date.now(), { headers: cabeceras() });
+  if (r.status === 404) return null;
+  if (!r.ok) throw new Error("GitHub respondió " + r.status + ". Revisa usuario, repositorio, rama y permisos del token.");
+  const j = await r.json();
+  sha = j.sha;
+  return JSON.parse(deB64(j.content));
+}
+async function escribirRemoto(){
+  D.actualizado = new Date().toISOString();
+  const cuerpo = { message:"Actualiza datos del torneo", content:b64(JSON.stringify(D, null, 1)), branch:cfg.rama };
+  if (sha) cuerpo.sha = sha;
+  const r = await fetch(API("data.json"), { method:"PUT", headers:cabeceras(), body:JSON.stringify(cuerpo) });
+  if (!r.ok) throw new Error("No se pudo guardar: " + r.status + " " + (await r.text()).slice(0, 200));
+  sha = (await r.json()).content.sha;
+}
+async function subirImagen(ruta, blob){
+  const base = await new Promise(res => {
+    const fr = new FileReader();
+    fr.onload = () => res(String(fr.result).split(",")[1]);
+    fr.readAsDataURL(blob);
+  });
+  const r = await fetch(API(ruta), { method:"PUT", headers:cabeceras(),
+    body:JSON.stringify({ message:"Sube imagen " + ruta, content:base, branch:cfg.rama }) });
+  if (!r.ok) throw new Error("No se pudo subir la imagen: " + r.status);
+  return ruta;
+}
+function procesarImagen(file, lado, cuadrada){
+  return new Promise((res, rej) => {
+    const img = new Image();
+    img.onload = () => {
+      const w = img.width, h = img.height, c = document.createElement("canvas");
+      if (cuadrada){
+        const m = Math.min(w, h);
+        c.width = c.height = lado;
+        c.getContext("2d").drawImage(img, (w - m) / 2, (h - m) / 2, m, m, 0, 0, lado, lado);
+      } else {
+        const f = Math.min(1, lado / Math.max(w, h));
+        c.width = Math.round(w * f); c.height = Math.round(h * f);
+        c.getContext("2d").drawImage(img, 0, 0, c.width, c.height);
+      }
+      c.toBlob(b => b ? res(b) : rej(new Error("No se pudo procesar la imagen")), "image/webp", 0.85);
+    };
+    img.onerror = () => rej(new Error("El archivo no es una imagen válida"));
+    img.src = URL.createObjectURL(file);
+  });
+}
+
+/* ---------- estructura ---------- */
+function estructuraNueva(){
+  return {
+    torneo:{ nombre:"Torneo Infantil Promesas Del Real", sede:"Xichú, Guanajuato", temporada:String(new Date().getFullYear()), facebook:"", aviso:"" },
+    ajustes:{ puntosVictoria:3, puntosEmpate:1, puntosDerrota:0, equiposCalifican:4 },
+    categorias:[
+      { id:"pb", nombre:"Primaria Baja", descripcion:"1° a 3° de primaria", orden:1 },
+      { id:"pa", nombre:"Primaria Alta", descripcion:"4° a 6° de primaria", orden:2 },
+      { id:"sec", nombre:"Secundaria", descripcion:"1° a 3° de secundaria", orden:3 },
+    ],
+    jornadas:[], equipos:[], jugadores:[], partidos:[],
+    actualizado:new Date().toISOString(),
+  };
+}
+function normaliza(){
+  if (!D.jornadas) D.jornadas = [];
+  D.partidos.forEach(p => {
+    if (!p.fase) p.fase = "regular";
+    if (p.fechaAnterior === undefined) p.fechaAnterior = "";
+    if (p.nota === undefined) p.nota = "";
+    delete p.cancha;
+  });
+}
+
+/* ---------- atajos ---------- */
+const cats = () => [...D.categorias].sort((a, b) => a.orden - b.orden);
+const catNombre = id => (D.categorias.find(c => c.id === id) || {}).nombre || id;
+const equipo = id => D.equipos.find(e => e.id === id) || { nombre:"(equipo borrado)", logo:"" };
+const jugadorDe = id => D.jugadores.find(j => j.id === id) || { nombre:"(jugador borrado)" };
+const equiposDe = c => D.equipos.filter(e => e.categoria === c && e.activo !== false).sort((a, b) => a.nombre.localeCompare(b.nombre, "es"));
+const jugadoresDe = e => D.jugadores.filter(j => j.equipo === e).sort((a, b) => (a.dorsal || 99) - (b.dorsal || 99));
+const opciones = (arr, sel) => arr.map(o => '<option value="' + esc(o.v) + '"' + (o.v === sel ? " selected" : "") + '>' + esc(o.t) + '</option>').join("");
+const campo = (id, et, val, tipo, pista) =>
+  '<div><label for="' + id + '">' + esc(et) + '</label><input id="' + id + '" type="' + (tipo || "text") + '" value="' + esc(val) + '">' +
+  (pista ? '<small class="pista-campo">' + esc(pista) + '</small>' : "") + '</div>';
+const vacio = sel => $(sel).innerHTML = '<div class="aviso">Primero conecta el repositorio o carga un <code>data.json</code> desde la pestaña Conexión.</div>';
+const faseNombre = p => p.fase === "semifinal" ? "Semifinal" : p.fase === "final" ? "Final" : "Jornada " + p.jornada;
+const golesDe = (jid, todo) => D.partidos
+  .filter(p => todo || p.fase === "regular")
+  .reduce((s, p) => s + (p.goles || []).filter(g => g.jugador === jid).reduce((x, g) => x + (+g.cantidad || 0), 0), 0);
+
+function miniatura(src, redondo){
+  const hueco = redondo
+    ? '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="32" fill="%23363636"/></svg>'
+    : '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 72"><path d="M32 2 60 12v26c0 17-13 28-28 32C18 66 4 55 4 38V12Z" fill="%23363636"/></svg>';
+  return '<img class="' + (redondo ? "redondo" : "") + '" src="' + (src ? esc(src) : "data:image/svg+xml," + hueco) + '" alt="">';
+}
+
+/* tabla de posiciones (para armar la liguilla) */
+function tablaDe(cat){
+  const a = D.ajustes;
+  const fila = {};
+  equiposDe(cat).forEach(e => fila[e.id] = { eq:e, pts:e.ajustePuntos || 0, gf:0, gc:0 });
+  D.partidos.filter(p => p.categoria === cat && p.estado === "jugado" && p.fase === "regular").forEach(p => {
+    const L = fila[p.local], V = fila[p.visitante];
+    if (!L || !V) return;
+    const gl = +p.golesLocal || 0, gv = +p.golesVisitante || 0;
+    L.gf += gl; L.gc += gv; V.gf += gv; V.gc += gl;
+    if (gl > gv){ L.pts += a.puntosVictoria; V.pts += a.puntosDerrota; }
+    else if (gv > gl){ V.pts += a.puntosVictoria; L.pts += a.puntosDerrota; }
+    else { L.pts += a.puntosEmpate; V.pts += a.puntosEmpate; }
+  });
+  return Object.values(fila).sort((x, y) =>
+    y.pts - x.pts || (y.gf - y.gc) - (x.gf - x.gc) || y.gf - x.gf || x.eq.nombre.localeCompare(y.eq.nombre, "es"));
+}
+
+/* rol todos contra todos, método del círculo */
+function rolCircular(ids, cuantas){
+  const eq = ids.slice();
+  let fantasma = null;
+  if (eq.length % 2){ fantasma = "__d__"; eq.push(fantasma); }
+  const fijo = eq[0];
+  let resto = eq.slice(1);
+  const ciclo = [];
+  for (let r = 0; r < eq.length - 1; r++){
+    const pares = [[fijo, resto[0]]];
+    let i = 1, j = resto.length - 1;
+    while (i < j){ pares.push([resto[i], resto[j]]); i++; j--; }
+    ciclo.push(pares.filter(par => par[0] !== fantasma && par[1] !== fantasma));
+    resto = resto.slice(1).concat(resto.slice(0, 1));
+  }
+  const salida = [];
+  for (let n = 0; n < cuantas; n++){
+    const vuelta = Math.floor(n / ciclo.length);
+    salida.push(ciclo[n % ciclo.length].map(([a, b]) => vuelta % 2 ? [b, a] : [a, b]));
+  }
+  return salida;
+}
+
+/* ---------- modal ---------- */
+let alGuardar = null;
+function abrirModal(titulo, html, guardar, extra){
+  $("#modal-titulo").textContent = titulo;
+  $("#modal-cuerpo").innerHTML = html;
+  $("#modal-pie").innerHTML = (extra || "") +
+    '<button class="btn" type="button" id="modal-cancelar">Cancelar</button>' +
+    '<button class="btn principal" id="modal-ok" value="ok">Guardar</button>';
+  $("#modal-cancelar").onclick = () => $("#modal").close("cancelar");
+  alGuardar = guardar;
+  $("#modal").showModal();
+}
+$("#modal").addEventListener("close", () => {
+  if ($("#modal").returnValue === "ok" && alGuardar){
+    if (alGuardar() !== false){ marcarSucio(); pintar(); }
+  }
+  alGuardar = null;
+});
+
+/* ---------- conexión ---------- */
+function pintarConexion(){
+  $("#p-conexion").innerHTML =
+    '<h2>Conexión con el repositorio</h2>' +
+    '<p class="ayuda">Estos datos solo se guardan en este navegador. Con ellos el panel lee y escribe <code>data.json</code> y las imágenes directamente en tu repositorio de GitHub. Sin tu token nadie puede modificar la página.</p>' +
+    '<div class="tarjeta"><div class="rejilla">' +
+      campo("c-owner", "Usuario u organización", cfg.owner) +
+      campo("c-repo", "Repositorio", cfg.repo) +
+      campo("c-rama", "Rama", cfg.rama) +
+      '<div><label for="c-token">Token de acceso</label><input id="c-token" type="password" value="' + esc(cfg.token) + '" autocomplete="off"></div>' +
+    '</div><div class="acciones">' +
+      '<button class="btn principal" id="c-conectar">Conectar y cargar</button>' +
+      '<button class="btn" id="c-nuevo">Empezar de cero</button>' +
+      '<button class="btn" id="c-salir">Olvidar el token</button>' +
+    '</div></div>' +
+    '<h2>Trabajar sin GitHub</h2>' +
+    '<p class="ayuda">Si prefieres no usar token, edita aquí y descarga el <code>data.json</code> para subirlo tú mismo. Las fotos las copiarías a mano a la carpeta <code>assets</code>.</p>' +
+    '<div class="tarjeta"><div class="acciones">' +
+      '<button class="btn" id="c-abrir">Abrir un data.json</button>' +
+      '<input id="c-archivo" type="file" accept="application/json" class="oculto">' +
+      '<button class="btn" id="c-bajar">Descargar data.json</button>' +
+    '</div></div>';
+
+  $("#c-conectar").onclick = async () => {
+    cfg = { owner:$("#c-owner").value.trim(), repo:$("#c-repo").value.trim(),
+            rama:$("#c-rama").value.trim() || "main", token:$("#c-token").value.trim() };
+    localStorage.setItem(CFG_K, JSON.stringify(cfg));
+    try {
+      const d = await leerRemoto();
+      D = d || estructuraNueva(); normaliza();
+      marcarLimpio();
+      brindis(d ? "Datos cargados" : "Repositorio vacío: se creó una estructura nueva");
+      irA("torneo");
+    } catch (e){ alert(e.message); }
+  };
+  $("#c-nuevo").onclick = () => {
+    if (D && !confirm("Se descartará lo que tengas cargado. ¿Seguir?")) return;
+    D = estructuraNueva(); normaliza(); marcarSucio(); irA("torneo");
+  };
+  $("#c-salir").onclick = () => {
+    localStorage.removeItem(CFG_K); cfg = { owner:"", repo:"", rama:"main", token:"" };
+    brindis("Token borrado de este navegador"); pintarConexion();
+  };
+  $("#c-abrir").onclick = () => $("#c-archivo").click();
+  $("#c-archivo").onchange = async ev => {
+    const f = ev.target.files[0]; if (!f) return;
+    try { D = JSON.parse(await f.text()); normaliza(); sha = null; marcarSucio(); brindis("Archivo cargado"); irA("torneo"); }
+    catch (e){ alert("Ese archivo no es un data.json válido."); }
+  };
+  $("#c-bajar").onclick = () => {
+    if (!D) return alert("Primero carga o crea los datos.");
+    D.actualizado = new Date().toISOString();
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([JSON.stringify(D, null, 1)], { type:"application/json" }));
+    a.download = "data.json"; a.click();
+  };
+}
+
+/* ---------- torneo ---------- */
+function pintarTorneo(){
+  if (!D) return vacio("#p-torneo");
+  const t = D.torneo, a = D.ajustes;
+  $("#p-torneo").innerHTML =
+    '<h2>Datos generales</h2>' +
+    '<p class="ayuda">Lo que se ve en el encabezado de la página y las reglas con las que se calcula la tabla. El desempate siempre es diferencia de goles y luego goles a favor.</p>' +
+    '<div class="tarjeta"><div class="rejilla">' +
+      campo("t-nombre", "Nombre del torneo", t.nombre) + campo("t-sede", "Sede", t.sede) +
+      campo("t-temp", "Temporada", t.temporada) + campo("t-fb", "Página de Facebook", t.facebook || "") +
+    '</div></div>' +
+    '<div class="tarjeta"><div class="rejilla">' +
+      campo("t-pv", "Puntos por ganar", a.puntosVictoria, "number") +
+      campo("t-pe", "Puntos por empatar", a.puntosEmpate, "number") +
+      campo("t-pp", "Puntos por perder", a.puntosDerrota, "number") +
+      campo("t-cal", "Equipos que califican", a.equiposCalifican, "number", "Se marcan con borde amarillo en la tabla") +
+    '</div></div>' +
+    '<h2>Categorías</h2>' +
+    '<div class="tarjeta"><div class="rejilla">' +
+      cats().map(c => '<div>' + campo("cat-n-" + c.id, "Nombre", c.nombre) + campo("cat-d-" + c.id, "Descripción", c.descripcion || "") + '</div>').join("") +
+    '</div></div>' +
+    '<div class="acciones"><button class="btn principal" id="t-aplicar">Aplicar cambios</button></div>';
+
+  $("#t-aplicar").onclick = () => {
+    t.nombre = $("#t-nombre").value.trim(); t.sede = $("#t-sede").value.trim();
+    t.temporada = $("#t-temp").value.trim(); t.facebook = $("#t-fb").value.trim();
+    a.puntosVictoria = +$("#t-pv").value; a.puntosEmpate = +$("#t-pe").value;
+    a.puntosDerrota = +$("#t-pp").value; a.equiposCalifican = +$("#t-cal").value;
+    D.categorias.forEach(c => { c.nombre = $("#cat-n-" + c.id).value.trim(); c.descripcion = $("#cat-d-" + c.id).value.trim(); });
+    marcarSucio(); brindis("Cambios aplicados. Falta publicar."); pintar();
+  };
+}
+
+/* ---------- equipos ---------- */
+function pintarEquipos(){
+  if (!D) return vacio("#p-equipos");
+  $("#p-equipos").innerHTML =
+    '<h2>Equipos</h2>' +
+    '<p class="ayuda">Da de alta los equipos de cada categoría y súbeles su logo. Si un equipo se retira, márcalo inactivo: sale de la tabla pero sus partidos jugados se conservan.</p>' +
+    '<div class="acciones" style="margin:0 0 1.1rem"><button class="btn principal" id="e-nuevo">Agregar equipo</button></div>' +
+    cats().map(c => {
+      const lista = D.equipos.filter(e => e.categoria === c.id).sort((a, b) => a.nombre.localeCompare(b.nombre, "es"));
+      return '<div class="grupo"><h3>' + esc(c.nombre) + ' <em>' + lista.length + ' equipos</em></h3><div class="lista">' +
+        (lista.length ? lista.map(e =>
+          '<div class="item' + (e.activo === false ? " inactivo" : "") + '">' + miniatura(e.logo) +
+          '<span class="info"><b>' + esc(e.nombre) + '</b><small>' + jugadoresDe(e.id).length + ' jugadores' +
+          (e.activo === false ? " · inactivo" : "") + (e.ajustePuntos ? " · ajuste " + (e.ajustePuntos > 0 ? "+" : "") + e.ajustePuntos + " pts" : "") +
+          '</small></span><button class="btn chico" data-edita="' + e.id + '">Editar</button></div>').join("")
+          : '<div class="vacio">Sin equipos en esta categoría.</div>') + '</div></div>';
+    }).join("");
+  $("#e-nuevo").onclick = () => formEquipo(null);
+  document.querySelectorAll("[data-edita]").forEach(b => b.onclick = () => formEquipo(b.dataset.edita));
+}
+function formEquipo(id){
+  const e = id ? D.equipos.find(x => x.id === id)
+              : { id:uid("eq"), nombre:"", categoria:cats()[0].id, logo:"", ajustePuntos:0, activo:true };
+  abrirModal(id ? "Editar equipo" : "Nuevo equipo",
+    campo("f-nombre", "Nombre del equipo", e.nombre) +
+    '<div><label for="f-cat">Categoría</label><select id="f-cat">' + opciones(cats().map(c => ({ v:c.id, t:c.nombre })), e.categoria) + '</select></div>' +
+    campo("f-ajuste", "Ajuste de puntos", e.ajustePuntos || 0, "number", "Para sanciones o bonos. Normalmente 0.") +
+    '<div><label for="f-activo">Estado</label><select id="f-activo">' + opciones([{v:"1",t:"Activo"},{v:"0",t:"Inactivo"}], e.activo === false ? "0" : "1") + '</select></div>' +
+    '<div><label for="f-logo">Logo del equipo</label>' + (e.logo ? '<img src="' + esc(e.logo) + '" alt="" style="width:56px;margin-bottom:.4rem">' : "") +
+    '<input id="f-logo" type="file" accept="image/*"><small class="pista-campo">Se sube al publicar. Cuadrada o vertical se ve mejor.</small></div>',
+    () => {
+      const n = $("#f-nombre").value.trim();
+      if (!n){ alert("Ponle nombre al equipo."); return false; }
+      e.nombre = n; e.categoria = $("#f-cat").value;
+      e.ajustePuntos = +$("#f-ajuste").value || 0;
+      e.activo = $("#f-activo").value === "1";
+      const f = $("#f-logo").files[0];
+      if (f) pendientes.push({ tipo:"logo", obj:e, file:f });
+      if (!id) D.equipos.push(e);
+      D.jugadores.filter(j => j.equipo === e.id).forEach(j => j.categoria = e.categoria);
+    },
+    id ? '<button class="btn peligro izq" type="button" id="f-borrar">Eliminar equipo</button>' : "");
+  const bt = $("#f-borrar");
+  if (bt) bt.onclick = () => {
+    if (D.partidos.some(p => p.local === id || p.visitante === id) &&
+        !confirm("Este equipo ya tiene partidos registrados y también se borrarán. Si solo se retiró, es mejor marcarlo inactivo. ¿Eliminar de todos modos?")) return;
+    D.partidos = D.partidos.filter(p => p.local !== id && p.visitante !== id);
+    D.jugadores = D.jugadores.filter(j => j.equipo !== id);
+    D.equipos = D.equipos.filter(x => x.id !== id);
+    $("#modal").close("borrado"); marcarSucio(); pintar();
+  };
+}
+
+/* ---------- jugadores ---------- */
+let filtroEquipo = "";
+function pintarJugadores(){
+  if (!D) return vacio("#p-jugadores");
+  const todos = D.equipos.slice().sort((a, b) => catNombre(a.categoria).localeCompare(catNombre(b.categoria), "es") || a.nombre.localeCompare(b.nombre, "es"));
+  if (!todos.length){ $("#p-jugadores").innerHTML = '<div class="aviso">Primero agrega equipos.</div>'; return; }
+  if (!filtroEquipo || !todos.some(e => e.id === filtroEquipo)) filtroEquipo = todos[0].id;
+  const lista = jugadoresDe(filtroEquipo);
+  $("#p-jugadores").innerHTML =
+    '<h2>Jugadores</h2>' +
+    '<p class="ayuda">Elige un equipo y administra su plantel. La foto es opcional: si no la subes, la página muestra las iniciales. El conteo de goles que ves aquí es el de la fase regular, que es el que define al goleador del torneo.</p>' +
+    '<div class="filtros"><select id="j-filtro">' +
+      opciones(todos.map(e => ({ v:e.id, t:catNombre(e.categoria) + " · " + e.nombre })), filtroEquipo) +
+    '</select><button class="btn principal" id="j-nuevo">Agregar jugador</button></div>' +
+    '<div class="lista">' + (lista.length ? lista.map(j =>
+      '<div class="item' + (j.activo === false ? " inactivo" : "") + '">' + miniatura(j.foto, true) +
+      '<span class="info"><b>' + (j.dorsal ? j.dorsal + ". " : "") + esc(j.nombre) + '</b><small>' +
+      golesDe(j.id) + ' goles en fase regular' + (j.activo === false ? " · inactivo" : "") + '</small></span>' +
+      '<button class="btn chico" data-jug="' + j.id + '">Editar</button></div>').join("")
+      : '<div class="vacio">Este equipo todavía no tiene jugadores.</div>') + '</div>';
+  $("#j-filtro").onchange = ev => { filtroEquipo = ev.target.value; pintarJugadores(); };
+  $("#j-nuevo").onclick = () => formJugador(null);
+  document.querySelectorAll("[data-jug]").forEach(b => b.onclick = () => formJugador(b.dataset.jug));
+}
+function formJugador(id){
+  const eqSel = id ? D.jugadores.find(x => x.id === id).equipo : filtroEquipo;
+  const j = id ? D.jugadores.find(x => x.id === id)
+              : { id:uid("jg"), nombre:"", equipo:eqSel, categoria:equipo(eqSel).categoria, dorsal:"", foto:"", activo:true };
+  const todos = D.equipos.slice().sort((a, b) => a.nombre.localeCompare(b.nombre, "es"));
+  abrirModal(id ? "Editar jugador" : "Nuevo jugador",
+    campo("f-nombre", "Nombre completo", j.nombre) +
+    '<div><label for="f-equipo">Equipo</label><select id="f-equipo">' + opciones(todos.map(e => ({ v:e.id, t:catNombre(e.categoria) + " · " + e.nombre })), j.equipo) + '</select></div>' +
+    campo("f-dorsal", "Número (opcional)", j.dorsal || "", "number") +
+    '<div><label for="f-activo">Estado</label><select id="f-activo">' + opciones([{v:"1",t:"Activo"},{v:"0",t:"Inactivo"}], j.activo === false ? "0" : "1") + '</select></div>' +
+    '<div><label for="f-foto">Foto del jugador</label>' +
+    (j.foto ? '<img src="' + esc(j.foto) + '" alt="" style="width:56px;height:56px;border-radius:50%;object-fit:cover;margin-bottom:.4rem">' : "") +
+    '<input id="f-foto" type="file" accept="image/*"><small class="pista-campo">Se recorta cuadrada y se comprime sola.</small></div>',
+    () => {
+      const n = $("#f-nombre").value.trim();
+      if (!n){ alert("Ponle nombre al jugador."); return false; }
+      j.nombre = n; j.equipo = $("#f-equipo").value; j.categoria = equipo(j.equipo).categoria;
+      j.dorsal = $("#f-dorsal").value ? +$("#f-dorsal").value : "";
+      j.activo = $("#f-activo").value === "1";
+      const f = $("#f-foto").files[0];
+      if (f) pendientes.push({ tipo:"foto", obj:j, file:f });
+      if (!id) D.jugadores.push(j);
+      filtroEquipo = j.equipo;
+    },
+    id ? '<button class="btn peligro izq" type="button" id="f-borrar">Eliminar jugador</button>' : "");
+  const bt = $("#f-borrar");
+  if (bt) bt.onclick = () => {
+    if (golesDe(id, true) && !confirm("Este jugador tiene goles registrados; también se borrarán. ¿Seguro?")) return;
+    D.partidos.forEach(p => p.goles = (p.goles || []).filter(g => g.jugador !== id));
+    D.jugadores = D.jugadores.filter(x => x.id !== id);
+    $("#modal").close("borrado"); marcarSucio(); pintar();
+  };
+}
+
+/* ---------- calendario ---------- */
+let catCal = "";
+function pintarCalendario(){
+  if (!D) return vacio("#p-calendario");
+  if (!catCal) catCal = cats()[0].id;
+  const eqs = equiposDe(catCal);
+  const jors = (D.jornadas || []).filter(j => j.categoria === catCal).sort((a, b) => a.numero - b.numero);
+  const regs = D.partidos.filter(p => p.categoria === catCal && p.fase === "regular");
+  const semis = D.partidos.filter(p => p.categoria === catCal && p.fase === "semifinal");
+  const fin = D.partidos.find(p => p.categoria === catCal && p.fase === "final");
+  const vuelta = eqs.length % 2 ? eqs.length : eqs.length - 1;
+  const hoy = new Date().toISOString().slice(0, 10);
+
+  $("#p-calendario").innerHTML =
+    '<h2>Calendario de la fase regular</h2>' +
+    '<p class="ayuda">Genera el rol de todos contra todos. Con número impar de equipos, en cada jornada uno descansa y la página lo indica sola. Si pides más jornadas que una vuelta completa, el ciclo se repite invirtiendo local y visitante.</p>' +
+    '<div class="filtros"><select id="cal-cat">' + opciones(cats().map(c => ({ v:c.id, t:c.nombre })), catCal) + '</select></div>' +
+    (eqs.length < 2
+      ? '<div class="aviso">Esta categoría necesita al menos dos equipos activos.</div>'
+      : '<div class="tarjeta"><div class="rejilla">' +
+          campo("cal-num", "Cuántas jornadas", jors.length || vuelta, "number", "Una vuelta completa con " + eqs.length + " equipos son " + vuelta + " jornadas") +
+          campo("cal-ini", "Fecha de la jornada 1", (jors[0] && jors[0].fecha) || hoy, "date") +
+          campo("cal-cada", "Días entre jornadas", 7, "number", "7 para jugar cada semana") +
+        '</div><div class="acciones">' +
+          '<button class="btn azul" id="cal-generar">Generar rol de partidos</button>' +
+          '<button class="btn" id="cal-fechas">Solo recalcular fechas</button>' +
+        '</div></div>' +
+        (jors.length
+          ? '<div class="lista" style="margin-bottom:1.2rem">' + jors.map(j => {
+              const n = regs.filter(p => p.jornada === j.numero).length;
+              return '<div class="jor-fila"><b>Jornada ' + j.numero + '</b>' +
+                '<small>' + n + ' partidos</small>' +
+                '<input type="date" value="' + esc(j.fecha || "") + '" data-jor="' + j.numero + '"></div>';
+            }).join("") + '</div>'
+          : '<div class="vacio">Todavía no hay jornadas generadas.</div>') +
+        '<h2>Liguilla</h2>' +
+        '<p class="ayuda">Las semifinales se arman con la tabla al momento: 1° contra 2° y 3° contra 4°. La final se crea cuando las dos semifinales estén marcadas como jugadas.</p>' +
+        '<div class="tarjeta"><div class="acciones" style="margin:0">' +
+          '<button class="btn azul" id="cal-semis">' + (semis.length ? "Rehacer semifinales (1° vs 2°, 3° vs 4°)" : "Crear semifinales (1° vs 2°, 3° vs 4°)") + '</button>' +
+          '<button class="btn azul" id="cal-final">' + (fin ? "Rehacer final" : "Crear final") + '</button>' +
+        '</div><div style="margin-top:.8rem;font-size:.84rem;color:var(--texto-2)">' +
+          (semis.length ? semis.map(p => esc(equipo(p.local).nombre) + " vs " + esc(equipo(p.visitante).nombre)).join(" · ") : "Sin semifinales") +
+          (fin ? " · Final: " + esc(equipo(fin.local).nombre) + " vs " + esc(equipo(fin.visitante).nombre) : "") +
+        '</div></div>');
+
+  $("#cal-cat").onchange = ev => { catCal = ev.target.value; pintarCalendario(); };
+  if (eqs.length < 2) return;
+
+  document.querySelectorAll("[data-jor]").forEach(inp => inp.onchange = () => {
+    const n = +inp.dataset.jor;
+    const j = D.jornadas.find(x => x.categoria === catCal && x.numero === n);
+    if (j) j.fecha = inp.value;
+    D.partidos.filter(p => p.categoria === catCal && p.fase === "regular" && p.jornada === n && p.estado !== "pospuesto")
+      .forEach(p => p.fecha = inp.value);
+    marcarSucio(); brindis("Fecha de la jornada " + n + " actualizada");
+  });
+
+  $("#cal-generar").onclick = () => {
+    const cuantas = Math.max(1, +$("#cal-num").value || vuelta);
+    const inicio = $("#cal-ini").value || hoy;
+    const cada = Math.max(1, +$("#cal-cada").value || 7);
+    const jugados = regs.filter(p => p.estado === "jugado").length;
+    if (regs.length && !confirm(
+      "Se reemplazará el rol de la fase regular de esta categoría" +
+      (jugados ? " y se perderán los " + jugados + " partidos ya capturados con sus goles" : "") + ". ¿Seguir?")) return;
+    const ids = eqs.map(e => e.id);
+    const rol = rolCircular(ids, cuantas);
+    D.partidos = D.partidos.filter(p => !(p.categoria === catCal && p.fase === "regular"));
+    D.jornadas = D.jornadas.filter(j => j.categoria !== catCal);
+    rol.forEach((pares, i) => {
+      const f = new Date(inicio + "T12:00:00");
+      f.setDate(f.getDate() + cada * i);
+      const fecha = f.toISOString().slice(0, 10);
+      D.jornadas.push({ categoria:catCal, numero:i + 1, fecha });
+      pares.forEach(([a, b], k) => D.partidos.push({
+        id:uid("pa"), categoria:catCal, fase:"regular", jornada:i + 1, fecha,
+        hora:["09:00","10:30","12:00","13:30","15:00"][k % 5],
+        local:a, visitante:b, golesLocal:0, golesVisitante:0,
+        estado:"programado", fechaAnterior:"", nota:"", goles:[],
+      }));
+    });
+    marcarSucio(); brindis("Rol generado: " + cuantas + " jornadas"); pintarCalendario();
+  };
+
+  $("#cal-fechas").onclick = () => {
+    const inicio = $("#cal-ini").value || hoy;
+    const cada = Math.max(1, +$("#cal-cada").value || 7);
+    D.jornadas.filter(j => j.categoria === catCal).sort((a, b) => a.numero - b.numero).forEach((j, i) => {
+      const f = new Date(inicio + "T12:00:00");
+      f.setDate(f.getDate() + cada * i);
+      j.fecha = f.toISOString().slice(0, 10);
+      D.partidos.filter(p => p.categoria === catCal && p.fase === "regular" && p.jornada === j.numero && p.estado !== "pospuesto")
+        .forEach(p => p.fecha = j.fecha);
+    });
+    marcarSucio(); brindis("Fechas recalculadas"); pintarCalendario();
+  };
+
+  $("#cal-semis").onclick = () => {
+    const t = tablaDe(catCal);
+    if (t.length < 4) return alert("Se necesitan al menos cuatro equipos para armar semifinales.");
+    if (semis.length && !confirm("Se reemplazarán las semifinales actuales. ¿Seguir?")) return;
+    D.partidos = D.partidos.filter(p => !(p.categoria === catCal && p.fase === "semifinal"));
+    const ultima = Math.max(0, ...D.jornadas.filter(j => j.categoria === catCal).map(j => j.fecha ? Date.parse(j.fecha) : 0));
+    const f = new Date(ultima ? ultima + 7 * 864e5 : Date.now());
+    const fecha = f.toISOString().slice(0, 10);
+    [[t[0], t[1]], [t[2], t[3]]].forEach(([A, B], i) => D.partidos.push({
+      id:uid("pa"), categoria:catCal, fase:"semifinal", jornada:90 + i, fecha, hora:i ? "12:00" : "10:30",
+      local:A.eq.id, visitante:B.eq.id, golesLocal:0, golesVisitante:0,
+      estado:"programado", fechaAnterior:"", nota:"", goles:[],
+    }));
+    marcarSucio(); brindis("Semifinales creadas"); pintarCalendario();
+  };
+
+  $("#cal-final").onclick = () => {
+    const s = D.partidos.filter(p => p.categoria === catCal && p.fase === "semifinal").sort((a, b) => a.jornada - b.jornada);
+    if (s.length !== 2) return alert("Primero crea las dos semifinales.");
+    if (s.some(p => p.estado !== "jugado")) return alert("Marca las dos semifinales como jugadas antes de crear la final.");
+    if (s.some(p => +p.golesLocal === +p.golesVisitante)) return alert("Alguna semifinal quedó empatada. Define un ganador en el marcador antes de crear la final.");
+    D.partidos = D.partidos.filter(p => !(p.categoria === catCal && p.fase === "final"));
+    const g = s.map(p => +p.golesLocal > +p.golesVisitante ? p.local : p.visitante);
+    const f = new Date(Date.parse(s[0].fecha || new Date().toISOString().slice(0, 10)) + 7 * 864e5);
+    D.partidos.push({
+      id:uid("pa"), categoria:catCal, fase:"final", jornada:99, fecha:f.toISOString().slice(0, 10), hora:"12:00",
+      local:g[0], visitante:g[1], golesLocal:0, golesVisitante:0,
+      estado:"programado", fechaAnterior:"", nota:"", goles:[],
+    });
+    marcarSucio(); brindis("Final creada"); pintarCalendario();
+  };
+}
+
+/* ---------- partidos ---------- */
+let filtroCat = "";
+function pintarPartidos(){
+  if (!D) return vacio("#p-partidos");
+  if (!filtroCat) filtroCat = cats()[0].id;
+  const ps = D.partidos.filter(p => p.categoria === filtroCat);
+  const liguilla = ps.filter(p => p.fase !== "regular").sort((a, b) => a.jornada - b.jornada);
+  const nums = [...new Set(ps.filter(p => p.fase === "regular").map(p => p.jornada))].sort((a, b) => b - a);
+  const bloque = (titulo, lista) =>
+    '<div class="grupo"><h3>' + esc(titulo) + ' <em>' + lista.length + ' partidos</em></h3><div class="lista">' +
+    lista.map(p =>
+      '<div class="item">' +
+        '<span class="chip ' + p.estado + '">' + esc(p.estado) + '</span>' +
+        '<span class="info"><b>' + esc(equipo(p.local).nombre) + " vs " + esc(equipo(p.visitante).nombre) + '</b><small>' +
+          (p.estado === "jugado"
+            ? (+p.golesLocal || 0) + " – " + (+p.golesVisitante || 0) + " · " + (p.goles || []).reduce((s, g) => s + (+g.cantidad || 0), 0) + " goles con anotador"
+            : (p.fecha || "sin fecha") + (p.hora ? " " + p.hora : "") + (p.nota ? " · " + p.nota : "")) +
+        '</small></span><button class="btn chico" data-par="' + p.id + '">Editar</button></div>').join("") +
+    '</div></div>';
+
+  $("#p-partidos").innerHTML =
+    '<h2>Partidos y resultados</h2>' +
+    '<p class="ayuda">La tabla de posiciones, la de goleo y la de mejor portería se calculan solas con lo que captures aquí. Un partido cuenta cuando lo marcas como jugado, y los de liguilla no suman a los premios de goleador ni de mejor portero.</p>' +
+    '<div class="filtros"><select id="pa-cat">' + opciones(cats().map(c => ({ v:c.id, t:c.nombre })), filtroCat) + '</select>' +
+    '<button class="btn principal" id="pa-nuevo">Agregar partido</button></div>' +
+    (liguilla.length ? bloque("Liguilla", liguilla) : "") +
+    (nums.length ? nums.map(n => bloque("Jornada " + n,
+        ps.filter(p => p.fase === "regular" && p.jornada === n).sort((a, b) => (a.hora || "").localeCompare(b.hora || "")))).join("")
+      : '<div class="vacio">Sin partidos. Usa la pestaña Calendario para generar el rol completo de una vez.</div>');
+
+  $("#pa-cat").onchange = ev => { filtroCat = ev.target.value; pintarPartidos(); };
+  $("#pa-nuevo").onclick = () => formPartido(null);
+  document.querySelectorAll("[data-par]").forEach(b => b.onclick = () => formPartido(b.dataset.par));
+}
+
+function formPartido(id){
+  const eqs = equiposDe(filtroCat);
+  if (!eqs.length) return alert("Primero agrega equipos a esta categoría.");
+  const regs = D.partidos.filter(p => p.categoria === filtroCat && p.fase === "regular");
+  const p = id ? D.partidos.find(x => x.id === id)
+              : { id:uid("pa"), categoria:filtroCat, fase:"regular",
+                  jornada:regs.length ? Math.max(...regs.map(x => x.jornada)) : 1,
+                  fecha:"", hora:"", local:(eqs[0] || {}).id || "", visitante:(eqs[1] || {}).id || "",
+                  golesLocal:0, golesVisitante:0, estado:"programado", fechaAnterior:"", nota:"", goles:[] };
+  const op = opciones(eqs.map(e => ({ v:e.id, t:e.nombre })), null);
+
+  abrirModal(id ? "Editar partido" : "Nuevo partido",
+    '<div class="rejilla">' +
+      '<div><label for="f-fase">Fase</label><select id="f-fase">' +
+        opciones([{v:"regular",t:"Fase regular"},{v:"semifinal",t:"Semifinal"},{v:"final",t:"Final"}], p.fase) + '</select></div>' +
+      campo("f-jor", "Jornada", p.jornada, "number", "Solo aplica en fase regular") +
+      '<div><label for="f-estado">Estado</label><select id="f-estado">' +
+        opciones([{v:"programado",t:"Por jugar"},{v:"jugado",t:"Jugado"},{v:"pospuesto",t:"Pospuesto"},{v:"suspendido",t:"Suspendido"}], p.estado) + '</select></div>' +
+      '<div><label for="f-fecha">Fecha</label><input id="f-fecha" type="date" value="' + esc(p.fecha || "") + '"></div>' +
+      '<div><label for="f-hora">Hora</label><input id="f-hora" type="time" value="' + esc(p.hora || "") + '"></div>' +
+      '<div id="caja-anterior"><label for="f-antes">Fecha original</label><input id="f-antes" type="date" value="' + esc(p.fechaAnterior || "") + '"></div>' +
+    '</div>' +
+    '<div id="caja-nota">' + campo("f-nota", "Motivo o aviso", p.nota || "", "text", "Se muestra en la página junto al partido") + '</div>' +
+    '<div class="rejilla">' +
+      '<div><label for="f-local">Local</label><select id="f-local">' + op + '</select></div>' +
+      '<div><label for="f-visita">Visitante</label><select id="f-visita">' + op + '</select></div>' +
+      campo("f-gl", "Goles del local", p.golesLocal || 0, "number") +
+      campo("f-gv", "Goles del visitante", p.golesVisitante || 0, "number") +
+    '</div>' +
+    '<div><label>Quién anotó</label><div id="f-goles"></div>' +
+      '<div class="acciones"><button class="btn chico" type="button" id="f-add-gol">Agregar anotador</button>' +
+      '<span class="suma" id="f-suma"></span></div></div>',
+    () => {
+      const L = $("#f-local").value, V = $("#f-visita").value;
+      if (L === V){ alert("Un equipo no puede jugar contra sí mismo."); return false; }
+      p.fase = $("#f-fase").value;
+      p.jornada = p.fase === "regular" ? (+$("#f-jor").value || 1) : (p.fase === "semifinal" ? (p.jornada >= 90 && p.jornada < 99 ? p.jornada : 90) : 99);
+      p.estado = $("#f-estado").value;
+      p.fecha = $("#f-fecha").value; p.hora = $("#f-hora").value;
+      p.fechaAnterior = p.estado === "pospuesto" ? $("#f-antes").value : "";
+      p.nota = $("#f-nota").value.trim();
+      p.local = L; p.visitante = V;
+      p.golesLocal = +$("#f-gl").value || 0; p.golesVisitante = +$("#f-gv").value || 0;
+      p.goles = goles.filter(g => g.jugador && g.cantidad > 0);
+      if (!id) D.partidos.push(p);
+    },
+    id ? '<button class="btn peligro izq" type="button" id="f-borrar">Eliminar partido</button>' : "");
+
+  $("#f-local").value = p.local; $("#f-visita").value = p.visitante;
+  let goles = (p.goles || []).map(g => ({ ...g }));
+
+  const planteles = () => [...jugadoresDe($("#f-local").value), ...jugadoresDe($("#f-visita").value)]
+    .filter(j => j.activo !== false)
+    .map(j => ({ v:j.id, t:equipo(j.equipo).nombre + " · " + j.nombre }));
+
+  function pintarGoles(){
+    const plan = planteles();
+    $("#f-goles").innerHTML = goles.length ? goles.map((g, i) =>
+      '<div class="gol-fila" style="margin-bottom:.4rem">' +
+        '<select data-g="' + i + '">' + opciones(plan, g.jugador) + '</select>' +
+        '<input type="number" min="1" value="' + (g.cantidad || 1) + '" data-c="' + i + '">' +
+        '<button class="btn chico peligro" type="button" data-x="' + i + '">Quitar</button></div>').join("")
+      : '<small class="pista-campo">Nadie registrado todavía. Puedes dejarlo vacío si no sabes quién anotó.</small>';
+    $("#f-goles").querySelectorAll("[data-g]").forEach(s => s.onchange = e => { goles[+e.target.dataset.g].jugador = e.target.value; });
+    $("#f-goles").querySelectorAll("[data-c]").forEach(s => s.oninput = e => { goles[+e.target.dataset.c].cantidad = +e.target.value || 1; suma(); });
+    $("#f-goles").querySelectorAll("[data-x]").forEach(s => s.onclick = e => { goles.splice(+e.target.dataset.x, 1); pintarGoles(); });
+    suma();
+  }
+  function suma(){
+    const total = goles.reduce((s, g) => s + (+g.cantidad || 0), 0);
+    const marcador = (+$("#f-gl").value || 0) + (+$("#f-gv").value || 0);
+    const el = $("#f-suma");
+    el.textContent = total + " de " + marcador + " goles con anotador";
+    el.className = "suma " + (total === marcador ? "ok" : "mal");
+  }
+  function refrescarCajas(){
+    const e = $("#f-estado").value, f = $("#f-fase").value;
+    $("#caja-anterior").classList.toggle("oculto", e !== "pospuesto");
+    $("#caja-nota").classList.toggle("oculto", e === "jugado" || e === "programado");
+    $("#f-jor").closest("div").classList.toggle("oculto", f !== "regular");
+    if (e === "pospuesto" && !$("#f-antes").value) $("#f-antes").value = p.fecha || "";
+  }
+
+  $("#f-add-gol").onclick = () => {
+    const plan = planteles();
+    if (!plan.length) return alert("Los equipos de este partido no tienen jugadores registrados.");
+    goles.push({ jugador:plan[0].v, cantidad:1 }); pintarGoles();
+  };
+  ["#f-gl", "#f-gv"].forEach(s => $(s).oninput = suma);
+  ["#f-local", "#f-visita"].forEach(s => $(s).onchange = pintarGoles);
+  ["#f-estado", "#f-fase"].forEach(s => $(s).onchange = refrescarCajas);
+  pintarGoles(); refrescarCajas();
+
+  const bt = $("#f-borrar");
+  if (bt) bt.onclick = () => {
+    if (!confirm("¿Eliminar este partido?")) return;
+    D.partidos = D.partidos.filter(x => x.id !== id);
+    $("#modal").close("borrado"); marcarSucio(); pintar();
+  };
+}
+
+/* ---------- publicar ---------- */
+$("#publicar").onclick = async () => {
+  if (!D) return;
+  if (!cfg.token) return alert("Sin token no se puede publicar. Usa «Descargar data.json» en la pestaña Conexión.");
+  const btn = $("#publicar");
+  btn.disabled = true; btn.textContent = "Publicando…";
+  try {
+    for (const pend of pendientes){
+      const blob = await procesarImagen(pend.file, pend.tipo === "foto" ? 400 : 320, pend.tipo === "foto");
+      const ruta = (pend.tipo === "foto" ? "assets/jugadores/" : "assets/equipos/") + pend.obj.id + "-" + Date.now().toString(36) + ".webp";
+      await subirImagen(ruta, blob);
+      if (pend.tipo === "foto") pend.obj.foto = ruta; else pend.obj.logo = ruta;
+    }
+    pendientes = [];
+    await escribirRemoto();
+    marcarLimpio();
+    brindis("Publicado. La página se actualiza en menos de un minuto.", 4200);
+  } catch (e){ alert(e.message); }
+  finally { btn.textContent = "Guardar y publicar"; btn.disabled = !sucio; }
+};
+
+/* ---------- navegación ---------- */
+const SECCIONES = ["conexion","torneo","equipos","jugadores","calendario","partidos"];
+function irA(t){
+  document.querySelectorAll("#tabs button").forEach(b => b.setAttribute("aria-selected", String(b.dataset.t === t)));
+  SECCIONES.forEach(k => $("#p-" + k).classList.toggle("oculto", k !== t));
+  pintar(); scrollTo({ top:0 });
+}
+function pintar(){
+  pintarConexion();
+  if (!$("#p-torneo").classList.contains("oculto")) pintarTorneo();
+  if (!$("#p-equipos").classList.contains("oculto")) pintarEquipos();
+  if (!$("#p-jugadores").classList.contains("oculto")) pintarJugadores();
+  if (!$("#p-calendario").classList.contains("oculto")) pintarCalendario();
+  if (!$("#p-partidos").classList.contains("oculto")) pintarPartidos();
+}
+document.querySelectorAll("#tabs button").forEach(b => b.onclick = () => irA(b.dataset.t));
+
+(async function(){
+  pintarConexion();
+  if (cfg.token && cfg.owner && cfg.repo){
+    try { D = await leerRemoto() || estructuraNueva(); normaliza(); marcarLimpio(); irA("torneo"); return; }
+    catch (e){ /* se queda en conexión */ }
+  }
+  marcarLimpio(); $("#publicar").disabled = true;
+})();
+</script>
+</body>
+</html>

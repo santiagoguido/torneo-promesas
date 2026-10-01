@@ -1,0 +1,3114 @@
+{
+ "torneo": {
+  "nombre": "Torneo Infantil Promesas Del Real",
+  "sede": "Xichú, Guanajuato",
+  "temporada": "2026",
+  "facebook": "",
+  "aviso": ""
+ },
+ "ajustes": {
+  "puntosVictoria": 3,
+  "puntosEmpate": 1,
+  "puntosDerrota": 0,
+  "equiposCalifican": 4
+ },
+ "categorias": [
+  {
+   "id": "pb",
+   "nombre": "Primaria Baja",
+   "descripcion": "1° a 3° de primaria",
+   "orden": 1
+  },
+  {
+   "id": "pa",
+   "nombre": "Primaria Alta",
+   "descripcion": "4° a 6° de primaria",
+   "orden": 2
+  },
+  {
+   "id": "sec",
+   "nombre": "Secundaria",
+   "descripcion": "1° a 3° de secundaria",
+   "orden": 3
+  }
+ ],
+ "jornadas": [
+  {
+   "categoria": "pb",
+   "numero": 1,
+   "fecha": "2026-08-16"
+  },
+  {
+   "categoria": "pb",
+   "numero": 2,
+   "fecha": "2026-08-23"
+  },
+  {
+   "categoria": "pb",
+   "numero": 3,
+   "fecha": "2026-08-30"
+  },
+  {
+   "categoria": "pb",
+   "numero": 4,
+   "fecha": "2026-09-06"
+  },
+  {
+   "categoria": "pb",
+   "numero": 5,
+   "fecha": "2026-09-13"
+  },
+  {
+   "categoria": "pa",
+   "numero": 1,
+   "fecha": "2026-09-06"
+  },
+  {
+   "categoria": "pa",
+   "numero": 2,
+   "fecha": "2026-09-13"
+  },
+  {
+   "categoria": "pa",
+   "numero": 3,
+   "fecha": "2026-09-20"
+  },
+  {
+   "categoria": "pa",
+   "numero": 4,
+   "fecha": "2026-09-27"
+  },
+  {
+   "categoria": "pa",
+   "numero": 5,
+   "fecha": "2026-10-04"
+  },
+  {
+   "categoria": "sec",
+   "numero": 1,
+   "fecha": "2026-09-06"
+  },
+  {
+   "categoria": "sec",
+   "numero": 2,
+   "fecha": "2026-09-13"
+  },
+  {
+   "categoria": "sec",
+   "numero": 3,
+   "fecha": "2026-09-20"
+  },
+  {
+   "categoria": "sec",
+   "numero": 4,
+   "fecha": "2026-09-27"
+  },
+  {
+   "categoria": "sec",
+   "numero": 5,
+   "fecha": "2026-10-04"
+  },
+  {
+   "categoria": "sec",
+   "numero": 6,
+   "fecha": "2026-10-11"
+  },
+  {
+   "categoria": "sec",
+   "numero": 7,
+   "fecha": "2026-10-18"
+  }
+ ],
+ "equipos": [
+  {
+   "id": "pb-deportivo-xichu",
+   "nombre": "Deportivo Xichú",
+   "categoria": "pb",
+   "logo": "",
+   "ajustePuntos": 0,
+   "activo": true
+  },
+  {
+   "id": "pb-halcones-de-tierra-fria",
+   "nombre": "Halcones de Tierra Fría",
+   "categoria": "pb",
+   "logo": "",
+   "ajustePuntos": 0,
+   "activo": true
+  },
+  {
+   "id": "pb-atletico-mision",
+   "nombre": "Atlético Misión",
+   "categoria": "pb",
+   "logo": "",
+   "ajustePuntos": 0,
+   "activo": true
+  },
+  {
+   "id": "pb-leones-del-carrizal",
+   "nombre": "Leones del Carrizal",
+   "categoria": "pb",
+   "logo": "",
+   "ajustePuntos": 0,
+   "activo": true
+  },
+  {
+   "id": "pb-pumas-ojo-de-agua",
+   "nombre": "Pumas Ojo de Agua",
+   "categoria": "pb",
+   "logo": "",
+   "ajustePuntos": 0,
+   "activo": true
+  },
+  {
+   "id": "pa-deportivo-xichu",
+   "nombre": "Deportivo Xichú",
+   "categoria": "pa",
+   "logo": "",
+   "ajustePuntos": 0,
+   "activo": true
+  },
+  {
+   "id": "pa-halcones-de-tierra-fria",
+   "nombre": "Halcones de Tierra Fría",
+   "categoria": "pa",
+   "logo": "",
+   "ajustePuntos": 0,
+   "activo": true
+  },
+  {
+   "id": "pa-atletico-mision",
+   "nombre": "Atlético Misión",
+   "categoria": "pa",
+   "logo": "",
+   "ajustePuntos": 0,
+   "activo": true
+  },
+  {
+   "id": "pa-leones-del-carrizal",
+   "nombre": "Leones del Carrizal",
+   "categoria": "pa",
+   "logo": "",
+   "ajustePuntos": 0,
+   "activo": true
+  },
+  {
+   "id": "pa-pumas-ojo-de-agua",
+   "nombre": "Pumas Ojo de Agua",
+   "categoria": "pa",
+   "logo": "",
+   "ajustePuntos": 0,
+   "activo": true
+  },
+  {
+   "id": "pa-toros-de-palomas",
+   "nombre": "Toros de Palomas",
+   "categoria": "pa",
+   "logo": "",
+   "ajustePuntos": 0,
+   "activo": true
+  },
+  {
+   "id": "sec-deportivo-xichu",
+   "nombre": "Deportivo Xichú",
+   "categoria": "sec",
+   "logo": "",
+   "ajustePuntos": 0,
+   "activo": true
+  },
+  {
+   "id": "sec-halcones-de-tierra-fria",
+   "nombre": "Halcones de Tierra Fría",
+   "categoria": "sec",
+   "logo": "",
+   "ajustePuntos": 0,
+   "activo": true
+  },
+  {
+   "id": "sec-atletico-mision",
+   "nombre": "Atlético Misión",
+   "categoria": "sec",
+   "logo": "",
+   "ajustePuntos": 0,
+   "activo": true
+  },
+  {
+   "id": "sec-leones-del-carrizal",
+   "nombre": "Leones del Carrizal",
+   "categoria": "sec",
+   "logo": "",
+   "ajustePuntos": 0,
+   "activo": true
+  },
+  {
+   "id": "sec-pumas-ojo-de-agua",
+   "nombre": "Pumas Ojo de Agua",
+   "categoria": "sec",
+   "logo": "",
+   "ajustePuntos": 0,
+   "activo": true
+  },
+  {
+   "id": "sec-toros-de-palomas",
+   "nombre": "Toros de Palomas",
+   "categoria": "sec",
+   "logo": "",
+   "ajustePuntos": 0,
+   "activo": true
+  },
+  {
+   "id": "sec-aguilas-de-milpillas",
+   "nombre": "Águilas de Milpillas",
+   "categoria": "sec",
+   "logo": "",
+   "ajustePuntos": 0,
+   "activo": true
+  },
+  {
+   "id": "sec-real-sierra-gorda",
+   "nombre": "Real Sierra Gorda",
+   "categoria": "sec",
+   "logo": "",
+   "ajustePuntos": 0,
+   "activo": true
+  }
+ ],
+ "jugadores": [
+  {
+   "id": "pb-deportivo-xichu-j1",
+   "nombre": "Rodrigo Aguilar",
+   "equipo": "pb-deportivo-xichu",
+   "categoria": "pb",
+   "dorsal": 1,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-deportivo-xichu-j2",
+   "nombre": "Kevin Hernández",
+   "equipo": "pb-deportivo-xichu",
+   "categoria": "pb",
+   "dorsal": 2,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-deportivo-xichu-j3",
+   "nombre": "Santiago Lara",
+   "equipo": "pb-deportivo-xichu",
+   "categoria": "pb",
+   "dorsal": 3,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-deportivo-xichu-j4",
+   "nombre": "Emiliano Baltazar",
+   "equipo": "pb-deportivo-xichu",
+   "categoria": "pb",
+   "dorsal": 4,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-deportivo-xichu-j5",
+   "nombre": "Regina Hernández",
+   "equipo": "pb-deportivo-xichu",
+   "categoria": "pb",
+   "dorsal": 5,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-deportivo-xichu-j6",
+   "nombre": "Tadeo Paredes",
+   "equipo": "pb-deportivo-xichu",
+   "categoria": "pb",
+   "dorsal": 6,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-deportivo-xichu-j7",
+   "nombre": "Iker Hernández",
+   "equipo": "pb-deportivo-xichu",
+   "categoria": "pb",
+   "dorsal": 7,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-deportivo-xichu-j8",
+   "nombre": "Santiago Morales",
+   "equipo": "pb-deportivo-xichu",
+   "categoria": "pb",
+   "dorsal": 8,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-deportivo-xichu-j9",
+   "nombre": "Bruno Martínez",
+   "equipo": "pb-deportivo-xichu",
+   "categoria": "pb",
+   "dorsal": 9,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-halcones-de-tierra-fria-j1",
+   "nombre": "Dylan Martínez",
+   "equipo": "pb-halcones-de-tierra-fria",
+   "categoria": "pb",
+   "dorsal": 1,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-halcones-de-tierra-fria-j2",
+   "nombre": "Ximena Morales",
+   "equipo": "pb-halcones-de-tierra-fria",
+   "categoria": "pb",
+   "dorsal": 2,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-halcones-de-tierra-fria-j3",
+   "nombre": "Ángel Ortega",
+   "equipo": "pb-halcones-de-tierra-fria",
+   "categoria": "pb",
+   "dorsal": 3,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-halcones-de-tierra-fria-j4",
+   "nombre": "Emiliano Zavala",
+   "equipo": "pb-halcones-de-tierra-fria",
+   "categoria": "pb",
+   "dorsal": 4,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-halcones-de-tierra-fria-j5",
+   "nombre": "Alexa Ortega",
+   "equipo": "pb-halcones-de-tierra-fria",
+   "categoria": "pb",
+   "dorsal": 5,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-halcones-de-tierra-fria-j6",
+   "nombre": "Regina Ledesma",
+   "equipo": "pb-halcones-de-tierra-fria",
+   "categoria": "pb",
+   "dorsal": 6,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-halcones-de-tierra-fria-j7",
+   "nombre": "Ángel Zavala",
+   "equipo": "pb-halcones-de-tierra-fria",
+   "categoria": "pb",
+   "dorsal": 7,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-halcones-de-tierra-fria-j8",
+   "nombre": "Ángel Lara",
+   "equipo": "pb-halcones-de-tierra-fria",
+   "categoria": "pb",
+   "dorsal": 8,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-halcones-de-tierra-fria-j9",
+   "nombre": "Zoe Aguilar",
+   "equipo": "pb-halcones-de-tierra-fria",
+   "categoria": "pb",
+   "dorsal": 9,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-atletico-mision-j1",
+   "nombre": "Julián Morales",
+   "equipo": "pb-atletico-mision",
+   "categoria": "pb",
+   "dorsal": 1,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-atletico-mision-j2",
+   "nombre": "Mateo Lara",
+   "equipo": "pb-atletico-mision",
+   "categoria": "pb",
+   "dorsal": 2,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-atletico-mision-j3",
+   "nombre": "Emiliano Ortega",
+   "equipo": "pb-atletico-mision",
+   "categoria": "pb",
+   "dorsal": 3,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-atletico-mision-j4",
+   "nombre": "Julián Lara",
+   "equipo": "pb-atletico-mision",
+   "categoria": "pb",
+   "dorsal": 4,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-atletico-mision-j5",
+   "nombre": "Mia Mendoza",
+   "equipo": "pb-atletico-mision",
+   "categoria": "pb",
+   "dorsal": 5,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-atletico-mision-j6",
+   "nombre": "Regina Trejo",
+   "equipo": "pb-atletico-mision",
+   "categoria": "pb",
+   "dorsal": 6,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-atletico-mision-j7",
+   "nombre": "Sebastián Rangel",
+   "equipo": "pb-atletico-mision",
+   "categoria": "pb",
+   "dorsal": 7,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-atletico-mision-j8",
+   "nombre": "Ximena Martínez",
+   "equipo": "pb-atletico-mision",
+   "categoria": "pb",
+   "dorsal": 8,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-atletico-mision-j9",
+   "nombre": "Regina Hernández",
+   "equipo": "pb-atletico-mision",
+   "categoria": "pb",
+   "dorsal": 9,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-leones-del-carrizal-j1",
+   "nombre": "Valeria Trejo",
+   "equipo": "pb-leones-del-carrizal",
+   "categoria": "pb",
+   "dorsal": 1,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-leones-del-carrizal-j2",
+   "nombre": "Damián Lara",
+   "equipo": "pb-leones-del-carrizal",
+   "categoria": "pb",
+   "dorsal": 2,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-leones-del-carrizal-j3",
+   "nombre": "Bruno Salazar",
+   "equipo": "pb-leones-del-carrizal",
+   "categoria": "pb",
+   "dorsal": 3,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-leones-del-carrizal-j4",
+   "nombre": "Gael Ortega",
+   "equipo": "pb-leones-del-carrizal",
+   "categoria": "pb",
+   "dorsal": 4,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-leones-del-carrizal-j5",
+   "nombre": "Tadeo Guzmán",
+   "equipo": "pb-leones-del-carrizal",
+   "categoria": "pb",
+   "dorsal": 5,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-leones-del-carrizal-j6",
+   "nombre": "Sebastián Olvera",
+   "equipo": "pb-leones-del-carrizal",
+   "categoria": "pb",
+   "dorsal": 6,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-leones-del-carrizal-j7",
+   "nombre": "Dylan Mendoza",
+   "equipo": "pb-leones-del-carrizal",
+   "categoria": "pb",
+   "dorsal": 7,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-leones-del-carrizal-j8",
+   "nombre": "Camila Zavala",
+   "equipo": "pb-leones-del-carrizal",
+   "categoria": "pb",
+   "dorsal": 8,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-leones-del-carrizal-j9",
+   "nombre": "Santiago Ortega",
+   "equipo": "pb-leones-del-carrizal",
+   "categoria": "pb",
+   "dorsal": 9,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-pumas-ojo-de-agua-j1",
+   "nombre": "Julián Paredes",
+   "equipo": "pb-pumas-ojo-de-agua",
+   "categoria": "pb",
+   "dorsal": 1,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-pumas-ojo-de-agua-j2",
+   "nombre": "Damián Salazar",
+   "equipo": "pb-pumas-ojo-de-agua",
+   "categoria": "pb",
+   "dorsal": 2,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-pumas-ojo-de-agua-j3",
+   "nombre": "Renata Guzmán",
+   "equipo": "pb-pumas-ojo-de-agua",
+   "categoria": "pb",
+   "dorsal": 3,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-pumas-ojo-de-agua-j4",
+   "nombre": "Julián Martínez",
+   "equipo": "pb-pumas-ojo-de-agua",
+   "categoria": "pb",
+   "dorsal": 4,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-pumas-ojo-de-agua-j5",
+   "nombre": "Emiliano Paredes",
+   "equipo": "pb-pumas-ojo-de-agua",
+   "categoria": "pb",
+   "dorsal": 5,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-pumas-ojo-de-agua-j6",
+   "nombre": "Bruno Mendoza",
+   "equipo": "pb-pumas-ojo-de-agua",
+   "categoria": "pb",
+   "dorsal": 6,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-pumas-ojo-de-agua-j7",
+   "nombre": "Danna Salazar",
+   "equipo": "pb-pumas-ojo-de-agua",
+   "categoria": "pb",
+   "dorsal": 7,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-pumas-ojo-de-agua-j8",
+   "nombre": "Mateo Rico",
+   "equipo": "pb-pumas-ojo-de-agua",
+   "categoria": "pb",
+   "dorsal": 8,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pb-pumas-ojo-de-agua-j9",
+   "nombre": "Bruno Hernández",
+   "equipo": "pb-pumas-ojo-de-agua",
+   "categoria": "pb",
+   "dorsal": 9,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-deportivo-xichu-j1",
+   "nombre": "Mateo Paredes",
+   "equipo": "pa-deportivo-xichu",
+   "categoria": "pa",
+   "dorsal": 1,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-deportivo-xichu-j2",
+   "nombre": "Valeria Hernández",
+   "equipo": "pa-deportivo-xichu",
+   "categoria": "pa",
+   "dorsal": 2,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-deportivo-xichu-j3",
+   "nombre": "Gael Lara",
+   "equipo": "pa-deportivo-xichu",
+   "categoria": "pa",
+   "dorsal": 3,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-deportivo-xichu-j4",
+   "nombre": "Kevin Ledesma",
+   "equipo": "pa-deportivo-xichu",
+   "categoria": "pa",
+   "dorsal": 4,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-deportivo-xichu-j5",
+   "nombre": "Emiliano Rico",
+   "equipo": "pa-deportivo-xichu",
+   "categoria": "pa",
+   "dorsal": 5,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-deportivo-xichu-j6",
+   "nombre": "Alexa Ledesma",
+   "equipo": "pa-deportivo-xichu",
+   "categoria": "pa",
+   "dorsal": 6,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-deportivo-xichu-j7",
+   "nombre": "Ángel Trejo",
+   "equipo": "pa-deportivo-xichu",
+   "categoria": "pa",
+   "dorsal": 7,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-deportivo-xichu-j8",
+   "nombre": "Santiago Trejo",
+   "equipo": "pa-deportivo-xichu",
+   "categoria": "pa",
+   "dorsal": 8,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-deportivo-xichu-j9",
+   "nombre": "Gael Mendoza",
+   "equipo": "pa-deportivo-xichu",
+   "categoria": "pa",
+   "dorsal": 9,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-halcones-de-tierra-fria-j1",
+   "nombre": "Emiliano Salazar",
+   "equipo": "pa-halcones-de-tierra-fria",
+   "categoria": "pa",
+   "dorsal": 1,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-halcones-de-tierra-fria-j2",
+   "nombre": "Valeria Hernández",
+   "equipo": "pa-halcones-de-tierra-fria",
+   "categoria": "pa",
+   "dorsal": 2,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-halcones-de-tierra-fria-j3",
+   "nombre": "Emiliano Ramírez",
+   "equipo": "pa-halcones-de-tierra-fria",
+   "categoria": "pa",
+   "dorsal": 3,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-halcones-de-tierra-fria-j4",
+   "nombre": "Regina Aguilar",
+   "equipo": "pa-halcones-de-tierra-fria",
+   "categoria": "pa",
+   "dorsal": 4,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-halcones-de-tierra-fria-j5",
+   "nombre": "Ximena Rangel",
+   "equipo": "pa-halcones-de-tierra-fria",
+   "categoria": "pa",
+   "dorsal": 5,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-halcones-de-tierra-fria-j6",
+   "nombre": "Sebastián Ramírez",
+   "equipo": "pa-halcones-de-tierra-fria",
+   "categoria": "pa",
+   "dorsal": 6,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-halcones-de-tierra-fria-j7",
+   "nombre": "Santiago Trejo",
+   "equipo": "pa-halcones-de-tierra-fria",
+   "categoria": "pa",
+   "dorsal": 7,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-halcones-de-tierra-fria-j8",
+   "nombre": "Valeria Ledesma",
+   "equipo": "pa-halcones-de-tierra-fria",
+   "categoria": "pa",
+   "dorsal": 8,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-halcones-de-tierra-fria-j9",
+   "nombre": "Mateo Cabrera",
+   "equipo": "pa-halcones-de-tierra-fria",
+   "categoria": "pa",
+   "dorsal": 9,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-atletico-mision-j1",
+   "nombre": "Sebastián Baltazar",
+   "equipo": "pa-atletico-mision",
+   "categoria": "pa",
+   "dorsal": 1,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-atletico-mision-j2",
+   "nombre": "Damián Rangel",
+   "equipo": "pa-atletico-mision",
+   "categoria": "pa",
+   "dorsal": 2,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-atletico-mision-j3",
+   "nombre": "Emiliano Rico",
+   "equipo": "pa-atletico-mision",
+   "categoria": "pa",
+   "dorsal": 3,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-atletico-mision-j4",
+   "nombre": "Gael Rico",
+   "equipo": "pa-atletico-mision",
+   "categoria": "pa",
+   "dorsal": 4,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-atletico-mision-j5",
+   "nombre": "Damián Olvera",
+   "equipo": "pa-atletico-mision",
+   "categoria": "pa",
+   "dorsal": 5,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-atletico-mision-j6",
+   "nombre": "Santiago Aguilar",
+   "equipo": "pa-atletico-mision",
+   "categoria": "pa",
+   "dorsal": 6,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-atletico-mision-j7",
+   "nombre": "Emiliano Salazar",
+   "equipo": "pa-atletico-mision",
+   "categoria": "pa",
+   "dorsal": 7,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-atletico-mision-j8",
+   "nombre": "Renata Cabrera",
+   "equipo": "pa-atletico-mision",
+   "categoria": "pa",
+   "dorsal": 8,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-atletico-mision-j9",
+   "nombre": "Damián Mendoza",
+   "equipo": "pa-atletico-mision",
+   "categoria": "pa",
+   "dorsal": 9,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-leones-del-carrizal-j1",
+   "nombre": "Héctor Ramírez",
+   "equipo": "pa-leones-del-carrizal",
+   "categoria": "pa",
+   "dorsal": 1,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-leones-del-carrizal-j2",
+   "nombre": "Iker Paredes",
+   "equipo": "pa-leones-del-carrizal",
+   "categoria": "pa",
+   "dorsal": 2,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-leones-del-carrizal-j3",
+   "nombre": "Sebastián Aguilar",
+   "equipo": "pa-leones-del-carrizal",
+   "categoria": "pa",
+   "dorsal": 3,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-leones-del-carrizal-j4",
+   "nombre": "Camila Lara",
+   "equipo": "pa-leones-del-carrizal",
+   "categoria": "pa",
+   "dorsal": 4,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-leones-del-carrizal-j5",
+   "nombre": "Tadeo Ramírez",
+   "equipo": "pa-leones-del-carrizal",
+   "categoria": "pa",
+   "dorsal": 5,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-leones-del-carrizal-j6",
+   "nombre": "Danna Paredes",
+   "equipo": "pa-leones-del-carrizal",
+   "categoria": "pa",
+   "dorsal": 6,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-leones-del-carrizal-j7",
+   "nombre": "Julián Martínez",
+   "equipo": "pa-leones-del-carrizal",
+   "categoria": "pa",
+   "dorsal": 7,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-leones-del-carrizal-j8",
+   "nombre": "Camila Cabrera",
+   "equipo": "pa-leones-del-carrizal",
+   "categoria": "pa",
+   "dorsal": 8,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-leones-del-carrizal-j9",
+   "nombre": "Héctor Baltazar",
+   "equipo": "pa-leones-del-carrizal",
+   "categoria": "pa",
+   "dorsal": 9,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-pumas-ojo-de-agua-j1",
+   "nombre": "Tadeo Mendoza",
+   "equipo": "pa-pumas-ojo-de-agua",
+   "categoria": "pa",
+   "dorsal": 1,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-pumas-ojo-de-agua-j2",
+   "nombre": "Sebastián Zavala",
+   "equipo": "pa-pumas-ojo-de-agua",
+   "categoria": "pa",
+   "dorsal": 2,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-pumas-ojo-de-agua-j3",
+   "nombre": "Ximena Lara",
+   "equipo": "pa-pumas-ojo-de-agua",
+   "categoria": "pa",
+   "dorsal": 3,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-pumas-ojo-de-agua-j4",
+   "nombre": "Danna Paredes",
+   "equipo": "pa-pumas-ojo-de-agua",
+   "categoria": "pa",
+   "dorsal": 4,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-pumas-ojo-de-agua-j5",
+   "nombre": "Rodrigo Zavala",
+   "equipo": "pa-pumas-ojo-de-agua",
+   "categoria": "pa",
+   "dorsal": 5,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-pumas-ojo-de-agua-j6",
+   "nombre": "Valeria Trejo",
+   "equipo": "pa-pumas-ojo-de-agua",
+   "categoria": "pa",
+   "dorsal": 6,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-pumas-ojo-de-agua-j7",
+   "nombre": "Lucía Zavala",
+   "equipo": "pa-pumas-ojo-de-agua",
+   "categoria": "pa",
+   "dorsal": 7,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-pumas-ojo-de-agua-j8",
+   "nombre": "Mia Ledesma",
+   "equipo": "pa-pumas-ojo-de-agua",
+   "categoria": "pa",
+   "dorsal": 8,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-pumas-ojo-de-agua-j9",
+   "nombre": "Renata Zavala",
+   "equipo": "pa-pumas-ojo-de-agua",
+   "categoria": "pa",
+   "dorsal": 9,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-toros-de-palomas-j1",
+   "nombre": "Iker Paredes",
+   "equipo": "pa-toros-de-palomas",
+   "categoria": "pa",
+   "dorsal": 1,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-toros-de-palomas-j2",
+   "nombre": "Damián Baltazar",
+   "equipo": "pa-toros-de-palomas",
+   "categoria": "pa",
+   "dorsal": 2,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-toros-de-palomas-j3",
+   "nombre": "Renata Ramírez",
+   "equipo": "pa-toros-de-palomas",
+   "categoria": "pa",
+   "dorsal": 3,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-toros-de-palomas-j4",
+   "nombre": "Diego Cabrera",
+   "equipo": "pa-toros-de-palomas",
+   "categoria": "pa",
+   "dorsal": 4,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-toros-de-palomas-j5",
+   "nombre": "Damián Cabrera",
+   "equipo": "pa-toros-de-palomas",
+   "categoria": "pa",
+   "dorsal": 5,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-toros-de-palomas-j6",
+   "nombre": "Iker Baltazar",
+   "equipo": "pa-toros-de-palomas",
+   "categoria": "pa",
+   "dorsal": 6,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-toros-de-palomas-j7",
+   "nombre": "Gael Baltazar",
+   "equipo": "pa-toros-de-palomas",
+   "categoria": "pa",
+   "dorsal": 7,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-toros-de-palomas-j8",
+   "nombre": "Sebastián Martínez",
+   "equipo": "pa-toros-de-palomas",
+   "categoria": "pa",
+   "dorsal": 8,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-toros-de-palomas-j9",
+   "nombre": "Dylan Rangel",
+   "equipo": "pa-toros-de-palomas",
+   "categoria": "pa",
+   "dorsal": 9,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-deportivo-xichu-j1",
+   "nombre": "Ximena Hernández",
+   "equipo": "sec-deportivo-xichu",
+   "categoria": "sec",
+   "dorsal": 1,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-deportivo-xichu-j2",
+   "nombre": "Rodrigo Paredes",
+   "equipo": "sec-deportivo-xichu",
+   "categoria": "sec",
+   "dorsal": 2,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-deportivo-xichu-j3",
+   "nombre": "Héctor Lara",
+   "equipo": "sec-deportivo-xichu",
+   "categoria": "sec",
+   "dorsal": 3,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-deportivo-xichu-j4",
+   "nombre": "Damián Rangel",
+   "equipo": "sec-deportivo-xichu",
+   "categoria": "sec",
+   "dorsal": 4,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-deportivo-xichu-j5",
+   "nombre": "Ian Lara",
+   "equipo": "sec-deportivo-xichu",
+   "categoria": "sec",
+   "dorsal": 5,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-deportivo-xichu-j6",
+   "nombre": "Ángel Zavala",
+   "equipo": "sec-deportivo-xichu",
+   "categoria": "sec",
+   "dorsal": 6,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-deportivo-xichu-j7",
+   "nombre": "Iker Cabrera",
+   "equipo": "sec-deportivo-xichu",
+   "categoria": "sec",
+   "dorsal": 7,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-deportivo-xichu-j8",
+   "nombre": "Ángel Rangel",
+   "equipo": "sec-deportivo-xichu",
+   "categoria": "sec",
+   "dorsal": 8,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-deportivo-xichu-j9",
+   "nombre": "Héctor Guzmán",
+   "equipo": "sec-deportivo-xichu",
+   "categoria": "sec",
+   "dorsal": 9,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-halcones-de-tierra-fria-j1",
+   "nombre": "Ximena Ramírez",
+   "equipo": "sec-halcones-de-tierra-fria",
+   "categoria": "sec",
+   "dorsal": 1,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-halcones-de-tierra-fria-j2",
+   "nombre": "Danna Martínez",
+   "equipo": "sec-halcones-de-tierra-fria",
+   "categoria": "sec",
+   "dorsal": 2,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-halcones-de-tierra-fria-j3",
+   "nombre": "Gael Salazar",
+   "equipo": "sec-halcones-de-tierra-fria",
+   "categoria": "sec",
+   "dorsal": 3,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-halcones-de-tierra-fria-j4",
+   "nombre": "Valeria Paredes",
+   "equipo": "sec-halcones-de-tierra-fria",
+   "categoria": "sec",
+   "dorsal": 4,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-halcones-de-tierra-fria-j5",
+   "nombre": "Iker Cabrera",
+   "equipo": "sec-halcones-de-tierra-fria",
+   "categoria": "sec",
+   "dorsal": 5,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-halcones-de-tierra-fria-j6",
+   "nombre": "Gael Paredes",
+   "equipo": "sec-halcones-de-tierra-fria",
+   "categoria": "sec",
+   "dorsal": 6,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-halcones-de-tierra-fria-j7",
+   "nombre": "Ximena Rico",
+   "equipo": "sec-halcones-de-tierra-fria",
+   "categoria": "sec",
+   "dorsal": 7,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-halcones-de-tierra-fria-j8",
+   "nombre": "Héctor Zavala",
+   "equipo": "sec-halcones-de-tierra-fria",
+   "categoria": "sec",
+   "dorsal": 8,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-halcones-de-tierra-fria-j9",
+   "nombre": "Camila Paredes",
+   "equipo": "sec-halcones-de-tierra-fria",
+   "categoria": "sec",
+   "dorsal": 9,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-atletico-mision-j1",
+   "nombre": "Ian Cabrera",
+   "equipo": "sec-atletico-mision",
+   "categoria": "sec",
+   "dorsal": 1,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-atletico-mision-j2",
+   "nombre": "Tadeo Lara",
+   "equipo": "sec-atletico-mision",
+   "categoria": "sec",
+   "dorsal": 2,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-atletico-mision-j3",
+   "nombre": "Ian Trejo",
+   "equipo": "sec-atletico-mision",
+   "categoria": "sec",
+   "dorsal": 3,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-atletico-mision-j4",
+   "nombre": "Mia Guzmán",
+   "equipo": "sec-atletico-mision",
+   "categoria": "sec",
+   "dorsal": 4,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-atletico-mision-j5",
+   "nombre": "Mateo Morales",
+   "equipo": "sec-atletico-mision",
+   "categoria": "sec",
+   "dorsal": 5,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-atletico-mision-j6",
+   "nombre": "Emiliano Ledesma",
+   "equipo": "sec-atletico-mision",
+   "categoria": "sec",
+   "dorsal": 6,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-atletico-mision-j7",
+   "nombre": "Gael Salazar",
+   "equipo": "sec-atletico-mision",
+   "categoria": "sec",
+   "dorsal": 7,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-atletico-mision-j8",
+   "nombre": "Santiago Zavala",
+   "equipo": "sec-atletico-mision",
+   "categoria": "sec",
+   "dorsal": 8,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-atletico-mision-j9",
+   "nombre": "Bruno Martínez",
+   "equipo": "sec-atletico-mision",
+   "categoria": "sec",
+   "dorsal": 9,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-leones-del-carrizal-j1",
+   "nombre": "Iker Olvera",
+   "equipo": "sec-leones-del-carrizal",
+   "categoria": "sec",
+   "dorsal": 1,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-leones-del-carrizal-j2",
+   "nombre": "Lucía Rangel",
+   "equipo": "sec-leones-del-carrizal",
+   "categoria": "sec",
+   "dorsal": 2,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-leones-del-carrizal-j3",
+   "nombre": "Ian Aguilar",
+   "equipo": "sec-leones-del-carrizal",
+   "categoria": "sec",
+   "dorsal": 3,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-leones-del-carrizal-j4",
+   "nombre": "Camila Baltazar",
+   "equipo": "sec-leones-del-carrizal",
+   "categoria": "sec",
+   "dorsal": 4,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-leones-del-carrizal-j5",
+   "nombre": "Mateo Cabrera",
+   "equipo": "sec-leones-del-carrizal",
+   "categoria": "sec",
+   "dorsal": 5,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-leones-del-carrizal-j6",
+   "nombre": "Gael Zavala",
+   "equipo": "sec-leones-del-carrizal",
+   "categoria": "sec",
+   "dorsal": 6,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-leones-del-carrizal-j7",
+   "nombre": "Renata Rangel",
+   "equipo": "sec-leones-del-carrizal",
+   "categoria": "sec",
+   "dorsal": 7,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-leones-del-carrizal-j8",
+   "nombre": "Kevin Rico",
+   "equipo": "sec-leones-del-carrizal",
+   "categoria": "sec",
+   "dorsal": 8,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-leones-del-carrizal-j9",
+   "nombre": "Leonardo Zavala",
+   "equipo": "sec-leones-del-carrizal",
+   "categoria": "sec",
+   "dorsal": 9,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-pumas-ojo-de-agua-j1",
+   "nombre": "Leonardo Morales",
+   "equipo": "sec-pumas-ojo-de-agua",
+   "categoria": "sec",
+   "dorsal": 1,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-pumas-ojo-de-agua-j2",
+   "nombre": "Héctor Ledesma",
+   "equipo": "sec-pumas-ojo-de-agua",
+   "categoria": "sec",
+   "dorsal": 2,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-pumas-ojo-de-agua-j3",
+   "nombre": "Rodrigo Morales",
+   "equipo": "sec-pumas-ojo-de-agua",
+   "categoria": "sec",
+   "dorsal": 3,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-pumas-ojo-de-agua-j4",
+   "nombre": "Iker Baltazar",
+   "equipo": "sec-pumas-ojo-de-agua",
+   "categoria": "sec",
+   "dorsal": 4,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-pumas-ojo-de-agua-j5",
+   "nombre": "Rodrigo Martínez",
+   "equipo": "sec-pumas-ojo-de-agua",
+   "categoria": "sec",
+   "dorsal": 5,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-pumas-ojo-de-agua-j6",
+   "nombre": "Renata Baltazar",
+   "equipo": "sec-pumas-ojo-de-agua",
+   "categoria": "sec",
+   "dorsal": 6,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-pumas-ojo-de-agua-j7",
+   "nombre": "Diego Salazar",
+   "equipo": "sec-pumas-ojo-de-agua",
+   "categoria": "sec",
+   "dorsal": 7,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-pumas-ojo-de-agua-j8",
+   "nombre": "Ximena Guzmán",
+   "equipo": "sec-pumas-ojo-de-agua",
+   "categoria": "sec",
+   "dorsal": 8,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-pumas-ojo-de-agua-j9",
+   "nombre": "Gael Ramírez",
+   "equipo": "sec-pumas-ojo-de-agua",
+   "categoria": "sec",
+   "dorsal": 9,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-toros-de-palomas-j1",
+   "nombre": "Kevin Salazar",
+   "equipo": "sec-toros-de-palomas",
+   "categoria": "sec",
+   "dorsal": 1,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-toros-de-palomas-j2",
+   "nombre": "Héctor Olvera",
+   "equipo": "sec-toros-de-palomas",
+   "categoria": "sec",
+   "dorsal": 2,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-toros-de-palomas-j3",
+   "nombre": "Héctor Martínez",
+   "equipo": "sec-toros-de-palomas",
+   "categoria": "sec",
+   "dorsal": 3,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-toros-de-palomas-j4",
+   "nombre": "Emiliano Zavala",
+   "equipo": "sec-toros-de-palomas",
+   "categoria": "sec",
+   "dorsal": 4,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-toros-de-palomas-j5",
+   "nombre": "Ian Rangel",
+   "equipo": "sec-toros-de-palomas",
+   "categoria": "sec",
+   "dorsal": 5,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-toros-de-palomas-j6",
+   "nombre": "Santiago Cabrera",
+   "equipo": "sec-toros-de-palomas",
+   "categoria": "sec",
+   "dorsal": 6,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-toros-de-palomas-j7",
+   "nombre": "Axel Hernández",
+   "equipo": "sec-toros-de-palomas",
+   "categoria": "sec",
+   "dorsal": 7,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-toros-de-palomas-j8",
+   "nombre": "Ian Mendoza",
+   "equipo": "sec-toros-de-palomas",
+   "categoria": "sec",
+   "dorsal": 8,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-toros-de-palomas-j9",
+   "nombre": "Axel Aguilar",
+   "equipo": "sec-toros-de-palomas",
+   "categoria": "sec",
+   "dorsal": 9,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-aguilas-de-milpillas-j1",
+   "nombre": "Mia Morales",
+   "equipo": "sec-aguilas-de-milpillas",
+   "categoria": "sec",
+   "dorsal": 1,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-aguilas-de-milpillas-j2",
+   "nombre": "Zoe Cabrera",
+   "equipo": "sec-aguilas-de-milpillas",
+   "categoria": "sec",
+   "dorsal": 2,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-aguilas-de-milpillas-j3",
+   "nombre": "Kevin Aguilar",
+   "equipo": "sec-aguilas-de-milpillas",
+   "categoria": "sec",
+   "dorsal": 3,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-aguilas-de-milpillas-j4",
+   "nombre": "Ximena Paredes",
+   "equipo": "sec-aguilas-de-milpillas",
+   "categoria": "sec",
+   "dorsal": 4,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-aguilas-de-milpillas-j5",
+   "nombre": "Regina Rico",
+   "equipo": "sec-aguilas-de-milpillas",
+   "categoria": "sec",
+   "dorsal": 5,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-aguilas-de-milpillas-j6",
+   "nombre": "Camila Salazar",
+   "equipo": "sec-aguilas-de-milpillas",
+   "categoria": "sec",
+   "dorsal": 6,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-aguilas-de-milpillas-j7",
+   "nombre": "Santiago Cabrera",
+   "equipo": "sec-aguilas-de-milpillas",
+   "categoria": "sec",
+   "dorsal": 7,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-aguilas-de-milpillas-j8",
+   "nombre": "Ángel Mendoza",
+   "equipo": "sec-aguilas-de-milpillas",
+   "categoria": "sec",
+   "dorsal": 8,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-aguilas-de-milpillas-j9",
+   "nombre": "Bruno Martínez",
+   "equipo": "sec-aguilas-de-milpillas",
+   "categoria": "sec",
+   "dorsal": 9,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-real-sierra-gorda-j1",
+   "nombre": "Axel Ramírez",
+   "equipo": "sec-real-sierra-gorda",
+   "categoria": "sec",
+   "dorsal": 1,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-real-sierra-gorda-j2",
+   "nombre": "Alexa Martínez",
+   "equipo": "sec-real-sierra-gorda",
+   "categoria": "sec",
+   "dorsal": 2,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-real-sierra-gorda-j3",
+   "nombre": "Lucía Cabrera",
+   "equipo": "sec-real-sierra-gorda",
+   "categoria": "sec",
+   "dorsal": 3,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-real-sierra-gorda-j4",
+   "nombre": "Santiago Zavala",
+   "equipo": "sec-real-sierra-gorda",
+   "categoria": "sec",
+   "dorsal": 4,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-real-sierra-gorda-j5",
+   "nombre": "Santiago Cabrera",
+   "equipo": "sec-real-sierra-gorda",
+   "categoria": "sec",
+   "dorsal": 5,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-real-sierra-gorda-j6",
+   "nombre": "Zoe Rangel",
+   "equipo": "sec-real-sierra-gorda",
+   "categoria": "sec",
+   "dorsal": 6,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-real-sierra-gorda-j7",
+   "nombre": "Gael Ramírez",
+   "equipo": "sec-real-sierra-gorda",
+   "categoria": "sec",
+   "dorsal": 7,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-real-sierra-gorda-j8",
+   "nombre": "Rodrigo Lara",
+   "equipo": "sec-real-sierra-gorda",
+   "categoria": "sec",
+   "dorsal": 8,
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-real-sierra-gorda-j9",
+   "nombre": "Bruno Cabrera",
+   "equipo": "sec-real-sierra-gorda",
+   "categoria": "sec",
+   "dorsal": 9,
+   "foto": "",
+   "activo": true
+  }
+ ],
+ "partidos": [
+  {
+   "id": "pb-j1-p1",
+   "categoria": "pb",
+   "fase": "regular",
+   "jornada": 1,
+   "fecha": "2026-08-16",
+   "hora": "09:00",
+   "local": "pb-deportivo-xichu",
+   "visitante": "pb-halcones-de-tierra-fria",
+   "golesLocal": 0,
+   "golesVisitante": 3,
+   "estado": "jugado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": [
+    {
+     "jugador": "pb-halcones-de-tierra-fria-j5",
+     "cantidad": 2
+    },
+    {
+     "jugador": "pb-halcones-de-tierra-fria-j3",
+     "cantidad": 1
+    }
+   ]
+  },
+  {
+   "id": "pb-j1-p2",
+   "categoria": "pb",
+   "fase": "regular",
+   "jornada": 1,
+   "fecha": "2026-08-16",
+   "hora": "10:30",
+   "local": "pb-leones-del-carrizal",
+   "visitante": "pb-pumas-ojo-de-agua",
+   "golesLocal": 4,
+   "golesVisitante": 0,
+   "estado": "jugado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": [
+    {
+     "jugador": "pb-leones-del-carrizal-j7",
+     "cantidad": 1
+    },
+    {
+     "jugador": "pb-leones-del-carrizal-j3",
+     "cantidad": 2
+    },
+    {
+     "jugador": "pb-leones-del-carrizal-j6",
+     "cantidad": 1
+    }
+   ]
+  },
+  {
+   "id": "pb-j2-p1",
+   "categoria": "pb",
+   "fase": "regular",
+   "jornada": 2,
+   "fecha": "2026-08-23",
+   "hora": "09:00",
+   "local": "pb-deportivo-xichu",
+   "visitante": "pb-atletico-mision",
+   "golesLocal": 0,
+   "golesVisitante": 2,
+   "estado": "jugado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": [
+    {
+     "jugador": "pb-atletico-mision-j6",
+     "cantidad": 2
+    }
+   ]
+  },
+  {
+   "id": "pb-j2-p2",
+   "categoria": "pb",
+   "fase": "regular",
+   "jornada": 2,
+   "fecha": "2026-08-23",
+   "hora": "10:30",
+   "local": "pb-leones-del-carrizal",
+   "visitante": "pb-halcones-de-tierra-fria",
+   "golesLocal": 2,
+   "golesVisitante": 2,
+   "estado": "jugado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": [
+    {
+     "jugador": "pb-leones-del-carrizal-j4",
+     "cantidad": 1
+    },
+    {
+     "jugador": "pb-leones-del-carrizal-j1",
+     "cantidad": 1
+    },
+    {
+     "jugador": "pb-halcones-de-tierra-fria-j3",
+     "cantidad": 1
+    },
+    {
+     "jugador": "pb-halcones-de-tierra-fria-j5",
+     "cantidad": 1
+    }
+   ]
+  },
+  {
+   "id": "pb-j3-p1",
+   "categoria": "pb",
+   "fase": "regular",
+   "jornada": 3,
+   "fecha": "2026-08-30",
+   "hora": "09:00",
+   "local": "pb-deportivo-xichu",
+   "visitante": "pb-leones-del-carrizal",
+   "golesLocal": 4,
+   "golesVisitante": 0,
+   "estado": "jugado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": [
+    {
+     "jugador": "pb-deportivo-xichu-j2",
+     "cantidad": 2
+    },
+    {
+     "jugador": "pb-deportivo-xichu-j4",
+     "cantidad": 2
+    }
+   ]
+  },
+  {
+   "id": "pb-j3-p2",
+   "categoria": "pb",
+   "fase": "regular",
+   "jornada": 3,
+   "fecha": "2026-08-30",
+   "hora": "10:30",
+   "local": "pb-pumas-ojo-de-agua",
+   "visitante": "pb-atletico-mision",
+   "golesLocal": 4,
+   "golesVisitante": 0,
+   "estado": "jugado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": [
+    {
+     "jugador": "pb-pumas-ojo-de-agua-j2",
+     "cantidad": 3
+    },
+    {
+     "jugador": "pb-pumas-ojo-de-agua-j4",
+     "cantidad": 1
+    }
+   ]
+  },
+  {
+   "id": "pb-j4-p1",
+   "categoria": "pb",
+   "fase": "regular",
+   "jornada": 4,
+   "fecha": "2026-09-06",
+   "hora": "09:00",
+   "local": "pb-deportivo-xichu",
+   "visitante": "pb-pumas-ojo-de-agua",
+   "golesLocal": 2,
+   "golesVisitante": 2,
+   "estado": "jugado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": [
+    {
+     "jugador": "pb-deportivo-xichu-j4",
+     "cantidad": 1
+    },
+    {
+     "jugador": "pb-deportivo-xichu-j6",
+     "cantidad": 1
+    },
+    {
+     "jugador": "pb-pumas-ojo-de-agua-j2",
+     "cantidad": 1
+    },
+    {
+     "jugador": "pb-pumas-ojo-de-agua-j1",
+     "cantidad": 1
+    }
+   ]
+  },
+  {
+   "id": "pb-j4-p2",
+   "categoria": "pb",
+   "fase": "regular",
+   "jornada": 4,
+   "fecha": "2026-09-06",
+   "hora": "10:30",
+   "local": "pb-halcones-de-tierra-fria",
+   "visitante": "pb-atletico-mision",
+   "golesLocal": 1,
+   "golesVisitante": 0,
+   "estado": "jugado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": [
+    {
+     "jugador": "pb-halcones-de-tierra-fria-j6",
+     "cantidad": 1
+    }
+   ]
+  },
+  {
+   "id": "pb-j5-p1",
+   "categoria": "pb",
+   "fase": "regular",
+   "jornada": 5,
+   "fecha": "2026-09-13",
+   "hora": "09:00",
+   "local": "pb-halcones-de-tierra-fria",
+   "visitante": "pb-pumas-ojo-de-agua",
+   "golesLocal": 0,
+   "golesVisitante": 1,
+   "estado": "jugado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": [
+    {
+     "jugador": "pb-pumas-ojo-de-agua-j7",
+     "cantidad": 1
+    }
+   ]
+  },
+  {
+   "id": "pb-j5-p2",
+   "categoria": "pb",
+   "fase": "regular",
+   "jornada": 5,
+   "fecha": "2026-09-13",
+   "hora": "10:30",
+   "local": "pb-atletico-mision",
+   "visitante": "pb-leones-del-carrizal",
+   "golesLocal": 2,
+   "golesVisitante": 1,
+   "estado": "jugado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": [
+    {
+     "jugador": "pb-atletico-mision-j1",
+     "cantidad": 1
+    },
+    {
+     "jugador": "pb-atletico-mision-j4",
+     "cantidad": 1
+    },
+    {
+     "jugador": "pb-leones-del-carrizal-j5",
+     "cantidad": 1
+    }
+   ]
+  },
+  {
+   "id": "pa-j1-p1",
+   "categoria": "pa",
+   "fase": "regular",
+   "jornada": 1,
+   "fecha": "2026-09-06",
+   "hora": "09:00",
+   "local": "pa-deportivo-xichu",
+   "visitante": "pa-halcones-de-tierra-fria",
+   "golesLocal": 1,
+   "golesVisitante": 1,
+   "estado": "jugado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": [
+    {
+     "jugador": "pa-deportivo-xichu-j2",
+     "cantidad": 1
+    },
+    {
+     "jugador": "pa-halcones-de-tierra-fria-j2",
+     "cantidad": 1
+    }
+   ]
+  },
+  {
+   "id": "pa-j1-p2",
+   "categoria": "pa",
+   "fase": "regular",
+   "jornada": 1,
+   "fecha": "2026-09-06",
+   "hora": "10:30",
+   "local": "pa-atletico-mision",
+   "visitante": "pa-toros-de-palomas",
+   "golesLocal": 0,
+   "golesVisitante": 1,
+   "estado": "jugado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": [
+    {
+     "jugador": "pa-toros-de-palomas-j6",
+     "cantidad": 1
+    }
+   ]
+  },
+  {
+   "id": "pa-j1-p3",
+   "categoria": "pa",
+   "fase": "regular",
+   "jornada": 1,
+   "fecha": "2026-09-06",
+   "hora": "12:00",
+   "local": "pa-leones-del-carrizal",
+   "visitante": "pa-pumas-ojo-de-agua",
+   "golesLocal": 0,
+   "golesVisitante": 3,
+   "estado": "jugado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": [
+    {
+     "jugador": "pa-pumas-ojo-de-agua-j6",
+     "cantidad": 1
+    },
+    {
+     "jugador": "pa-pumas-ojo-de-agua-j4",
+     "cantidad": 2
+    }
+   ]
+  },
+  {
+   "id": "pa-j2-p1",
+   "categoria": "pa",
+   "fase": "regular",
+   "jornada": 2,
+   "fecha": "2026-09-13",
+   "hora": "09:00",
+   "local": "pa-deportivo-xichu",
+   "visitante": "pa-atletico-mision",
+   "golesLocal": 3,
+   "golesVisitante": 3,
+   "estado": "jugado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": [
+    {
+     "jugador": "pa-deportivo-xichu-j6",
+     "cantidad": 1
+    },
+    {
+     "jugador": "pa-deportivo-xichu-j1",
+     "cantidad": 2
+    },
+    {
+     "jugador": "pa-atletico-mision-j4",
+     "cantidad": 2
+    },
+    {
+     "jugador": "pa-atletico-mision-j6",
+     "cantidad": 1
+    }
+   ]
+  },
+  {
+   "id": "pa-j2-p2",
+   "categoria": "pa",
+   "fase": "regular",
+   "jornada": 2,
+   "fecha": "2026-09-13",
+   "hora": "10:30",
+   "local": "pa-leones-del-carrizal",
+   "visitante": "pa-halcones-de-tierra-fria",
+   "golesLocal": 1,
+   "golesVisitante": 0,
+   "estado": "jugado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": [
+    {
+     "jugador": "pa-leones-del-carrizal-j2",
+     "cantidad": 1
+    }
+   ]
+  },
+  {
+   "id": "pa-j2-p3",
+   "categoria": "pa",
+   "fase": "regular",
+   "jornada": 2,
+   "fecha": "2026-09-13",
+   "hora": "12:00",
+   "local": "pa-pumas-ojo-de-agua",
+   "visitante": "pa-toros-de-palomas",
+   "golesLocal": 1,
+   "golesVisitante": 2,
+   "estado": "jugado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": [
+    {
+     "jugador": "pa-pumas-ojo-de-agua-j4",
+     "cantidad": 1
+    },
+    {
+     "jugador": "pa-toros-de-palomas-j5",
+     "cantidad": 2
+    }
+   ]
+  },
+  {
+   "id": "pa-j3-p1",
+   "categoria": "pa",
+   "fase": "regular",
+   "jornada": 3,
+   "fecha": "2026-09-20",
+   "hora": "09:00",
+   "local": "pa-deportivo-xichu",
+   "visitante": "pa-leones-del-carrizal",
+   "golesLocal": 2,
+   "golesVisitante": 0,
+   "estado": "jugado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": [
+    {
+     "jugador": "pa-deportivo-xichu-j5",
+     "cantidad": 1
+    },
+    {
+     "jugador": "pa-deportivo-xichu-j1",
+     "cantidad": 1
+    }
+   ]
+  },
+  {
+   "id": "pa-j3-p2",
+   "categoria": "pa",
+   "fase": "regular",
+   "jornada": 3,
+   "fecha": "2026-09-20",
+   "hora": "10:30",
+   "local": "pa-pumas-ojo-de-agua",
+   "visitante": "pa-atletico-mision",
+   "golesLocal": 0,
+   "golesVisitante": 2,
+   "estado": "jugado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": [
+    {
+     "jugador": "pa-atletico-mision-j6",
+     "cantidad": 1
+    },
+    {
+     "jugador": "pa-atletico-mision-j4",
+     "cantidad": 1
+    }
+   ]
+  },
+  {
+   "id": "pa-j3-p3",
+   "categoria": "pa",
+   "fase": "regular",
+   "jornada": 3,
+   "fecha": "2026-09-20",
+   "hora": "12:00",
+   "local": "pa-toros-de-palomas",
+   "visitante": "pa-halcones-de-tierra-fria",
+   "golesLocal": 1,
+   "golesVisitante": 0,
+   "estado": "jugado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": [
+    {
+     "jugador": "pa-toros-de-palomas-j3",
+     "cantidad": 1
+    }
+   ]
+  },
+  {
+   "id": "pa-j4-p1",
+   "categoria": "pa",
+   "fase": "regular",
+   "jornada": 4,
+   "fecha": "2026-09-27",
+   "hora": "09:00",
+   "local": "pa-deportivo-xichu",
+   "visitante": "pa-pumas-ojo-de-agua",
+   "golesLocal": 2,
+   "golesVisitante": 2,
+   "estado": "jugado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": [
+    {
+     "jugador": "pa-deportivo-xichu-j2",
+     "cantidad": 1
+    },
+    {
+     "jugador": "pa-deportivo-xichu-j3",
+     "cantidad": 1
+    },
+    {
+     "jugador": "pa-pumas-ojo-de-agua-j7",
+     "cantidad": 1
+    },
+    {
+     "jugador": "pa-pumas-ojo-de-agua-j1",
+     "cantidad": 1
+    }
+   ]
+  },
+  {
+   "id": "pa-j4-p2",
+   "categoria": "pa",
+   "fase": "regular",
+   "jornada": 4,
+   "fecha": "2026-09-27",
+   "hora": "10:30",
+   "local": "pa-toros-de-palomas",
+   "visitante": "pa-leones-del-carrizal",
+   "golesLocal": 4,
+   "golesVisitante": 2,
+   "estado": "jugado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": [
+    {
+     "jugador": "pa-toros-de-palomas-j5",
+     "cantidad": 3
+    },
+    {
+     "jugador": "pa-toros-de-palomas-j7",
+     "cantidad": 1
+    },
+    {
+     "jugador": "pa-leones-del-carrizal-j5",
+     "cantidad": 1
+    },
+    {
+     "jugador": "pa-leones-del-carrizal-j7",
+     "cantidad": 1
+    }
+   ]
+  },
+  {
+   "id": "pa-j4-p3",
+   "categoria": "pa",
+   "fase": "regular",
+   "jornada": 4,
+   "fecha": "2026-09-27",
+   "hora": "12:00",
+   "local": "pa-halcones-de-tierra-fria",
+   "visitante": "pa-atletico-mision",
+   "golesLocal": 1,
+   "golesVisitante": 2,
+   "estado": "jugado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": [
+    {
+     "jugador": "pa-halcones-de-tierra-fria-j1",
+     "cantidad": 1
+    },
+    {
+     "jugador": "pa-atletico-mision-j2",
+     "cantidad": 1
+    },
+    {
+     "jugador": "pa-atletico-mision-j4",
+     "cantidad": 1
+    }
+   ]
+  },
+  {
+   "id": "pa-j5-p1",
+   "categoria": "pa",
+   "fase": "regular",
+   "jornada": 5,
+   "fecha": "2026-10-04",
+   "hora": "09:00",
+   "local": "pa-deportivo-xichu",
+   "visitante": "pa-toros-de-palomas",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-j5-p2",
+   "categoria": "pa",
+   "fase": "regular",
+   "jornada": 5,
+   "fecha": "2026-10-04",
+   "hora": "10:30",
+   "local": "pa-halcones-de-tierra-fria",
+   "visitante": "pa-pumas-ojo-de-agua",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-j5-p3",
+   "categoria": "pa",
+   "fase": "regular",
+   "jornada": 5,
+   "fecha": "2026-10-04",
+   "hora": "12:00",
+   "local": "pa-atletico-mision",
+   "visitante": "pa-leones-del-carrizal",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "sec-j1-p1",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 1,
+   "fecha": "2026-09-06",
+   "hora": "09:00",
+   "local": "sec-deportivo-xichu",
+   "visitante": "sec-halcones-de-tierra-fria",
+   "golesLocal": 1,
+   "golesVisitante": 0,
+   "estado": "jugado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": [
+    {
+     "jugador": "sec-deportivo-xichu-j5",
+     "cantidad": 1
+    }
+   ]
+  },
+  {
+   "id": "sec-j1-p2",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 1,
+   "fecha": "2026-09-06",
+   "hora": "10:30",
+   "local": "sec-atletico-mision",
+   "visitante": "sec-real-sierra-gorda",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "jugado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "sec-j1-p3",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 1,
+   "fecha": "2026-09-06",
+   "hora": "12:00",
+   "local": "sec-leones-del-carrizal",
+   "visitante": "sec-aguilas-de-milpillas",
+   "golesLocal": 2,
+   "golesVisitante": 0,
+   "estado": "jugado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": [
+    {
+     "jugador": "sec-leones-del-carrizal-j2",
+     "cantidad": 1
+    },
+    {
+     "jugador": "sec-leones-del-carrizal-j3",
+     "cantidad": 1
+    }
+   ]
+  },
+  {
+   "id": "sec-j1-p4",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 1,
+   "fecha": "2026-09-06",
+   "hora": "13:30",
+   "local": "sec-pumas-ojo-de-agua",
+   "visitante": "sec-toros-de-palomas",
+   "golesLocal": 1,
+   "golesVisitante": 1,
+   "estado": "jugado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": [
+    {
+     "jugador": "sec-pumas-ojo-de-agua-j4",
+     "cantidad": 1
+    },
+    {
+     "jugador": "sec-toros-de-palomas-j3",
+     "cantidad": 1
+    }
+   ]
+  },
+  {
+   "id": "sec-j2-p1",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 2,
+   "fecha": "2026-09-13",
+   "hora": "09:00",
+   "local": "sec-deportivo-xichu",
+   "visitante": "sec-atletico-mision",
+   "golesLocal": 0,
+   "golesVisitante": 1,
+   "estado": "jugado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": [
+    {
+     "jugador": "sec-atletico-mision-j1",
+     "cantidad": 1
+    }
+   ]
+  },
+  {
+   "id": "sec-j2-p2",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 2,
+   "fecha": "2026-09-13",
+   "hora": "10:30",
+   "local": "sec-leones-del-carrizal",
+   "visitante": "sec-halcones-de-tierra-fria",
+   "golesLocal": 0,
+   "golesVisitante": 2,
+   "estado": "jugado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": [
+    {
+     "jugador": "sec-halcones-de-tierra-fria-j5",
+     "cantidad": 2
+    }
+   ]
+  },
+  {
+   "id": "sec-j2-p3",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 2,
+   "fecha": "2026-09-13",
+   "hora": "12:00",
+   "local": "sec-pumas-ojo-de-agua",
+   "visitante": "sec-real-sierra-gorda",
+   "golesLocal": 1,
+   "golesVisitante": 1,
+   "estado": "jugado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": [
+    {
+     "jugador": "sec-pumas-ojo-de-agua-j1",
+     "cantidad": 1
+    },
+    {
+     "jugador": "sec-real-sierra-gorda-j6",
+     "cantidad": 1
+    }
+   ]
+  },
+  {
+   "id": "sec-j2-p4",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 2,
+   "fecha": "2026-09-13",
+   "hora": "13:30",
+   "local": "sec-toros-de-palomas",
+   "visitante": "sec-aguilas-de-milpillas",
+   "golesLocal": 3,
+   "golesVisitante": 2,
+   "estado": "jugado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": [
+    {
+     "jugador": "sec-toros-de-palomas-j3",
+     "cantidad": 1
+    },
+    {
+     "jugador": "sec-toros-de-palomas-j2",
+     "cantidad": 2
+    },
+    {
+     "jugador": "sec-aguilas-de-milpillas-j4",
+     "cantidad": 1
+    },
+    {
+     "jugador": "sec-aguilas-de-milpillas-j1",
+     "cantidad": 1
+    }
+   ]
+  },
+  {
+   "id": "sec-j3-p1",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 3,
+   "fecha": "2026-09-20",
+   "hora": "09:00",
+   "local": "sec-deportivo-xichu",
+   "visitante": "sec-leones-del-carrizal",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "jugado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "sec-j3-p2",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 3,
+   "fecha": "2026-09-20",
+   "hora": "10:30",
+   "local": "sec-pumas-ojo-de-agua",
+   "visitante": "sec-atletico-mision",
+   "golesLocal": 2,
+   "golesVisitante": 1,
+   "estado": "jugado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": [
+    {
+     "jugador": "sec-pumas-ojo-de-agua-j2",
+     "cantidad": 1
+    },
+    {
+     "jugador": "sec-pumas-ojo-de-agua-j1",
+     "cantidad": 1
+    },
+    {
+     "jugador": "sec-atletico-mision-j7",
+     "cantidad": 1
+    }
+   ]
+  },
+  {
+   "id": "sec-j3-p3",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 3,
+   "fecha": "2026-09-20",
+   "hora": "12:00",
+   "local": "sec-toros-de-palomas",
+   "visitante": "sec-halcones-de-tierra-fria",
+   "golesLocal": 1,
+   "golesVisitante": 2,
+   "estado": "jugado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": [
+    {
+     "jugador": "sec-toros-de-palomas-j3",
+     "cantidad": 1
+    },
+    {
+     "jugador": "sec-halcones-de-tierra-fria-j4",
+     "cantidad": 1
+    },
+    {
+     "jugador": "sec-halcones-de-tierra-fria-j2",
+     "cantidad": 1
+    }
+   ]
+  },
+  {
+   "id": "sec-j3-p4",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 3,
+   "fecha": "2026-09-20",
+   "hora": "13:30",
+   "local": "sec-aguilas-de-milpillas",
+   "visitante": "sec-real-sierra-gorda",
+   "golesLocal": 4,
+   "golesVisitante": 0,
+   "estado": "jugado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": [
+    {
+     "jugador": "sec-aguilas-de-milpillas-j3",
+     "cantidad": 3
+    },
+    {
+     "jugador": "sec-aguilas-de-milpillas-j2",
+     "cantidad": 1
+    }
+   ]
+  },
+  {
+   "id": "sec-j4-p1",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 4,
+   "fecha": "2026-09-27",
+   "hora": "09:00",
+   "local": "sec-deportivo-xichu",
+   "visitante": "sec-pumas-ojo-de-agua",
+   "golesLocal": 2,
+   "golesVisitante": 0,
+   "estado": "jugado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": [
+    {
+     "jugador": "sec-deportivo-xichu-j1",
+     "cantidad": 1
+    },
+    {
+     "jugador": "sec-deportivo-xichu-j4",
+     "cantidad": 1
+    }
+   ]
+  },
+  {
+   "id": "sec-j4-p2",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 4,
+   "fecha": "2026-09-27",
+   "hora": "10:30",
+   "local": "sec-toros-de-palomas",
+   "visitante": "sec-leones-del-carrizal",
+   "golesLocal": 4,
+   "golesVisitante": 1,
+   "estado": "jugado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": [
+    {
+     "jugador": "sec-toros-de-palomas-j5",
+     "cantidad": 1
+    },
+    {
+     "jugador": "sec-toros-de-palomas-j2",
+     "cantidad": 1
+    },
+    {
+     "jugador": "sec-toros-de-palomas-j1",
+     "cantidad": 1
+    },
+    {
+     "jugador": "sec-toros-de-palomas-j7",
+     "cantidad": 1
+    },
+    {
+     "jugador": "sec-leones-del-carrizal-j2",
+     "cantidad": 1
+    }
+   ]
+  },
+  {
+   "id": "sec-j4-p3",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 4,
+   "fecha": "2026-09-27",
+   "hora": "12:00",
+   "local": "sec-aguilas-de-milpillas",
+   "visitante": "sec-atletico-mision",
+   "golesLocal": 0,
+   "golesVisitante": 1,
+   "estado": "jugado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": [
+    {
+     "jugador": "sec-atletico-mision-j1",
+     "cantidad": 1
+    }
+   ]
+  },
+  {
+   "id": "sec-j4-p4",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 4,
+   "fecha": "2026-09-27",
+   "hora": "13:30",
+   "local": "sec-real-sierra-gorda",
+   "visitante": "sec-halcones-de-tierra-fria",
+   "golesLocal": 2,
+   "golesVisitante": 2,
+   "estado": "jugado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": [
+    {
+     "jugador": "sec-real-sierra-gorda-j2",
+     "cantidad": 1
+    },
+    {
+     "jugador": "sec-real-sierra-gorda-j5",
+     "cantidad": 1
+    },
+    {
+     "jugador": "sec-halcones-de-tierra-fria-j6",
+     "cantidad": 2
+    }
+   ]
+  },
+  {
+   "id": "sec-j5-p1",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 5,
+   "fecha": "2026-10-11",
+   "hora": "09:00",
+   "local": "sec-deportivo-xichu",
+   "visitante": "sec-toros-de-palomas",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "pospuesto",
+   "fechaAnterior": "2026-10-04",
+   "nota": "Se recorre por lluvia",
+   "goles": []
+  },
+  {
+   "id": "sec-j5-p2",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 5,
+   "fecha": "2026-10-04",
+   "hora": "10:30",
+   "local": "sec-aguilas-de-milpillas",
+   "visitante": "sec-pumas-ojo-de-agua",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "suspendido",
+   "fechaAnterior": "",
+   "nota": "Cancha no disponible",
+   "goles": []
+  },
+  {
+   "id": "sec-j5-p3",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 5,
+   "fecha": "2026-10-04",
+   "hora": "12:00",
+   "local": "sec-real-sierra-gorda",
+   "visitante": "sec-leones-del-carrizal",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "sec-j5-p4",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 5,
+   "fecha": "2026-10-04",
+   "hora": "13:30",
+   "local": "sec-halcones-de-tierra-fria",
+   "visitante": "sec-atletico-mision",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "sec-j6-p1",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 6,
+   "fecha": "2026-10-11",
+   "hora": "09:00",
+   "local": "sec-deportivo-xichu",
+   "visitante": "sec-aguilas-de-milpillas",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "sec-j6-p2",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 6,
+   "fecha": "2026-10-11",
+   "hora": "10:30",
+   "local": "sec-real-sierra-gorda",
+   "visitante": "sec-toros-de-palomas",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "sec-j6-p3",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 6,
+   "fecha": "2026-10-11",
+   "hora": "12:00",
+   "local": "sec-halcones-de-tierra-fria",
+   "visitante": "sec-pumas-ojo-de-agua",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "sec-j6-p4",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 6,
+   "fecha": "2026-10-11",
+   "hora": "13:30",
+   "local": "sec-atletico-mision",
+   "visitante": "sec-leones-del-carrizal",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "sec-j7-p1",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 7,
+   "fecha": "2026-10-18",
+   "hora": "09:00",
+   "local": "sec-deportivo-xichu",
+   "visitante": "sec-real-sierra-gorda",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "sec-j7-p2",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 7,
+   "fecha": "2026-10-18",
+   "hora": "10:30",
+   "local": "sec-halcones-de-tierra-fria",
+   "visitante": "sec-aguilas-de-milpillas",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "sec-j7-p3",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 7,
+   "fecha": "2026-10-18",
+   "hora": "12:00",
+   "local": "sec-atletico-mision",
+   "visitante": "sec-toros-de-palomas",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "sec-j7-p4",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 7,
+   "fecha": "2026-10-18",
+   "hora": "13:30",
+   "local": "sec-leones-del-carrizal",
+   "visitante": "sec-pumas-ojo-de-agua",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pb-semi-1",
+   "categoria": "pb",
+   "fase": "semifinal",
+   "jornada": 90,
+   "fecha": "2026-09-20",
+   "hora": "09:00",
+   "local": "pb-halcones-de-tierra-fria",
+   "visitante": "pb-pumas-ojo-de-agua",
+   "golesLocal": 2,
+   "golesVisitante": 1,
+   "estado": "jugado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": [
+    {
+     "jugador": "pb-halcones-de-tierra-fria-j2",
+     "cantidad": 1
+    },
+    {
+     "jugador": "pb-halcones-de-tierra-fria-j5",
+     "cantidad": 1
+    },
+    {
+     "jugador": "pb-pumas-ojo-de-agua-j5",
+     "cantidad": 1
+    }
+   ]
+  },
+  {
+   "id": "pb-semi-2",
+   "categoria": "pb",
+   "fase": "semifinal",
+   "jornada": 91,
+   "fecha": "2026-09-20",
+   "hora": "10:30",
+   "local": "pb-atletico-mision",
+   "visitante": "pb-leones-del-carrizal",
+   "golesLocal": 1,
+   "golesVisitante": 3,
+   "estado": "jugado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": [
+    {
+     "jugador": "pb-atletico-mision-j2",
+     "cantidad": 1
+    },
+    {
+     "jugador": "pb-leones-del-carrizal-j3",
+     "cantidad": 1
+    },
+    {
+     "jugador": "pb-leones-del-carrizal-j5",
+     "cantidad": 1
+    },
+    {
+     "jugador": "pb-leones-del-carrizal-j4",
+     "cantidad": 1
+    }
+   ]
+  },
+  {
+   "id": "pb-final",
+   "categoria": "pb",
+   "fase": "final",
+   "jornada": 99,
+   "fecha": "2026-10-11",
+   "hora": "12:00",
+   "local": "pb-halcones-de-tierra-fria",
+   "visitante": "pb-leones-del-carrizal",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  }
+ ],
+ "actualizado": "2026-09-28T20:00:00-06:00"
+}
