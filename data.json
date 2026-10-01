@@ -3,7 +3,7 @@
   "nombre": "Torneo Infantil Promesas Del Real",
   "sede": "Xichú, Guanajuato",
   "temporada": "2026",
-  "facebook": "",
+  "facebook": "https://www.facebook.com/profile.php?id=100093827114375",
   "aviso": ""
  },
  "ajustes": {
@@ -36,87 +36,87 @@
   {
    "categoria": "pb",
    "numero": 1,
-   "fecha": "2026-08-16"
+   "fecha": "2026-10-10"
   },
   {
    "categoria": "pb",
    "numero": 2,
-   "fecha": "2026-08-23"
+   "fecha": "2026-10-17"
   },
   {
    "categoria": "pb",
    "numero": 3,
-   "fecha": "2026-08-30"
+   "fecha": "2026-10-24"
   },
   {
    "categoria": "pb",
    "numero": 4,
-   "fecha": "2026-09-06"
+   "fecha": "2026-10-31"
   },
   {
    "categoria": "pb",
    "numero": 5,
-   "fecha": "2026-09-13"
+   "fecha": "2026-11-07"
   },
   {
    "categoria": "pa",
    "numero": 1,
-   "fecha": "2026-09-06"
+   "fecha": "2026-10-10"
   },
   {
    "categoria": "pa",
    "numero": 2,
-   "fecha": "2026-09-13"
+   "fecha": "2026-10-17"
   },
   {
    "categoria": "pa",
    "numero": 3,
-   "fecha": "2026-09-20"
+   "fecha": "2026-10-24"
   },
   {
    "categoria": "pa",
    "numero": 4,
-   "fecha": "2026-09-27"
+   "fecha": "2026-10-31"
   },
   {
    "categoria": "pa",
    "numero": 5,
-   "fecha": "2026-10-04"
+   "fecha": "2026-11-07"
   },
   {
    "categoria": "sec",
    "numero": 1,
-   "fecha": "2026-09-06"
+   "fecha": "2026-10-10"
   },
   {
    "categoria": "sec",
    "numero": 2,
-   "fecha": "2026-09-13"
+   "fecha": "2026-10-17"
   },
   {
    "categoria": "sec",
    "numero": 3,
-   "fecha": "2026-09-20"
+   "fecha": "2026-10-24"
   },
   {
    "categoria": "sec",
    "numero": 4,
-   "fecha": "2026-09-27"
+   "fecha": "2026-10-31"
   },
   {
    "categoria": "sec",
    "numero": 5,
-   "fecha": "2026-10-04"
+   "fecha": "2026-11-07"
   },
   {
    "categoria": "sec",
    "numero": 6,
-   "fecha": "2026-10-11"
+   "fecha": "2026-11-14"
   },
   {
    "categoria": "sec",
    "numero": 7,
-   "fecha": "2026-10-18"
+   "fecha": "2026-11-21"
   }
  ],
  "equipos": [
@@ -1816,1284 +1816,6 @@
  ],
  "partidos": [
   {
-   "id": "pb-j1-p1",
-   "categoria": "pb",
-   "fase": "regular",
-   "jornada": 1,
-   "fecha": "2026-08-16",
-   "hora": "09:00",
-   "local": "pb-deportivo-xichu",
-   "visitante": "pb-halcones-de-tierra-fria",
-   "golesLocal": 0,
-   "golesVisitante": 3,
-   "estado": "jugado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": [
-    {
-     "jugador": "pb-halcones-de-tierra-fria-j5",
-     "cantidad": 2
-    },
-    {
-     "jugador": "pb-halcones-de-tierra-fria-j3",
-     "cantidad": 1
-    }
-   ]
-  },
-  {
-   "id": "pb-j1-p2",
-   "categoria": "pb",
-   "fase": "regular",
-   "jornada": 1,
-   "fecha": "2026-08-16",
-   "hora": "10:30",
-   "local": "pb-leones-del-carrizal",
-   "visitante": "pb-pumas-ojo-de-agua",
-   "golesLocal": 4,
-   "golesVisitante": 0,
-   "estado": "jugado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": [
-    {
-     "jugador": "pb-leones-del-carrizal-j7",
-     "cantidad": 1
-    },
-    {
-     "jugador": "pb-leones-del-carrizal-j3",
-     "cantidad": 2
-    },
-    {
-     "jugador": "pb-leones-del-carrizal-j6",
-     "cantidad": 1
-    }
-   ]
-  },
-  {
-   "id": "pb-j2-p1",
-   "categoria": "pb",
-   "fase": "regular",
-   "jornada": 2,
-   "fecha": "2026-08-23",
-   "hora": "09:00",
-   "local": "pb-deportivo-xichu",
-   "visitante": "pb-atletico-mision",
-   "golesLocal": 0,
-   "golesVisitante": 2,
-   "estado": "jugado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": [
-    {
-     "jugador": "pb-atletico-mision-j6",
-     "cantidad": 2
-    }
-   ]
-  },
-  {
-   "id": "pb-j2-p2",
-   "categoria": "pb",
-   "fase": "regular",
-   "jornada": 2,
-   "fecha": "2026-08-23",
-   "hora": "10:30",
-   "local": "pb-leones-del-carrizal",
-   "visitante": "pb-halcones-de-tierra-fria",
-   "golesLocal": 2,
-   "golesVisitante": 2,
-   "estado": "jugado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": [
-    {
-     "jugador": "pb-leones-del-carrizal-j4",
-     "cantidad": 1
-    },
-    {
-     "jugador": "pb-leones-del-carrizal-j1",
-     "cantidad": 1
-    },
-    {
-     "jugador": "pb-halcones-de-tierra-fria-j3",
-     "cantidad": 1
-    },
-    {
-     "jugador": "pb-halcones-de-tierra-fria-j5",
-     "cantidad": 1
-    }
-   ]
-  },
-  {
-   "id": "pb-j3-p1",
-   "categoria": "pb",
-   "fase": "regular",
-   "jornada": 3,
-   "fecha": "2026-08-30",
-   "hora": "09:00",
-   "local": "pb-deportivo-xichu",
-   "visitante": "pb-leones-del-carrizal",
-   "golesLocal": 4,
-   "golesVisitante": 0,
-   "estado": "jugado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": [
-    {
-     "jugador": "pb-deportivo-xichu-j2",
-     "cantidad": 2
-    },
-    {
-     "jugador": "pb-deportivo-xichu-j4",
-     "cantidad": 2
-    }
-   ]
-  },
-  {
-   "id": "pb-j3-p2",
-   "categoria": "pb",
-   "fase": "regular",
-   "jornada": 3,
-   "fecha": "2026-08-30",
-   "hora": "10:30",
-   "local": "pb-pumas-ojo-de-agua",
-   "visitante": "pb-atletico-mision",
-   "golesLocal": 4,
-   "golesVisitante": 0,
-   "estado": "jugado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": [
-    {
-     "jugador": "pb-pumas-ojo-de-agua-j2",
-     "cantidad": 3
-    },
-    {
-     "jugador": "pb-pumas-ojo-de-agua-j4",
-     "cantidad": 1
-    }
-   ]
-  },
-  {
-   "id": "pb-j4-p1",
-   "categoria": "pb",
-   "fase": "regular",
-   "jornada": 4,
-   "fecha": "2026-09-06",
-   "hora": "09:00",
-   "local": "pb-deportivo-xichu",
-   "visitante": "pb-pumas-ojo-de-agua",
-   "golesLocal": 2,
-   "golesVisitante": 2,
-   "estado": "jugado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": [
-    {
-     "jugador": "pb-deportivo-xichu-j4",
-     "cantidad": 1
-    },
-    {
-     "jugador": "pb-deportivo-xichu-j6",
-     "cantidad": 1
-    },
-    {
-     "jugador": "pb-pumas-ojo-de-agua-j2",
-     "cantidad": 1
-    },
-    {
-     "jugador": "pb-pumas-ojo-de-agua-j1",
-     "cantidad": 1
-    }
-   ]
-  },
-  {
-   "id": "pb-j4-p2",
-   "categoria": "pb",
-   "fase": "regular",
-   "jornada": 4,
-   "fecha": "2026-09-06",
-   "hora": "10:30",
-   "local": "pb-halcones-de-tierra-fria",
-   "visitante": "pb-atletico-mision",
-   "golesLocal": 1,
-   "golesVisitante": 0,
-   "estado": "jugado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": [
-    {
-     "jugador": "pb-halcones-de-tierra-fria-j6",
-     "cantidad": 1
-    }
-   ]
-  },
-  {
-   "id": "pb-j5-p1",
-   "categoria": "pb",
-   "fase": "regular",
-   "jornada": 5,
-   "fecha": "2026-09-13",
-   "hora": "09:00",
-   "local": "pb-halcones-de-tierra-fria",
-   "visitante": "pb-pumas-ojo-de-agua",
-   "golesLocal": 0,
-   "golesVisitante": 1,
-   "estado": "jugado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": [
-    {
-     "jugador": "pb-pumas-ojo-de-agua-j7",
-     "cantidad": 1
-    }
-   ]
-  },
-  {
-   "id": "pb-j5-p2",
-   "categoria": "pb",
-   "fase": "regular",
-   "jornada": 5,
-   "fecha": "2026-09-13",
-   "hora": "10:30",
-   "local": "pb-atletico-mision",
-   "visitante": "pb-leones-del-carrizal",
-   "golesLocal": 2,
-   "golesVisitante": 1,
-   "estado": "jugado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": [
-    {
-     "jugador": "pb-atletico-mision-j1",
-     "cantidad": 1
-    },
-    {
-     "jugador": "pb-atletico-mision-j4",
-     "cantidad": 1
-    },
-    {
-     "jugador": "pb-leones-del-carrizal-j5",
-     "cantidad": 1
-    }
-   ]
-  },
-  {
-   "id": "pa-j1-p1",
-   "categoria": "pa",
-   "fase": "regular",
-   "jornada": 1,
-   "fecha": "2026-09-06",
-   "hora": "09:00",
-   "local": "pa-deportivo-xichu",
-   "visitante": "pa-halcones-de-tierra-fria",
-   "golesLocal": 1,
-   "golesVisitante": 1,
-   "estado": "jugado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": [
-    {
-     "jugador": "pa-deportivo-xichu-j2",
-     "cantidad": 1
-    },
-    {
-     "jugador": "pa-halcones-de-tierra-fria-j2",
-     "cantidad": 1
-    }
-   ]
-  },
-  {
-   "id": "pa-j1-p2",
-   "categoria": "pa",
-   "fase": "regular",
-   "jornada": 1,
-   "fecha": "2026-09-06",
-   "hora": "10:30",
-   "local": "pa-atletico-mision",
-   "visitante": "pa-toros-de-palomas",
-   "golesLocal": 0,
-   "golesVisitante": 1,
-   "estado": "jugado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": [
-    {
-     "jugador": "pa-toros-de-palomas-j6",
-     "cantidad": 1
-    }
-   ]
-  },
-  {
-   "id": "pa-j1-p3",
-   "categoria": "pa",
-   "fase": "regular",
-   "jornada": 1,
-   "fecha": "2026-09-06",
-   "hora": "12:00",
-   "local": "pa-leones-del-carrizal",
-   "visitante": "pa-pumas-ojo-de-agua",
-   "golesLocal": 0,
-   "golesVisitante": 3,
-   "estado": "jugado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": [
-    {
-     "jugador": "pa-pumas-ojo-de-agua-j6",
-     "cantidad": 1
-    },
-    {
-     "jugador": "pa-pumas-ojo-de-agua-j4",
-     "cantidad": 2
-    }
-   ]
-  },
-  {
-   "id": "pa-j2-p1",
-   "categoria": "pa",
-   "fase": "regular",
-   "jornada": 2,
-   "fecha": "2026-09-13",
-   "hora": "09:00",
-   "local": "pa-deportivo-xichu",
-   "visitante": "pa-atletico-mision",
-   "golesLocal": 3,
-   "golesVisitante": 3,
-   "estado": "jugado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": [
-    {
-     "jugador": "pa-deportivo-xichu-j6",
-     "cantidad": 1
-    },
-    {
-     "jugador": "pa-deportivo-xichu-j1",
-     "cantidad": 2
-    },
-    {
-     "jugador": "pa-atletico-mision-j4",
-     "cantidad": 2
-    },
-    {
-     "jugador": "pa-atletico-mision-j6",
-     "cantidad": 1
-    }
-   ]
-  },
-  {
-   "id": "pa-j2-p2",
-   "categoria": "pa",
-   "fase": "regular",
-   "jornada": 2,
-   "fecha": "2026-09-13",
-   "hora": "10:30",
-   "local": "pa-leones-del-carrizal",
-   "visitante": "pa-halcones-de-tierra-fria",
-   "golesLocal": 1,
-   "golesVisitante": 0,
-   "estado": "jugado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": [
-    {
-     "jugador": "pa-leones-del-carrizal-j2",
-     "cantidad": 1
-    }
-   ]
-  },
-  {
-   "id": "pa-j2-p3",
-   "categoria": "pa",
-   "fase": "regular",
-   "jornada": 2,
-   "fecha": "2026-09-13",
-   "hora": "12:00",
-   "local": "pa-pumas-ojo-de-agua",
-   "visitante": "pa-toros-de-palomas",
-   "golesLocal": 1,
-   "golesVisitante": 2,
-   "estado": "jugado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": [
-    {
-     "jugador": "pa-pumas-ojo-de-agua-j4",
-     "cantidad": 1
-    },
-    {
-     "jugador": "pa-toros-de-palomas-j5",
-     "cantidad": 2
-    }
-   ]
-  },
-  {
-   "id": "pa-j3-p1",
-   "categoria": "pa",
-   "fase": "regular",
-   "jornada": 3,
-   "fecha": "2026-09-20",
-   "hora": "09:00",
-   "local": "pa-deportivo-xichu",
-   "visitante": "pa-leones-del-carrizal",
-   "golesLocal": 2,
-   "golesVisitante": 0,
-   "estado": "jugado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": [
-    {
-     "jugador": "pa-deportivo-xichu-j5",
-     "cantidad": 1
-    },
-    {
-     "jugador": "pa-deportivo-xichu-j1",
-     "cantidad": 1
-    }
-   ]
-  },
-  {
-   "id": "pa-j3-p2",
-   "categoria": "pa",
-   "fase": "regular",
-   "jornada": 3,
-   "fecha": "2026-09-20",
-   "hora": "10:30",
-   "local": "pa-pumas-ojo-de-agua",
-   "visitante": "pa-atletico-mision",
-   "golesLocal": 0,
-   "golesVisitante": 2,
-   "estado": "jugado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": [
-    {
-     "jugador": "pa-atletico-mision-j6",
-     "cantidad": 1
-    },
-    {
-     "jugador": "pa-atletico-mision-j4",
-     "cantidad": 1
-    }
-   ]
-  },
-  {
-   "id": "pa-j3-p3",
-   "categoria": "pa",
-   "fase": "regular",
-   "jornada": 3,
-   "fecha": "2026-09-20",
-   "hora": "12:00",
-   "local": "pa-toros-de-palomas",
-   "visitante": "pa-halcones-de-tierra-fria",
-   "golesLocal": 1,
-   "golesVisitante": 0,
-   "estado": "jugado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": [
-    {
-     "jugador": "pa-toros-de-palomas-j3",
-     "cantidad": 1
-    }
-   ]
-  },
-  {
-   "id": "pa-j4-p1",
-   "categoria": "pa",
-   "fase": "regular",
-   "jornada": 4,
-   "fecha": "2026-09-27",
-   "hora": "09:00",
-   "local": "pa-deportivo-xichu",
-   "visitante": "pa-pumas-ojo-de-agua",
-   "golesLocal": 2,
-   "golesVisitante": 2,
-   "estado": "jugado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": [
-    {
-     "jugador": "pa-deportivo-xichu-j2",
-     "cantidad": 1
-    },
-    {
-     "jugador": "pa-deportivo-xichu-j3",
-     "cantidad": 1
-    },
-    {
-     "jugador": "pa-pumas-ojo-de-agua-j7",
-     "cantidad": 1
-    },
-    {
-     "jugador": "pa-pumas-ojo-de-agua-j1",
-     "cantidad": 1
-    }
-   ]
-  },
-  {
-   "id": "pa-j4-p2",
-   "categoria": "pa",
-   "fase": "regular",
-   "jornada": 4,
-   "fecha": "2026-09-27",
-   "hora": "10:30",
-   "local": "pa-toros-de-palomas",
-   "visitante": "pa-leones-del-carrizal",
-   "golesLocal": 4,
-   "golesVisitante": 2,
-   "estado": "jugado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": [
-    {
-     "jugador": "pa-toros-de-palomas-j5",
-     "cantidad": 3
-    },
-    {
-     "jugador": "pa-toros-de-palomas-j7",
-     "cantidad": 1
-    },
-    {
-     "jugador": "pa-leones-del-carrizal-j5",
-     "cantidad": 1
-    },
-    {
-     "jugador": "pa-leones-del-carrizal-j7",
-     "cantidad": 1
-    }
-   ]
-  },
-  {
-   "id": "pa-j4-p3",
-   "categoria": "pa",
-   "fase": "regular",
-   "jornada": 4,
-   "fecha": "2026-09-27",
-   "hora": "12:00",
-   "local": "pa-halcones-de-tierra-fria",
-   "visitante": "pa-atletico-mision",
-   "golesLocal": 1,
-   "golesVisitante": 2,
-   "estado": "jugado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": [
-    {
-     "jugador": "pa-halcones-de-tierra-fria-j1",
-     "cantidad": 1
-    },
-    {
-     "jugador": "pa-atletico-mision-j2",
-     "cantidad": 1
-    },
-    {
-     "jugador": "pa-atletico-mision-j4",
-     "cantidad": 1
-    }
-   ]
-  },
-  {
-   "id": "pa-j5-p1",
-   "categoria": "pa",
-   "fase": "regular",
-   "jornada": 5,
-   "fecha": "2026-10-04",
-   "hora": "09:00",
-   "local": "pa-deportivo-xichu",
-   "visitante": "pa-toros-de-palomas",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "programado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": []
-  },
-  {
-   "id": "pa-j5-p2",
-   "categoria": "pa",
-   "fase": "regular",
-   "jornada": 5,
-   "fecha": "2026-10-04",
-   "hora": "10:30",
-   "local": "pa-halcones-de-tierra-fria",
-   "visitante": "pa-pumas-ojo-de-agua",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "programado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": []
-  },
-  {
-   "id": "pa-j5-p3",
-   "categoria": "pa",
-   "fase": "regular",
-   "jornada": 5,
-   "fecha": "2026-10-04",
-   "hora": "12:00",
-   "local": "pa-atletico-mision",
-   "visitante": "pa-leones-del-carrizal",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "programado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": []
-  },
-  {
-   "id": "sec-j1-p1",
-   "categoria": "sec",
-   "fase": "regular",
-   "jornada": 1,
-   "fecha": "2026-09-06",
-   "hora": "09:00",
-   "local": "sec-deportivo-xichu",
-   "visitante": "sec-halcones-de-tierra-fria",
-   "golesLocal": 1,
-   "golesVisitante": 0,
-   "estado": "jugado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": [
-    {
-     "jugador": "sec-deportivo-xichu-j5",
-     "cantidad": 1
-    }
-   ]
-  },
-  {
-   "id": "sec-j1-p2",
-   "categoria": "sec",
-   "fase": "regular",
-   "jornada": 1,
-   "fecha": "2026-09-06",
-   "hora": "10:30",
-   "local": "sec-atletico-mision",
-   "visitante": "sec-real-sierra-gorda",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "jugado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": []
-  },
-  {
-   "id": "sec-j1-p3",
-   "categoria": "sec",
-   "fase": "regular",
-   "jornada": 1,
-   "fecha": "2026-09-06",
-   "hora": "12:00",
-   "local": "sec-leones-del-carrizal",
-   "visitante": "sec-aguilas-de-milpillas",
-   "golesLocal": 2,
-   "golesVisitante": 0,
-   "estado": "jugado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": [
-    {
-     "jugador": "sec-leones-del-carrizal-j2",
-     "cantidad": 1
-    },
-    {
-     "jugador": "sec-leones-del-carrizal-j3",
-     "cantidad": 1
-    }
-   ]
-  },
-  {
-   "id": "sec-j1-p4",
-   "categoria": "sec",
-   "fase": "regular",
-   "jornada": 1,
-   "fecha": "2026-09-06",
-   "hora": "13:30",
-   "local": "sec-pumas-ojo-de-agua",
-   "visitante": "sec-toros-de-palomas",
-   "golesLocal": 1,
-   "golesVisitante": 1,
-   "estado": "jugado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": [
-    {
-     "jugador": "sec-pumas-ojo-de-agua-j4",
-     "cantidad": 1
-    },
-    {
-     "jugador": "sec-toros-de-palomas-j3",
-     "cantidad": 1
-    }
-   ]
-  },
-  {
-   "id": "sec-j2-p1",
-   "categoria": "sec",
-   "fase": "regular",
-   "jornada": 2,
-   "fecha": "2026-09-13",
-   "hora": "09:00",
-   "local": "sec-deportivo-xichu",
-   "visitante": "sec-atletico-mision",
-   "golesLocal": 0,
-   "golesVisitante": 1,
-   "estado": "jugado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": [
-    {
-     "jugador": "sec-atletico-mision-j1",
-     "cantidad": 1
-    }
-   ]
-  },
-  {
-   "id": "sec-j2-p2",
-   "categoria": "sec",
-   "fase": "regular",
-   "jornada": 2,
-   "fecha": "2026-09-13",
-   "hora": "10:30",
-   "local": "sec-leones-del-carrizal",
-   "visitante": "sec-halcones-de-tierra-fria",
-   "golesLocal": 0,
-   "golesVisitante": 2,
-   "estado": "jugado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": [
-    {
-     "jugador": "sec-halcones-de-tierra-fria-j5",
-     "cantidad": 2
-    }
-   ]
-  },
-  {
-   "id": "sec-j2-p3",
-   "categoria": "sec",
-   "fase": "regular",
-   "jornada": 2,
-   "fecha": "2026-09-13",
-   "hora": "12:00",
-   "local": "sec-pumas-ojo-de-agua",
-   "visitante": "sec-real-sierra-gorda",
-   "golesLocal": 1,
-   "golesVisitante": 1,
-   "estado": "jugado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": [
-    {
-     "jugador": "sec-pumas-ojo-de-agua-j1",
-     "cantidad": 1
-    },
-    {
-     "jugador": "sec-real-sierra-gorda-j6",
-     "cantidad": 1
-    }
-   ]
-  },
-  {
-   "id": "sec-j2-p4",
-   "categoria": "sec",
-   "fase": "regular",
-   "jornada": 2,
-   "fecha": "2026-09-13",
-   "hora": "13:30",
-   "local": "sec-toros-de-palomas",
-   "visitante": "sec-aguilas-de-milpillas",
-   "golesLocal": 3,
-   "golesVisitante": 2,
-   "estado": "jugado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": [
-    {
-     "jugador": "sec-toros-de-palomas-j3",
-     "cantidad": 1
-    },
-    {
-     "jugador": "sec-toros-de-palomas-j2",
-     "cantidad": 2
-    },
-    {
-     "jugador": "sec-aguilas-de-milpillas-j4",
-     "cantidad": 1
-    },
-    {
-     "jugador": "sec-aguilas-de-milpillas-j1",
-     "cantidad": 1
-    }
-   ]
-  },
-  {
-   "id": "sec-j3-p1",
-   "categoria": "sec",
-   "fase": "regular",
-   "jornada": 3,
-   "fecha": "2026-09-20",
-   "hora": "09:00",
-   "local": "sec-deportivo-xichu",
-   "visitante": "sec-leones-del-carrizal",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "jugado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": []
-  },
-  {
-   "id": "sec-j3-p2",
-   "categoria": "sec",
-   "fase": "regular",
-   "jornada": 3,
-   "fecha": "2026-09-20",
-   "hora": "10:30",
-   "local": "sec-pumas-ojo-de-agua",
-   "visitante": "sec-atletico-mision",
-   "golesLocal": 2,
-   "golesVisitante": 1,
-   "estado": "jugado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": [
-    {
-     "jugador": "sec-pumas-ojo-de-agua-j2",
-     "cantidad": 1
-    },
-    {
-     "jugador": "sec-pumas-ojo-de-agua-j1",
-     "cantidad": 1
-    },
-    {
-     "jugador": "sec-atletico-mision-j7",
-     "cantidad": 1
-    }
-   ]
-  },
-  {
-   "id": "sec-j3-p3",
-   "categoria": "sec",
-   "fase": "regular",
-   "jornada": 3,
-   "fecha": "2026-09-20",
-   "hora": "12:00",
-   "local": "sec-toros-de-palomas",
-   "visitante": "sec-halcones-de-tierra-fria",
-   "golesLocal": 1,
-   "golesVisitante": 2,
-   "estado": "jugado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": [
-    {
-     "jugador": "sec-toros-de-palomas-j3",
-     "cantidad": 1
-    },
-    {
-     "jugador": "sec-halcones-de-tierra-fria-j4",
-     "cantidad": 1
-    },
-    {
-     "jugador": "sec-halcones-de-tierra-fria-j2",
-     "cantidad": 1
-    }
-   ]
-  },
-  {
-   "id": "sec-j3-p4",
-   "categoria": "sec",
-   "fase": "regular",
-   "jornada": 3,
-   "fecha": "2026-09-20",
-   "hora": "13:30",
-   "local": "sec-aguilas-de-milpillas",
-   "visitante": "sec-real-sierra-gorda",
-   "golesLocal": 4,
-   "golesVisitante": 0,
-   "estado": "jugado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": [
-    {
-     "jugador": "sec-aguilas-de-milpillas-j3",
-     "cantidad": 3
-    },
-    {
-     "jugador": "sec-aguilas-de-milpillas-j2",
-     "cantidad": 1
-    }
-   ]
-  },
-  {
-   "id": "sec-j4-p1",
-   "categoria": "sec",
-   "fase": "regular",
-   "jornada": 4,
-   "fecha": "2026-09-27",
-   "hora": "09:00",
-   "local": "sec-deportivo-xichu",
-   "visitante": "sec-pumas-ojo-de-agua",
-   "golesLocal": 2,
-   "golesVisitante": 0,
-   "estado": "jugado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": [
-    {
-     "jugador": "sec-deportivo-xichu-j1",
-     "cantidad": 1
-    },
-    {
-     "jugador": "sec-deportivo-xichu-j4",
-     "cantidad": 1
-    }
-   ]
-  },
-  {
-   "id": "sec-j4-p2",
-   "categoria": "sec",
-   "fase": "regular",
-   "jornada": 4,
-   "fecha": "2026-09-27",
-   "hora": "10:30",
-   "local": "sec-toros-de-palomas",
-   "visitante": "sec-leones-del-carrizal",
-   "golesLocal": 4,
-   "golesVisitante": 1,
-   "estado": "jugado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": [
-    {
-     "jugador": "sec-toros-de-palomas-j5",
-     "cantidad": 1
-    },
-    {
-     "jugador": "sec-toros-de-palomas-j2",
-     "cantidad": 1
-    },
-    {
-     "jugador": "sec-toros-de-palomas-j1",
-     "cantidad": 1
-    },
-    {
-     "jugador": "sec-toros-de-palomas-j7",
-     "cantidad": 1
-    },
-    {
-     "jugador": "sec-leones-del-carrizal-j2",
-     "cantidad": 1
-    }
-   ]
-  },
-  {
-   "id": "sec-j4-p3",
-   "categoria": "sec",
-   "fase": "regular",
-   "jornada": 4,
-   "fecha": "2026-09-27",
-   "hora": "12:00",
-   "local": "sec-aguilas-de-milpillas",
-   "visitante": "sec-atletico-mision",
-   "golesLocal": 0,
-   "golesVisitante": 1,
-   "estado": "jugado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": [
-    {
-     "jugador": "sec-atletico-mision-j1",
-     "cantidad": 1
-    }
-   ]
-  },
-  {
-   "id": "sec-j4-p4",
-   "categoria": "sec",
-   "fase": "regular",
-   "jornada": 4,
-   "fecha": "2026-09-27",
-   "hora": "13:30",
-   "local": "sec-real-sierra-gorda",
-   "visitante": "sec-halcones-de-tierra-fria",
-   "golesLocal": 2,
-   "golesVisitante": 2,
-   "estado": "jugado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": [
-    {
-     "jugador": "sec-real-sierra-gorda-j2",
-     "cantidad": 1
-    },
-    {
-     "jugador": "sec-real-sierra-gorda-j5",
-     "cantidad": 1
-    },
-    {
-     "jugador": "sec-halcones-de-tierra-fria-j6",
-     "cantidad": 2
-    }
-   ]
-  },
-  {
-   "id": "sec-j5-p1",
-   "categoria": "sec",
-   "fase": "regular",
-   "jornada": 5,
-   "fecha": "2026-10-11",
-   "hora": "09:00",
-   "local": "sec-deportivo-xichu",
-   "visitante": "sec-toros-de-palomas",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "pospuesto",
-   "fechaAnterior": "2026-10-04",
-   "nota": "Se recorre por lluvia",
-   "goles": []
-  },
-  {
-   "id": "sec-j5-p2",
-   "categoria": "sec",
-   "fase": "regular",
-   "jornada": 5,
-   "fecha": "2026-10-04",
-   "hora": "10:30",
-   "local": "sec-aguilas-de-milpillas",
-   "visitante": "sec-pumas-ojo-de-agua",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "suspendido",
-   "fechaAnterior": "",
-   "nota": "Cancha no disponible",
-   "goles": []
-  },
-  {
-   "id": "sec-j5-p3",
-   "categoria": "sec",
-   "fase": "regular",
-   "jornada": 5,
-   "fecha": "2026-10-04",
-   "hora": "12:00",
-   "local": "sec-real-sierra-gorda",
-   "visitante": "sec-leones-del-carrizal",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "programado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": []
-  },
-  {
-   "id": "sec-j5-p4",
-   "categoria": "sec",
-   "fase": "regular",
-   "jornada": 5,
-   "fecha": "2026-10-04",
-   "hora": "13:30",
-   "local": "sec-halcones-de-tierra-fria",
-   "visitante": "sec-atletico-mision",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "programado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": []
-  },
-  {
-   "id": "sec-j6-p1",
-   "categoria": "sec",
-   "fase": "regular",
-   "jornada": 6,
-   "fecha": "2026-10-11",
-   "hora": "09:00",
-   "local": "sec-deportivo-xichu",
-   "visitante": "sec-aguilas-de-milpillas",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "programado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": []
-  },
-  {
-   "id": "sec-j6-p2",
-   "categoria": "sec",
-   "fase": "regular",
-   "jornada": 6,
-   "fecha": "2026-10-11",
-   "hora": "10:30",
-   "local": "sec-real-sierra-gorda",
-   "visitante": "sec-toros-de-palomas",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "programado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": []
-  },
-  {
-   "id": "sec-j6-p3",
-   "categoria": "sec",
-   "fase": "regular",
-   "jornada": 6,
-   "fecha": "2026-10-11",
-   "hora": "12:00",
-   "local": "sec-halcones-de-tierra-fria",
-   "visitante": "sec-pumas-ojo-de-agua",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "programado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": []
-  },
-  {
-   "id": "sec-j6-p4",
-   "categoria": "sec",
-   "fase": "regular",
-   "jornada": 6,
-   "fecha": "2026-10-11",
-   "hora": "13:30",
-   "local": "sec-atletico-mision",
-   "visitante": "sec-leones-del-carrizal",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "programado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": []
-  },
-  {
-   "id": "sec-j7-p1",
-   "categoria": "sec",
-   "fase": "regular",
-   "jornada": 7,
-   "fecha": "2026-10-18",
-   "hora": "09:00",
-   "local": "sec-deportivo-xichu",
-   "visitante": "sec-real-sierra-gorda",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "programado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": []
-  },
-  {
-   "id": "sec-j7-p2",
-   "categoria": "sec",
-   "fase": "regular",
-   "jornada": 7,
-   "fecha": "2026-10-18",
-   "hora": "10:30",
-   "local": "sec-halcones-de-tierra-fria",
-   "visitante": "sec-aguilas-de-milpillas",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "programado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": []
-  },
-  {
-   "id": "sec-j7-p3",
-   "categoria": "sec",
-   "fase": "regular",
-   "jornada": 7,
-   "fecha": "2026-10-18",
-   "hora": "12:00",
-   "local": "sec-atletico-mision",
-   "visitante": "sec-toros-de-palomas",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "programado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": []
-  },
-  {
-   "id": "sec-j7-p4",
-   "categoria": "sec",
-   "fase": "regular",
-   "jornada": 7,
-   "fecha": "2026-10-18",
-   "hora": "13:30",
-   "local": "sec-leones-del-carrizal",
-   "visitante": "sec-pumas-ojo-de-agua",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "programado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": []
-  },
-  {
-   "id": "pb-semi-1",
-   "categoria": "pb",
-   "fase": "semifinal",
-   "jornada": 90,
-   "fecha": "2026-09-20",
-   "hora": "09:00",
-   "local": "pb-halcones-de-tierra-fria",
-   "visitante": "pb-pumas-ojo-de-agua",
-   "golesLocal": 2,
-   "golesVisitante": 1,
-   "estado": "jugado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": [
-    {
-     "jugador": "pb-halcones-de-tierra-fria-j2",
-     "cantidad": 1
-    },
-    {
-     "jugador": "pb-halcones-de-tierra-fria-j5",
-     "cantidad": 1
-    },
-    {
-     "jugador": "pb-pumas-ojo-de-agua-j5",
-     "cantidad": 1
-    }
-   ]
-  },
-  {
-   "id": "pb-semi-2",
-   "categoria": "pb",
-   "fase": "semifinal",
-   "jornada": 91,
-   "fecha": "2026-09-20",
-   "hora": "10:30",
-   "local": "pb-atletico-mision",
-   "visitante": "pb-leones-del-carrizal",
-   "golesLocal": 1,
-   "golesVisitante": 3,
-   "estado": "jugado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": [
-    {
-     "jugador": "pb-atletico-mision-j2",
-     "cantidad": 1
-    },
-    {
-     "jugador": "pb-leones-del-carrizal-j3",
-     "cantidad": 1
-    },
-    {
-     "jugador": "pb-leones-del-carrizal-j5",
-     "cantidad": 1
-    },
-    {
-     "jugador": "pb-leones-del-carrizal-j4",
-     "cantidad": 1
-    }
-   ]
-  },
-  {
    "id": "pb-final",
    "categoria": "pb",
    "fase": "final",
@@ -3108,7 +1830,855 @@
    "fechaAnterior": "",
    "nota": "",
    "goles": []
+  },
+  {
+   "id": "pa-muovuvd3yfgy",
+   "categoria": "pb",
+   "fase": "regular",
+   "jornada": 1,
+   "fecha": "2026-10-10",
+   "hora": "09:00",
+   "local": "pb-atletico-mision",
+   "visitante": "pb-deportivo-xichu",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovuvd37q1g",
+   "categoria": "pb",
+   "fase": "regular",
+   "jornada": 1,
+   "fecha": "2026-10-10",
+   "hora": "10:30",
+   "local": "pb-leones-del-carrizal",
+   "visitante": "pb-pumas-ojo-de-agua",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovuvd3791k",
+   "categoria": "pb",
+   "fase": "regular",
+   "jornada": 2,
+   "fecha": "2026-10-17",
+   "hora": "09:00",
+   "local": "pb-atletico-mision",
+   "visitante": "pb-halcones-de-tierra-fria",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovuvd3cc69",
+   "categoria": "pb",
+   "fase": "regular",
+   "jornada": 2,
+   "fecha": "2026-10-17",
+   "hora": "10:30",
+   "local": "pb-leones-del-carrizal",
+   "visitante": "pb-deportivo-xichu",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovuvd3r7o9",
+   "categoria": "pb",
+   "fase": "regular",
+   "jornada": 3,
+   "fecha": "2026-10-24",
+   "hora": "09:00",
+   "local": "pb-atletico-mision",
+   "visitante": "pb-leones-del-carrizal",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovuvd3pdve",
+   "categoria": "pb",
+   "fase": "regular",
+   "jornada": 3,
+   "fecha": "2026-10-24",
+   "hora": "10:30",
+   "local": "pb-pumas-ojo-de-agua",
+   "visitante": "pb-halcones-de-tierra-fria",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovuvd3pfrw",
+   "categoria": "pb",
+   "fase": "regular",
+   "jornada": 4,
+   "fecha": "2026-10-31",
+   "hora": "09:00",
+   "local": "pb-atletico-mision",
+   "visitante": "pb-pumas-ojo-de-agua",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovuvd3zs5l",
+   "categoria": "pb",
+   "fase": "regular",
+   "jornada": 4,
+   "fecha": "2026-10-31",
+   "hora": "10:30",
+   "local": "pb-deportivo-xichu",
+   "visitante": "pb-halcones-de-tierra-fria",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovuvd386u0",
+   "categoria": "pb",
+   "fase": "regular",
+   "jornada": 5,
+   "fecha": "2026-11-07",
+   "hora": "09:00",
+   "local": "pb-deportivo-xichu",
+   "visitante": "pb-pumas-ojo-de-agua",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovuvd3rvkf",
+   "categoria": "pb",
+   "fase": "regular",
+   "jornada": 5,
+   "fecha": "2026-11-07",
+   "hora": "10:30",
+   "local": "pb-halcones-de-tierra-fria",
+   "visitante": "pb-leones-del-carrizal",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovvpjjx11z",
+   "categoria": "pa",
+   "fase": "regular",
+   "jornada": 1,
+   "fecha": "2026-10-10",
+   "hora": "09:00",
+   "local": "pa-atletico-mision",
+   "visitante": "pa-deportivo-xichu",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovvpjjv450",
+   "categoria": "pa",
+   "fase": "regular",
+   "jornada": 1,
+   "fecha": "2026-10-10",
+   "hora": "10:30",
+   "local": "pa-halcones-de-tierra-fria",
+   "visitante": "pa-toros-de-palomas",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovvpjjn2fy",
+   "categoria": "pa",
+   "fase": "regular",
+   "jornada": 1,
+   "fecha": "2026-10-10",
+   "hora": "12:00",
+   "local": "pa-leones-del-carrizal",
+   "visitante": "pa-pumas-ojo-de-agua",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovvpjj8hzr",
+   "categoria": "pa",
+   "fase": "regular",
+   "jornada": 2,
+   "fecha": "2026-10-17",
+   "hora": "09:00",
+   "local": "pa-atletico-mision",
+   "visitante": "pa-halcones-de-tierra-fria",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovvpjjjoy6",
+   "categoria": "pa",
+   "fase": "regular",
+   "jornada": 2,
+   "fecha": "2026-10-17",
+   "hora": "10:30",
+   "local": "pa-leones-del-carrizal",
+   "visitante": "pa-deportivo-xichu",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovvpjjsg8o",
+   "categoria": "pa",
+   "fase": "regular",
+   "jornada": 2,
+   "fecha": "2026-10-17",
+   "hora": "12:00",
+   "local": "pa-pumas-ojo-de-agua",
+   "visitante": "pa-toros-de-palomas",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovvpjjvauj",
+   "categoria": "pa",
+   "fase": "regular",
+   "jornada": 3,
+   "fecha": "2026-10-24",
+   "hora": "09:00",
+   "local": "pa-atletico-mision",
+   "visitante": "pa-leones-del-carrizal",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovvpjj0pu3",
+   "categoria": "pa",
+   "fase": "regular",
+   "jornada": 3,
+   "fecha": "2026-10-24",
+   "hora": "10:30",
+   "local": "pa-pumas-ojo-de-agua",
+   "visitante": "pa-halcones-de-tierra-fria",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovvpjj69uq",
+   "categoria": "pa",
+   "fase": "regular",
+   "jornada": 3,
+   "fecha": "2026-10-24",
+   "hora": "12:00",
+   "local": "pa-toros-de-palomas",
+   "visitante": "pa-deportivo-xichu",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovvpjjd03w",
+   "categoria": "pa",
+   "fase": "regular",
+   "jornada": 4,
+   "fecha": "2026-10-31",
+   "hora": "09:00",
+   "local": "pa-atletico-mision",
+   "visitante": "pa-pumas-ojo-de-agua",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovvpjjspzp",
+   "categoria": "pa",
+   "fase": "regular",
+   "jornada": 4,
+   "fecha": "2026-10-31",
+   "hora": "10:30",
+   "local": "pa-toros-de-palomas",
+   "visitante": "pa-leones-del-carrizal",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovvpjjiwl1",
+   "categoria": "pa",
+   "fase": "regular",
+   "jornada": 4,
+   "fecha": "2026-10-31",
+   "hora": "12:00",
+   "local": "pa-deportivo-xichu",
+   "visitante": "pa-halcones-de-tierra-fria",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovvpjjvtz6",
+   "categoria": "pa",
+   "fase": "regular",
+   "jornada": 5,
+   "fecha": "2026-11-07",
+   "hora": "09:00",
+   "local": "pa-atletico-mision",
+   "visitante": "pa-toros-de-palomas",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovvpjjs1rt",
+   "categoria": "pa",
+   "fase": "regular",
+   "jornada": 5,
+   "fecha": "2026-11-07",
+   "hora": "10:30",
+   "local": "pa-deportivo-xichu",
+   "visitante": "pa-pumas-ojo-de-agua",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovvpjjaddo",
+   "categoria": "pa",
+   "fase": "regular",
+   "jornada": 5,
+   "fecha": "2026-11-07",
+   "hora": "12:00",
+   "local": "pa-halcones-de-tierra-fria",
+   "visitante": "pa-leones-del-carrizal",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovw3e5ytjk",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 1,
+   "fecha": "2026-10-10",
+   "hora": "09:00",
+   "local": "sec-aguilas-de-milpillas",
+   "visitante": "sec-atletico-mision",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovw3e56wiw",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 1,
+   "fecha": "2026-10-10",
+   "hora": "10:30",
+   "local": "sec-deportivo-xichu",
+   "visitante": "sec-toros-de-palomas",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovw3e5xs73",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 1,
+   "fecha": "2026-10-10",
+   "hora": "12:00",
+   "local": "sec-halcones-de-tierra-fria",
+   "visitante": "sec-real-sierra-gorda",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovw3e5sl1h",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 1,
+   "fecha": "2026-10-10",
+   "hora": "13:30",
+   "local": "sec-leones-del-carrizal",
+   "visitante": "sec-pumas-ojo-de-agua",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovw3e5iz5w",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 2,
+   "fecha": "2026-10-17",
+   "hora": "09:00",
+   "local": "sec-aguilas-de-milpillas",
+   "visitante": "sec-deportivo-xichu",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovw3e5nfyy",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 2,
+   "fecha": "2026-10-17",
+   "hora": "10:30",
+   "local": "sec-halcones-de-tierra-fria",
+   "visitante": "sec-atletico-mision",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovw3e5epm4",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 2,
+   "fecha": "2026-10-17",
+   "hora": "12:00",
+   "local": "sec-leones-del-carrizal",
+   "visitante": "sec-toros-de-palomas",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovw3e50w90",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 2,
+   "fecha": "2026-10-17",
+   "hora": "13:30",
+   "local": "sec-pumas-ojo-de-agua",
+   "visitante": "sec-real-sierra-gorda",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovw3e552le",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 3,
+   "fecha": "2026-10-24",
+   "hora": "09:00",
+   "local": "sec-aguilas-de-milpillas",
+   "visitante": "sec-halcones-de-tierra-fria",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovw3e5p4f8",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 3,
+   "fecha": "2026-10-24",
+   "hora": "10:30",
+   "local": "sec-leones-del-carrizal",
+   "visitante": "sec-deportivo-xichu",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovw3e5k95y",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 3,
+   "fecha": "2026-10-24",
+   "hora": "12:00",
+   "local": "sec-pumas-ojo-de-agua",
+   "visitante": "sec-atletico-mision",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovw3e5qnv9",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 3,
+   "fecha": "2026-10-24",
+   "hora": "13:30",
+   "local": "sec-real-sierra-gorda",
+   "visitante": "sec-toros-de-palomas",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovw3e5fg21",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 4,
+   "fecha": "2026-10-31",
+   "hora": "09:00",
+   "local": "sec-aguilas-de-milpillas",
+   "visitante": "sec-leones-del-carrizal",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovw3e5xb8n",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 4,
+   "fecha": "2026-10-31",
+   "hora": "10:30",
+   "local": "sec-pumas-ojo-de-agua",
+   "visitante": "sec-halcones-de-tierra-fria",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovw3e56ea4",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 4,
+   "fecha": "2026-10-31",
+   "hora": "12:00",
+   "local": "sec-real-sierra-gorda",
+   "visitante": "sec-deportivo-xichu",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovw3e5xip2",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 4,
+   "fecha": "2026-10-31",
+   "hora": "13:30",
+   "local": "sec-toros-de-palomas",
+   "visitante": "sec-atletico-mision",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovw3e594d1",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 5,
+   "fecha": "2026-11-07",
+   "hora": "09:00",
+   "local": "sec-aguilas-de-milpillas",
+   "visitante": "sec-pumas-ojo-de-agua",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovw3e5lt8n",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 5,
+   "fecha": "2026-11-07",
+   "hora": "10:30",
+   "local": "sec-real-sierra-gorda",
+   "visitante": "sec-leones-del-carrizal",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovw3e579kh",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 5,
+   "fecha": "2026-11-07",
+   "hora": "12:00",
+   "local": "sec-toros-de-palomas",
+   "visitante": "sec-halcones-de-tierra-fria",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovw3e5args",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 5,
+   "fecha": "2026-11-07",
+   "hora": "13:30",
+   "local": "sec-atletico-mision",
+   "visitante": "sec-deportivo-xichu",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovw3e5nqlj",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 6,
+   "fecha": "2026-11-14",
+   "hora": "09:00",
+   "local": "sec-aguilas-de-milpillas",
+   "visitante": "sec-real-sierra-gorda",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovw3e5ev7w",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 6,
+   "fecha": "2026-11-14",
+   "hora": "10:30",
+   "local": "sec-toros-de-palomas",
+   "visitante": "sec-pumas-ojo-de-agua",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovw3e5ku0l",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 6,
+   "fecha": "2026-11-14",
+   "hora": "12:00",
+   "local": "sec-atletico-mision",
+   "visitante": "sec-leones-del-carrizal",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovw3e5hhzx",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 6,
+   "fecha": "2026-11-14",
+   "hora": "13:30",
+   "local": "sec-deportivo-xichu",
+   "visitante": "sec-halcones-de-tierra-fria",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovw3e5mo8e",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 7,
+   "fecha": "2026-11-21",
+   "hora": "09:00",
+   "local": "sec-aguilas-de-milpillas",
+   "visitante": "sec-toros-de-palomas",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovw3e5u7ys",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 7,
+   "fecha": "2026-11-21",
+   "hora": "10:30",
+   "local": "sec-atletico-mision",
+   "visitante": "sec-real-sierra-gorda",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovw3e5s4m7",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 7,
+   "fecha": "2026-11-21",
+   "hora": "12:00",
+   "local": "sec-deportivo-xichu",
+   "visitante": "sec-pumas-ojo-de-agua",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
+  },
+  {
+   "id": "pa-muovw3e5p9xz",
+   "categoria": "sec",
+   "fase": "regular",
+   "jornada": 7,
+   "fecha": "2026-11-21",
+   "hora": "13:30",
+   "local": "sec-halcones-de-tierra-fria",
+   "visitante": "sec-leones-del-carrizal",
+   "golesLocal": 0,
+   "golesVisitante": 0,
+   "estado": "programado",
+   "fechaAnterior": "",
+   "nota": "",
+   "goles": []
   }
  ],
- "actualizado": "2026-09-28T20:00:00-06:00"
+ "actualizado": "2026-10-01T01:58:17.706Z"
 }
