@@ -189,11 +189,26 @@ async function leerRemoto(){
   sha = j.sha;
   return JSON.parse(deB64(j.content));
 }
+async function shaActual(){
+  try {
+    const r = await fetch(API("data.json") + "?ref=" + encodeURIComponent(cfg.rama) + "&t=" + Date.now(), { headers: cabeceras() });
+    if (!r.ok) return null;
+    return (await r.json()).sha;
+  } catch (e){ return null; }
+}
 async function escribirRemoto(){
   D.actualizado = new Date().toISOString();
-  const cuerpo = { message:"Actualiza datos del torneo", content:b64(JSON.stringify(D, null, 1)), branch:cfg.rama };
-  if (sha) cuerpo.sha = sha;
-  const r = await fetch(API("data.json"), { method:"PUT", headers:cabeceras(), body:JSON.stringify(cuerpo) });
+  const enviar = s => {
+    const cuerpo = { message:"Actualiza datos del torneo", content:b64(JSON.stringify(D, null, 1)), branch:cfg.rama };
+    if (s) cuerpo.sha = s;
+    return fetch(API("data.json"), { method:"PUT", headers:cabeceras(), body:JSON.stringify(cuerpo) });
+  };
+  if (!sha) sha = await shaActual();
+  let r = await enviar(sha);
+  if (r.status === 409 || r.status === 422){
+    sha = await shaActual();
+    r = await enviar(sha);
+  }
   if (!r.ok) throw new Error("No se pudo guardar: " + r.status + " " + (await r.text()).slice(0, 200));
   sha = (await r.json()).content.sha;
 }
