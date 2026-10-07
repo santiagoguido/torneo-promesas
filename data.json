@@ -32,48 +32,7 @@
    "orden": 3
   }
  ],
- "jornadas": [
-  {
-   "categoria": "pa",
-   "numero": 1,
-   "fecha": "2026-10-10"
-  },
-  {
-   "categoria": "pa",
-   "numero": 2,
-   "fecha": "2026-10-17"
-  },
-  {
-   "categoria": "pa",
-   "numero": 3,
-   "fecha": "2026-10-24"
-  },
-  {
-   "categoria": "pa",
-   "numero": 4,
-   "fecha": "2026-10-31"
-  },
-  {
-   "categoria": "pa",
-   "numero": 5,
-   "fecha": "2026-11-07"
-  },
-  {
-   "categoria": "pa",
-   "numero": 6,
-   "fecha": "2026-11-14"
-  },
-  {
-   "categoria": "pa",
-   "numero": 7,
-   "fecha": "2026-11-21"
-  },
-  {
-   "categoria": "pa",
-   "numero": 8,
-   "fecha": "2026-11-28"
-  }
- ],
+ "jornadas": [],
  "equipos": [
   {
    "id": "pb-vianney",
@@ -143,6 +102,22 @@
    "id": "pa-equipo-5",
    "nombre": "Equipo 5",
    "categoria": "pa",
+   "logo": "",
+   "ajustePuntos": 0,
+   "activo": true
+  },
+  {
+   "id": "pa-fbc-casitas",
+   "nombre": "FbC Casitas",
+   "categoria": "pa",
+   "logo": "",
+   "ajustePuntos": 0,
+   "activo": true
+  },
+  {
+   "id": "sec-deportivo-casitas",
+   "nombre": "Deportivo Casitas",
+   "categoria": "sec",
    "logo": "",
    "ajustePuntos": 0,
    "activo": true
@@ -931,265 +906,179 @@
    "dorsal": "",
    "foto": "",
    "activo": true
+  },
+  {
+   "id": "pa-fbc-casitas-j01",
+   "nombre": "Emmanuel Espínola Martínez",
+   "equipo": "pa-fbc-casitas",
+   "categoria": "pa",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-fbc-casitas-j02",
+   "nombre": "Bryan González Casas",
+   "equipo": "pa-fbc-casitas",
+   "categoria": "pa",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-fbc-casitas-j03",
+   "nombre": "Alexis Maximiliano González Rivera",
+   "equipo": "pa-fbc-casitas",
+   "categoria": "pa",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-fbc-casitas-j04",
+   "nombre": "Luis Matías Rodríguez Salinas",
+   "equipo": "pa-fbc-casitas",
+   "categoria": "pa",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-fbc-casitas-j05",
+   "nombre": "Yamileth Casas Mendieta",
+   "equipo": "pa-fbc-casitas",
+   "categoria": "pa",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-fbc-casitas-j06",
+   "nombre": "María Fernanda Salinas Espínola",
+   "equipo": "pa-fbc-casitas",
+   "categoria": "pa",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-fbc-casitas-j07",
+   "nombre": "Maricruz Guadalupe Rivera Casas",
+   "equipo": "pa-fbc-casitas",
+   "categoria": "pa",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-fbc-casitas-j08",
+   "nombre": "Arturo Rafael Velázquez Casas",
+   "equipo": "pa-fbc-casitas",
+   "categoria": "pa",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "pa-fbc-casitas-j09",
+   "nombre": "Josué Salvador Salinas Hernández",
+   "equipo": "pa-fbc-casitas",
+   "categoria": "pa",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-deportivo-casitas-j01",
+   "nombre": "Marco Antonio Espínola Martínez",
+   "equipo": "sec-deportivo-casitas",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-deportivo-casitas-j02",
+   "nombre": "Gael Casas Alvarado",
+   "equipo": "sec-deportivo-casitas",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-deportivo-casitas-j03",
+   "nombre": "Brian Efraín González Rivera",
+   "equipo": "sec-deportivo-casitas",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-deportivo-casitas-j04",
+   "nombre": "Zain Salvador Urías Jiménez",
+   "equipo": "sec-deportivo-casitas",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-deportivo-casitas-j05",
+   "nombre": "Maylen Casas Mendieta",
+   "equipo": "sec-deportivo-casitas",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-deportivo-casitas-j06",
+   "nombre": "Michelle Abigail Salinas Espínola",
+   "equipo": "sec-deportivo-casitas",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-deportivo-casitas-j07",
+   "nombre": "Martín Mendieta González",
+   "equipo": "sec-deportivo-casitas",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-deportivo-casitas-j08",
+   "nombre": "Jesee Juan Hernández Casas",
+   "equipo": "sec-deportivo-casitas",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-deportivo-casitas-j09",
+   "nombre": "Jonathan Salinas Alvarado",
+   "equipo": "sec-deportivo-casitas",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-deportivo-casitas-j10",
+   "nombre": "Cristóbal Jiménez Arvizú",
+   "equipo": "sec-deportivo-casitas",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
   }
  ],
- "partidos": [
-  {
-   "id": "pa-muuxrl893mp8",
-   "categoria": "pa",
-   "fase": "regular",
-   "jornada": 1,
-   "fecha": "2026-10-10",
-   "hora": "09:00",
-   "local": "pa-equipo-1",
-   "visitante": "pa-equipo-2",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "programado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": []
-  },
-  {
-   "id": "pa-muuxrl89lvl1",
-   "categoria": "pa",
-   "fase": "regular",
-   "jornada": 1,
-   "fecha": "2026-10-10",
-   "hora": "10:30",
-   "local": "pa-equipo-4",
-   "visitante": "pa-equipo-5",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "programado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": []
-  },
-  {
-   "id": "pa-muuxrl8ad31i",
-   "categoria": "pa",
-   "fase": "regular",
-   "jornada": 2,
-   "fecha": "2026-10-17",
-   "hora": "09:00",
-   "local": "pa-equipo-1",
-   "visitante": "pa-equipo-3",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "programado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": []
-  },
-  {
-   "id": "pa-muuxrl8aisnu",
-   "categoria": "pa",
-   "fase": "regular",
-   "jornada": 2,
-   "fecha": "2026-10-17",
-   "hora": "10:30",
-   "local": "pa-equipo-4",
-   "visitante": "pa-equipo-2",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "programado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": []
-  },
-  {
-   "id": "pa-muuxrl8a7nsw",
-   "categoria": "pa",
-   "fase": "regular",
-   "jornada": 3,
-   "fecha": "2026-10-24",
-   "hora": "09:00",
-   "local": "pa-equipo-1",
-   "visitante": "pa-equipo-4",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "programado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": []
-  },
-  {
-   "id": "pa-muuxrl8aynmk",
-   "categoria": "pa",
-   "fase": "regular",
-   "jornada": 3,
-   "fecha": "2026-10-24",
-   "hora": "10:30",
-   "local": "pa-equipo-5",
-   "visitante": "pa-equipo-3",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "programado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": []
-  },
-  {
-   "id": "pa-muuxrl8a5c7n",
-   "categoria": "pa",
-   "fase": "regular",
-   "jornada": 4,
-   "fecha": "2026-10-31",
-   "hora": "09:00",
-   "local": "pa-equipo-1",
-   "visitante": "pa-equipo-5",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "programado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": []
-  },
-  {
-   "id": "pa-muuxrl8atq2m",
-   "categoria": "pa",
-   "fase": "regular",
-   "jornada": 4,
-   "fecha": "2026-10-31",
-   "hora": "10:30",
-   "local": "pa-equipo-2",
-   "visitante": "pa-equipo-3",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "programado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": []
-  },
-  {
-   "id": "pa-muuxrl8a0aj4",
-   "categoria": "pa",
-   "fase": "regular",
-   "jornada": 5,
-   "fecha": "2026-11-07",
-   "hora": "09:00",
-   "local": "pa-equipo-2",
-   "visitante": "pa-equipo-5",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "programado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": []
-  },
-  {
-   "id": "pa-muuxrl8a510r",
-   "categoria": "pa",
-   "fase": "regular",
-   "jornada": 5,
-   "fecha": "2026-11-07",
-   "hora": "10:30",
-   "local": "pa-equipo-3",
-   "visitante": "pa-equipo-4",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "programado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": []
-  },
-  {
-   "id": "pa-muuxrl8aoi3n",
-   "categoria": "pa",
-   "fase": "regular",
-   "jornada": 6,
-   "fecha": "2026-11-14",
-   "hora": "09:00",
-   "local": "pa-equipo-2",
-   "visitante": "pa-equipo-1",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "programado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": []
-  },
-  {
-   "id": "pa-muuxrl8arohd",
-   "categoria": "pa",
-   "fase": "regular",
-   "jornada": 6,
-   "fecha": "2026-11-14",
-   "hora": "10:30",
-   "local": "pa-equipo-5",
-   "visitante": "pa-equipo-4",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "programado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": []
-  },
-  {
-   "id": "pa-muuxrl8ay8x6",
-   "categoria": "pa",
-   "fase": "regular",
-   "jornada": 7,
-   "fecha": "2026-11-21",
-   "hora": "09:00",
-   "local": "pa-equipo-3",
-   "visitante": "pa-equipo-1",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "programado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": []
-  },
-  {
-   "id": "pa-muuxrl8a46si",
-   "categoria": "pa",
-   "fase": "regular",
-   "jornada": 7,
-   "fecha": "2026-11-21",
-   "hora": "10:30",
-   "local": "pa-equipo-2",
-   "visitante": "pa-equipo-4",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "programado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": []
-  },
-  {
-   "id": "pa-muuxrl8a3o49",
-   "categoria": "pa",
-   "fase": "regular",
-   "jornada": 8,
-   "fecha": "2026-11-28",
-   "hora": "09:00",
-   "local": "pa-equipo-4",
-   "visitante": "pa-equipo-1",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "programado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": []
-  },
-  {
-   "id": "pa-muuxrl8atpzo",
-   "categoria": "pa",
-   "fase": "regular",
-   "jornada": 8,
-   "fecha": "2026-11-28",
-   "hora": "10:30",
-   "local": "pa-equipo-3",
-   "visitante": "pa-equipo-5",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "programado",
-   "fechaAnterior": "",
-   "nota": "",
-   "goles": []
-  }
- ],
- "actualizado": "2026-10-05T07:36:30.376Z"
+ "partidos": [],
+ "actualizado": "2026-10-07T18:08:26.394Z"
 }
