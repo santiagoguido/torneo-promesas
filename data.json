@@ -1120,7 +1120,7 @@
   },
   {
    "id": "sec-francisco-david-j01",
-   "nombre": "Juan Pablo",
+   "nombre": "Francisco David",
    "equipo": "sec-francisco-david",
    "categoria": "sec",
    "dorsal": "",
@@ -1129,7 +1129,7 @@
   },
   {
    "id": "sec-francisco-david-j02",
-   "nombre": "Eruviel",
+   "nombre": "Juan Pablo",
    "equipo": "sec-francisco-david",
    "categoria": "sec",
    "dorsal": "",
@@ -1138,7 +1138,7 @@
   },
   {
    "id": "sec-francisco-david-j03",
-   "nombre": "Brandon",
+   "nombre": "Eruviel",
    "equipo": "sec-francisco-david",
    "categoria": "sec",
    "dorsal": "",
@@ -1147,7 +1147,7 @@
   },
   {
    "id": "sec-francisco-david-j04",
-   "nombre": "Hugo",
+   "nombre": "Brandon",
    "equipo": "sec-francisco-david",
    "categoria": "sec",
    "dorsal": "",
@@ -1156,7 +1156,7 @@
   },
   {
    "id": "sec-francisco-david-j05",
-   "nombre": "Diana",
+   "nombre": "Hugo",
    "equipo": "sec-francisco-david",
    "categoria": "sec",
    "dorsal": "",
@@ -1165,7 +1165,7 @@
   },
   {
    "id": "sec-francisco-david-j06",
-   "nombre": "Evoleth",
+   "nombre": "Diana",
    "equipo": "sec-francisco-david",
    "categoria": "sec",
    "dorsal": "",
@@ -1174,7 +1174,7 @@
   },
   {
    "id": "sec-francisco-david-j07",
-   "nombre": "Juan Diego",
+   "nombre": "Evoleth",
    "equipo": "sec-francisco-david",
    "categoria": "sec",
    "dorsal": "",
@@ -1183,6 +1183,15 @@
   },
   {
    "id": "sec-francisco-david-j08",
+   "nombre": "Juan Diego",
+   "equipo": "sec-francisco-david",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-francisco-david-j09",
    "nombre": "Giovanni AZ",
    "equipo": "sec-francisco-david",
    "categoria": "sec",
@@ -1192,7 +1201,7 @@
   },
   {
    "id": "sec-alfred-emiliano-j01",
-   "nombre": "Ramiro",
+   "nombre": "Alfred Emiliano",
    "equipo": "sec-alfred-emiliano",
    "categoria": "sec",
    "dorsal": "",
@@ -1201,7 +1210,7 @@
   },
   {
    "id": "sec-alfred-emiliano-j02",
-   "nombre": "Neil",
+   "nombre": "Ramiro",
    "equipo": "sec-alfred-emiliano",
    "categoria": "sec",
    "dorsal": "",
@@ -1210,7 +1219,7 @@
   },
   {
    "id": "sec-alfred-emiliano-j03",
-   "nombre": "Hansel",
+   "nombre": "Neil",
    "equipo": "sec-alfred-emiliano",
    "categoria": "sec",
    "dorsal": "",
@@ -1219,7 +1228,7 @@
   },
   {
    "id": "sec-alfred-emiliano-j04",
-   "nombre": "Jesús David",
+   "nombre": "Hansel",
    "equipo": "sec-alfred-emiliano",
    "categoria": "sec",
    "dorsal": "",
@@ -1228,7 +1237,7 @@
   },
   {
    "id": "sec-alfred-emiliano-j05",
-   "nombre": "Carla",
+   "nombre": "Jesús David",
    "equipo": "sec-alfred-emiliano",
    "categoria": "sec",
    "dorsal": "",
@@ -1237,7 +1246,7 @@
   },
   {
    "id": "sec-alfred-emiliano-j06",
-   "nombre": "Kimberly",
+   "nombre": "Carla",
    "equipo": "sec-alfred-emiliano",
    "categoria": "sec",
    "dorsal": "",
@@ -1246,7 +1255,7 @@
   },
   {
    "id": "sec-alfred-emiliano-j07",
-   "nombre": "Juni",
+   "nombre": "Kimberly",
    "equipo": "sec-alfred-emiliano",
    "categoria": "sec",
    "dorsal": "",
@@ -1255,7 +1264,7 @@
   },
   {
    "id": "sec-alfred-emiliano-j08",
-   "nombre": "Daniel Rangel",
+   "nombre": "Juni",
    "equipo": "sec-alfred-emiliano",
    "categoria": "sec",
    "dorsal": "",
@@ -1264,6 +1273,15 @@
   },
   {
    "id": "sec-alfred-emiliano-j09",
+   "nombre": "Daniel Rangel",
+   "equipo": "sec-alfred-emiliano",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-alfred-emiliano-j10",
    "nombre": "Kiroshy",
    "equipo": "sec-alfred-emiliano",
    "categoria": "sec",
@@ -1273,7 +1291,7 @@
   },
   {
    "id": "sec-eder-j01",
-   "nombre": "Chuy",
+   "nombre": "Eder",
    "equipo": "sec-eder",
    "categoria": "sec",
    "dorsal": "",
@@ -1282,7 +1300,7 @@
   },
   {
    "id": "sec-eder-j02",
-   "nombre": "Aarón",
+   "nombre": "Chuy",
    "equipo": "sec-eder",
    "categoria": "sec",
    "dorsal": "",
@@ -1291,7 +1309,7 @@
   },
   {
    "id": "sec-eder-j03",
-   "nombre": "Ian",
+   "nombre": "Aarón",
    "equipo": "sec-eder",
    "categoria": "sec",
    "dorsal": "",
@@ -1300,7 +1318,7 @@
   },
   {
    "id": "sec-eder-j04",
-   "nombre": "David",
+   "nombre": "Ian",
    "equipo": "sec-eder",
    "categoria": "sec",
    "dorsal": "",
@@ -1309,7 +1327,7 @@
   },
   {
    "id": "sec-eder-j05",
-   "nombre": "Yair (Mezquital)",
+   "nombre": "David",
    "equipo": "sec-eder",
    "categoria": "sec",
    "dorsal": "",
@@ -1318,7 +1336,7 @@
   },
   {
    "id": "sec-eder-j06",
-   "nombre": "Sofía",
+   "nombre": "Yair (Mezquital)",
    "equipo": "sec-eder",
    "categoria": "sec",
    "dorsal": "",
@@ -1327,7 +1345,7 @@
   },
   {
    "id": "sec-eder-j07",
-   "nombre": "Diana Marisol",
+   "nombre": "Sofía",
    "equipo": "sec-eder",
    "categoria": "sec",
    "dorsal": "",
@@ -1336,6 +1354,15 @@
   },
   {
    "id": "sec-eder-j08",
+   "nombre": "Diana Marisol",
+   "equipo": "sec-eder",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-eder-j09",
    "nombre": "Obed",
    "equipo": "sec-eder",
    "categoria": "sec",
@@ -1345,7 +1372,7 @@
   },
   {
    "id": "sec-leonardo-j01",
-   "nombre": "Antonio",
+   "nombre": "Leonardo",
    "equipo": "sec-leonardo",
    "categoria": "sec",
    "dorsal": "",
@@ -1354,7 +1381,7 @@
   },
   {
    "id": "sec-leonardo-j02",
-   "nombre": "Mateo",
+   "nombre": "Antonio",
    "equipo": "sec-leonardo",
    "categoria": "sec",
    "dorsal": "",
@@ -1363,7 +1390,7 @@
   },
   {
    "id": "sec-leonardo-j03",
-   "nombre": "Derek",
+   "nombre": "Mateo",
    "equipo": "sec-leonardo",
    "categoria": "sec",
    "dorsal": "",
@@ -1372,7 +1399,7 @@
   },
   {
    "id": "sec-leonardo-j04",
-   "nombre": "Tonanzin",
+   "nombre": "Derek",
    "equipo": "sec-leonardo",
    "categoria": "sec",
    "dorsal": "",
@@ -1381,7 +1408,7 @@
   },
   {
    "id": "sec-leonardo-j05",
-   "nombre": "Joshua",
+   "nombre": "Tonanzin",
    "equipo": "sec-leonardo",
    "categoria": "sec",
    "dorsal": "",
@@ -1390,7 +1417,7 @@
   },
   {
    "id": "sec-leonardo-j06",
-   "nombre": "Fernanda",
+   "nombre": "Joshua",
    "equipo": "sec-leonardo",
    "categoria": "sec",
    "dorsal": "",
@@ -1399,7 +1426,7 @@
   },
   {
    "id": "sec-leonardo-j07",
-   "nombre": "Jared",
+   "nombre": "Fernanda",
    "equipo": "sec-leonardo",
    "categoria": "sec",
    "dorsal": "",
@@ -1408,6 +1435,15 @@
   },
   {
    "id": "sec-leonardo-j08",
+   "nombre": "Jared",
+   "equipo": "sec-leonardo",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-leonardo-j09",
    "nombre": "Neymar",
    "equipo": "sec-leonardo",
    "categoria": "sec",
@@ -1417,7 +1453,7 @@
   },
   {
    "id": "sec-isauro-j01",
-   "nombre": "Axel Giovanni",
+   "nombre": "Isauro",
    "equipo": "sec-isauro",
    "categoria": "sec",
    "dorsal": "",
@@ -1426,7 +1462,7 @@
   },
   {
    "id": "sec-isauro-j02",
-   "nombre": "Yuniel",
+   "nombre": "Axel Giovanni",
    "equipo": "sec-isauro",
    "categoria": "sec",
    "dorsal": "",
@@ -1435,7 +1471,7 @@
   },
   {
    "id": "sec-isauro-j03",
-   "nombre": "Julio",
+   "nombre": "Yuniel",
    "equipo": "sec-isauro",
    "categoria": "sec",
    "dorsal": "",
@@ -1444,7 +1480,7 @@
   },
   {
    "id": "sec-isauro-j04",
-   "nombre": "Brayan",
+   "nombre": "Julio",
    "equipo": "sec-isauro",
    "categoria": "sec",
    "dorsal": "",
@@ -1453,7 +1489,7 @@
   },
   {
    "id": "sec-isauro-j05",
-   "nombre": "Lucero",
+   "nombre": "Brayan",
    "equipo": "sec-isauro",
    "categoria": "sec",
    "dorsal": "",
@@ -1462,7 +1498,7 @@
   },
   {
    "id": "sec-isauro-j06",
-   "nombre": "Axel (1ro)",
+   "nombre": "Lucero",
    "equipo": "sec-isauro",
    "categoria": "sec",
    "dorsal": "",
@@ -1471,7 +1507,7 @@
   },
   {
    "id": "sec-isauro-j07",
-   "nombre": "Cecilia",
+   "nombre": "Axel (1ro)",
    "equipo": "sec-isauro",
    "categoria": "sec",
    "dorsal": "",
@@ -1480,7 +1516,7 @@
   },
   {
    "id": "sec-isauro-j08",
-   "nombre": "Kevin",
+   "nombre": "Cecilia",
    "equipo": "sec-isauro",
    "categoria": "sec",
    "dorsal": "",
@@ -1489,6 +1525,15 @@
   },
   {
    "id": "sec-isauro-j09",
+   "nombre": "Kevin",
+   "equipo": "sec-isauro",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-isauro-j10",
    "nombre": "Jessica Vanessa (2 B)",
    "equipo": "sec-isauro",
    "categoria": "sec",
@@ -1498,5 +1543,5 @@
   }
  ],
  "partidos": [],
- "actualizado": "2026-10-09T02:32:54.926Z"
+ "actualizado": "2026-10-09T02:39:11.511Z"
 }
