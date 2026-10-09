@@ -121,6 +121,46 @@
    "logo": "",
    "ajustePuntos": 0,
    "activo": true
+  },
+  {
+   "id": "sec-francisco-david",
+   "nombre": "Francisco David",
+   "categoria": "sec",
+   "logo": "",
+   "ajustePuntos": 0,
+   "activo": true
+  },
+  {
+   "id": "sec-alfred-emiliano",
+   "nombre": "Alfred Emiliano",
+   "categoria": "sec",
+   "logo": "",
+   "ajustePuntos": 0,
+   "activo": true
+  },
+  {
+   "id": "sec-eder",
+   "nombre": "Eder",
+   "categoria": "sec",
+   "logo": "",
+   "ajustePuntos": 0,
+   "activo": true
+  },
+  {
+   "id": "sec-leonardo",
+   "nombre": "Leonardo",
+   "categoria": "sec",
+   "logo": "",
+   "ajustePuntos": 0,
+   "activo": true
+  },
+  {
+   "id": "sec-isauro",
+   "nombre": "Isauro",
+   "categoria": "sec",
+   "logo": "",
+   "ajustePuntos": 0,
+   "activo": true
   }
  ],
  "jugadores": [
@@ -1077,8 +1117,386 @@
    "dorsal": "",
    "foto": "",
    "activo": true
+  },
+  {
+   "id": "sec-francisco-david-j01",
+   "nombre": "Juan Pablo",
+   "equipo": "sec-francisco-david",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-francisco-david-j02",
+   "nombre": "Eruviel",
+   "equipo": "sec-francisco-david",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-francisco-david-j03",
+   "nombre": "Brandon",
+   "equipo": "sec-francisco-david",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-francisco-david-j04",
+   "nombre": "Hugo",
+   "equipo": "sec-francisco-david",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-francisco-david-j05",
+   "nombre": "Diana",
+   "equipo": "sec-francisco-david",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-francisco-david-j06",
+   "nombre": "Evoleth",
+   "equipo": "sec-francisco-david",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-francisco-david-j07",
+   "nombre": "Juan Diego",
+   "equipo": "sec-francisco-david",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-francisco-david-j08",
+   "nombre": "Giovanni AZ",
+   "equipo": "sec-francisco-david",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-alfred-emiliano-j01",
+   "nombre": "Ramiro",
+   "equipo": "sec-alfred-emiliano",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-alfred-emiliano-j02",
+   "nombre": "Neil",
+   "equipo": "sec-alfred-emiliano",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-alfred-emiliano-j03",
+   "nombre": "Hansel",
+   "equipo": "sec-alfred-emiliano",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-alfred-emiliano-j04",
+   "nombre": "Jesús David",
+   "equipo": "sec-alfred-emiliano",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-alfred-emiliano-j05",
+   "nombre": "Carla",
+   "equipo": "sec-alfred-emiliano",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-alfred-emiliano-j06",
+   "nombre": "Kimberly",
+   "equipo": "sec-alfred-emiliano",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-alfred-emiliano-j07",
+   "nombre": "Juni",
+   "equipo": "sec-alfred-emiliano",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-alfred-emiliano-j08",
+   "nombre": "Daniel Rangel",
+   "equipo": "sec-alfred-emiliano",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-alfred-emiliano-j09",
+   "nombre": "Kiroshy",
+   "equipo": "sec-alfred-emiliano",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-eder-j01",
+   "nombre": "Chuy",
+   "equipo": "sec-eder",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-eder-j02",
+   "nombre": "Aarón",
+   "equipo": "sec-eder",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-eder-j03",
+   "nombre": "Ian",
+   "equipo": "sec-eder",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-eder-j04",
+   "nombre": "David",
+   "equipo": "sec-eder",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-eder-j05",
+   "nombre": "Yair (Mezquital)",
+   "equipo": "sec-eder",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-eder-j06",
+   "nombre": "Sofía",
+   "equipo": "sec-eder",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-eder-j07",
+   "nombre": "Diana Marisol",
+   "equipo": "sec-eder",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-eder-j08",
+   "nombre": "Obed",
+   "equipo": "sec-eder",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-leonardo-j01",
+   "nombre": "Antonio",
+   "equipo": "sec-leonardo",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-leonardo-j02",
+   "nombre": "Mateo",
+   "equipo": "sec-leonardo",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-leonardo-j03",
+   "nombre": "Derek",
+   "equipo": "sec-leonardo",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-leonardo-j04",
+   "nombre": "Tonanzin",
+   "equipo": "sec-leonardo",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-leonardo-j05",
+   "nombre": "Joshua",
+   "equipo": "sec-leonardo",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-leonardo-j06",
+   "nombre": "Fernanda",
+   "equipo": "sec-leonardo",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-leonardo-j07",
+   "nombre": "Jared",
+   "equipo": "sec-leonardo",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-leonardo-j08",
+   "nombre": "Neymar",
+   "equipo": "sec-leonardo",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-isauro-j01",
+   "nombre": "Axel Giovanni",
+   "equipo": "sec-isauro",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-isauro-j02",
+   "nombre": "Yuniel",
+   "equipo": "sec-isauro",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-isauro-j03",
+   "nombre": "Julio",
+   "equipo": "sec-isauro",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-isauro-j04",
+   "nombre": "Brayan",
+   "equipo": "sec-isauro",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-isauro-j05",
+   "nombre": "Lucero",
+   "equipo": "sec-isauro",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-isauro-j06",
+   "nombre": "Axel (1ro)",
+   "equipo": "sec-isauro",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-isauro-j07",
+   "nombre": "Cecilia",
+   "equipo": "sec-isauro",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-isauro-j08",
+   "nombre": "Kevin",
+   "equipo": "sec-isauro",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "sec-isauro-j09",
+   "nombre": "Jessica Vanessa (2 B)",
+   "equipo": "sec-isauro",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
   }
  ],
  "partidos": [],
- "actualizado": "2026-10-07T18:08:26.394Z"
+ "actualizado": "2026-10-09T02:32:54.926Z"
 }
