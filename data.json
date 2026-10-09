@@ -1540,8 +1540,35 @@
    "dorsal": "",
    "foto": "",
    "activo": true
+  },
+  {
+   "id": "jg-mv0d2juh0y5c",
+   "nombre": "Carlos Uriel Vega Landaverde",
+   "equipo": "pa-equipo-3",
+   "categoria": "pa",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "jg-mv0d4u6u9p9x",
+   "nombre": "Matteo Joaquín Sáenz Garcia",
+   "equipo": "pb-jackie",
+   "categoria": "pb",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "jg-mv0d5l8na2dx",
+   "nombre": "Manuel Calixtro Reséndiz",
+   "equipo": "pb-cukis",
+   "categoria": "pb",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
   }
  ],
  "partidos": [],
- "actualizado": "2026-10-09T02:39:11.511Z"
+ "actualizado": "2026-10-09T02:46:02.990Z"
 }
