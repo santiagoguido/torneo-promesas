@@ -44,7 +44,7 @@
   },
   {
    "id": "pb-cukis",
-   "nombre": "Cukis",
+   "nombre": "Mini Cracks",
    "categoria": "pb",
    "logo": "",
    "ajustePuntos": 0,
@@ -52,7 +52,7 @@
   },
   {
    "id": "pb-tere-gonzalez",
-   "nombre": "Tere González",
+   "nombre": "Rayitos FC",
    "categoria": "pb",
    "logo": "",
    "ajustePuntos": 0,
@@ -60,7 +60,7 @@
   },
   {
    "id": "pb-jackie",
-   "nombre": "Jackie",
+   "nombre": "Mini Campeones",
    "categoria": "pb",
    "logo": "",
    "ajustePuntos": 0,
@@ -68,7 +68,7 @@
   },
   {
    "id": "pa-equipo-1",
-   "nombre": "Equipo 1",
+   "nombre": "Relámpagos Xichú",
    "categoria": "pa",
    "logo": "",
    "ajustePuntos": 0,
@@ -76,7 +76,7 @@
   },
   {
    "id": "pa-equipo-2",
-   "nombre": "Equipo 2",
+   "nombre": "Halcones",
    "categoria": "pa",
    "logo": "",
    "ajustePuntos": 0,
@@ -100,7 +100,7 @@
   },
   {
    "id": "pa-equipo-5",
-   "nombre": "Equipo 5",
+   "nombre": "Guardianes FC",
    "categoria": "pa",
    "logo": "",
    "ajustePuntos": 0,
@@ -108,7 +108,7 @@
   },
   {
    "id": "pa-fbc-casitas",
-   "nombre": "FbC Casitas",
+   "nombre": "FBC Casitas",
    "categoria": "pa",
    "logo": "",
    "ajustePuntos": 0,
@@ -1570,5 +1570,5 @@
   }
  ],
  "partidos": [],
- "actualizado": "2026-10-11T02:28:08.676Z"
+ "actualizado": "2026-10-18T04:54:00.684Z"
 }
