@@ -112,7 +112,7 @@
  "equipos": [
   {
    "id": "pb-vianney",
-   "nombre": "Vianney",
+   "nombre": "Rayos Kids",
    "categoria": "pb",
    "logo": "",
    "ajustePuntos": 0,
@@ -160,7 +160,7 @@
   },
   {
    "id": "pa-equipo-3",
-   "nombre": "Equipo 3",
+   "nombre": "Warriors Club",
    "categoria": "pa",
    "logo": "",
    "ajustePuntos": 0,
@@ -2287,5 +2287,5 @@
    "goles": []
   }
  ],
- "actualizado": "2026-10-18T04:59:29.360Z"
+ "actualizado": "2026-10-18T19:50:30.976Z"
 }
