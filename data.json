@@ -122,7 +122,7 @@
    "id": "pb-cukis",
    "nombre": "Mini Cracks",
    "categoria": "pb",
-   "logo": "",
+   "logo": "assets/equipos/pb-cukis-mvg5bash.webp",
    "ajustePuntos": 0,
    "activo": true
   },
@@ -138,7 +138,7 @@
    "id": "pb-jackie",
    "nombre": "Mini Campeones",
    "categoria": "pb",
-   "logo": "assets/equipos/pb-jackie-mvg55fky.webp",
+   "logo": "assets/equipos/pb-jackie-mvg5b7en.webp",
    "ajustePuntos": 0,
    "activo": true
   },
@@ -2287,5 +2287,5 @@
    "goles": []
   }
  ],
- "actualizado": "2026-10-20T03:46:47.756Z"
+ "actualizado": "2026-10-20T03:50:48.903Z"
 }
