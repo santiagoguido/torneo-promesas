@@ -138,7 +138,7 @@
    "id": "pb-jackie",
    "nombre": "Mini Campeones",
    "categoria": "pb",
-   "logo": "",
+   "logo": "assets/equipos/pb-jackie-mvg55fky.webp",
    "ajustePuntos": 0,
    "activo": true
   },
@@ -2287,5 +2287,5 @@
    "goles": []
   }
  ],
- "actualizado": "2026-10-19T05:24:25.313Z"
+ "actualizado": "2026-10-20T03:46:15.167Z"
 }
