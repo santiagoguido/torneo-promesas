@@ -130,7 +130,7 @@
    "id": "pb-tere-gonzalez",
    "nombre": "Rayitos FC",
    "categoria": "pb",
-   "logo": "",
+   "logo": "assets/equipos/pb-tere-gonzalez-mvg5cmbp.webp",
    "ajustePuntos": 0,
    "activo": true
   },
@@ -2287,5 +2287,5 @@
    "goles": []
   }
  ],
- "actualizado": "2026-10-20T03:50:48.903Z"
+ "actualizado": "2026-10-20T03:51:50.626Z"
 }
