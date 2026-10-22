@@ -194,7 +194,7 @@
    "id": "sec-deportivo-casitas",
    "nombre": "Deportivo Casitas",
    "categoria": "sec",
-   "logo": "",
+   "logo": "assets/equipos/sec-deportivo-casitas-mvj1v9jq.webp",
    "ajustePuntos": 0,
    "activo": true
   },
@@ -202,7 +202,7 @@
    "id": "sec-francisco-david",
    "nombre": "Los Cuates",
    "categoria": "sec",
-   "logo": "",
+   "logo": "assets/equipos/sec-francisco-david-mvj1vcfw.webp",
    "ajustePuntos": 0,
    "activo": true
   },
@@ -210,7 +210,7 @@
    "id": "sec-alfred-emiliano",
    "nombre": "Nottinghan Miedo",
    "categoria": "sec",
-   "logo": "",
+   "logo": "assets/equipos/sec-alfred-emiliano-mvj1vdvw.webp",
    "ajustePuntos": 0,
    "activo": true
   },
@@ -218,7 +218,7 @@
    "id": "sec-eder",
    "nombre": "Barrio Chencha",
    "categoria": "sec",
-   "logo": "",
+   "logo": "assets/equipos/sec-eder-mvj1v7rs.webp",
    "ajustePuntos": 0,
    "activo": true
   },
@@ -226,7 +226,7 @@
    "id": "sec-leonardo",
    "nombre": "Facheritos",
    "categoria": "sec",
-   "logo": "",
+   "logo": "assets/equipos/sec-leonardo-mvj1vb1k.webp",
    "ajustePuntos": 0,
    "activo": true
   },
@@ -234,7 +234,7 @@
    "id": "sec-isauro",
    "nombre": "Sin Gasolina",
    "categoria": "sec",
-   "logo": "",
+   "logo": "assets/equipos/sec-isauro-mvj1vfb1.webp",
    "ajustePuntos": 0,
    "activo": true
   }
@@ -2287,5 +2287,5 @@
    "goles": []
   }
  ],
- "actualizado": "2026-10-22T04:34:31.237Z"
+ "actualizado": "2026-10-22T04:37:47.319Z"
 }
