@@ -224,7 +224,7 @@
   },
   {
    "id": "sec-leonardo",
-   "nombre": "Leonardo",
+   "nombre": "Facheritos",
    "categoria": "sec",
    "logo": "",
    "ajustePuntos": 0,
@@ -232,7 +232,7 @@
   },
   {
    "id": "sec-isauro",
-   "nombre": "Isauro",
+   "nombre": "Sin Gasolina",
    "categoria": "sec",
    "logo": "",
    "ajustePuntos": 0,
@@ -2287,5 +2287,5 @@
    "goles": []
   }
  ],
- "actualizado": "2026-10-20T03:52:44.150Z"
+ "actualizado": "2026-10-22T01:39:59.594Z"
 }
