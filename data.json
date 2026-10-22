@@ -146,7 +146,7 @@
    "id": "pa-equipo-1",
    "nombre": "Relámpagos Xichú",
    "categoria": "pa",
-   "logo": "",
+   "logo": "assets/equipos/pa-equipo-1-mvj1r5cp.webp",
    "ajustePuntos": 0,
    "activo": true
   },
@@ -154,7 +154,7 @@
    "id": "pa-equipo-2",
    "nombre": "Halcones",
    "categoria": "pa",
-   "logo": "",
+   "logo": "assets/equipos/pa-equipo-2-mvj1r42m.webp",
    "ajustePuntos": 0,
    "activo": true
   },
@@ -162,7 +162,7 @@
    "id": "pa-equipo-3",
    "nombre": "Warriors Club",
    "categoria": "pa",
-   "logo": "",
+   "logo": "assets/equipos/pa-equipo-3-mvj1r83i.webp",
    "ajustePuntos": 0,
    "activo": true
   },
@@ -170,7 +170,7 @@
    "id": "pa-equipo-4",
    "nombre": "Titanes de Hierro",
    "categoria": "pa",
-   "logo": "",
+   "logo": "assets/equipos/pa-equipo-4-mvj1r6qi.webp",
    "ajustePuntos": 0,
    "activo": true
   },
@@ -178,7 +178,7 @@
    "id": "pa-equipo-5",
    "nombre": "Guardianes FC",
    "categoria": "pa",
-   "logo": "",
+   "logo": "assets/equipos/pa-equipo-5-mvj1r2r4.webp",
    "ajustePuntos": 0,
    "activo": true
   },
@@ -186,7 +186,7 @@
    "id": "pa-fbc-casitas",
    "nombre": "FBC Casitas",
    "categoria": "pa",
-   "logo": "",
+   "logo": "assets/equipos/pa-fbc-casitas-mvj1r0su.webp",
    "ajustePuntos": 0,
    "activo": true
   },
@@ -2287,5 +2287,5 @@
    "goles": []
   }
  ],
- "actualizado": "2026-10-22T04:30:52.811Z"
+ "actualizado": "2026-10-22T04:34:31.237Z"
 }
