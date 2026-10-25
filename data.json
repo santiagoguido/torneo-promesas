@@ -1705,7 +1705,7 @@
    "visitante": "pb-vianney",
    "golesLocal": 1,
    "golesVisitante": 9,
-   "estado": "programado",
+   "estado": "jugado",
    "fechaAnterior": "",
    "nota": "",
    "goles": [
@@ -2317,5 +2317,5 @@
    "goles": []
   }
  ],
- "actualizado": "2026-10-25T18:28:33.979Z"
+ "actualizado": "2026-10-25T18:30:53.228Z"
 }
