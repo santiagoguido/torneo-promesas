@@ -336,7 +336,7 @@
    "equipo": "pb-cukis",
    "categoria": "pb",
    "dorsal": "",
-   "foto": "",
+   "foto": "assets/jugadores/pb-cukis-j02-mvob10f9.webp",
    "activo": true
   },
   {
@@ -1646,7 +1646,7 @@
   },
   {
    "id": "jg-mvoak7zqde4a",
-   "nombre": "Jesús",
+   "nombre": "Jesús Mata",
    "equipo": "sec-francisco-david",
    "categoria": "sec",
    "dorsal": "",
@@ -2404,5 +2404,5 @@
    "goles": []
   }
  ],
- "actualizado": "2026-10-25T20:40:38.318Z"
+ "actualizado": "2026-10-25T20:52:56.781Z"
 }
