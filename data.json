@@ -1385,7 +1385,7 @@
   },
   {
    "id": "sec-eder-j03",
-   "nombre": "Aarón",
+   "nombre": "Aarón Tadeo",
    "equipo": "sec-eder",
    "categoria": "sec",
    "dorsal": "",
@@ -1643,6 +1643,15 @@
    "dorsal": "",
    "foto": "",
    "activo": true
+  },
+  {
+   "id": "jg-mvoak7zqde4a",
+   "nombre": "Jesús",
+   "equipo": "sec-francisco-david",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
   }
  ],
  "partidos": [
@@ -1811,7 +1820,7 @@
      "cantidad": 2
     },
     {
-     "jugador": "sec-eder-j02",
+     "jugador": "sec-eder-j03",
      "cantidad": 1
     }
    ]
@@ -1869,12 +1878,12 @@
      "cantidad": 1
     },
     {
-     "jugador": "sec-francisco-david-j03",
+     "jugador": "jg-mvoak7zqde4a",
      "cantidad": 1
     },
     {
      "jugador": "sec-isauro-j07",
-     "cantidad": 1
+     "cantidad": 2
     },
     {
      "jugador": "sec-isauro-j06",
@@ -2395,5 +2404,5 @@
    "goles": []
   }
  ],
- "actualizado": "2026-10-25T19:59:24.977Z"
+ "actualizado": "2026-10-25T20:40:38.318Z"
 }
