@@ -1299,7 +1299,7 @@
    "equipo": "sec-alfred-emiliano",
    "categoria": "sec",
    "dorsal": "",
-   "foto": "",
+   "foto": "assets/jugadores/sec-alfred-emiliano-j03-mvobrw01.webp",
    "activo": true
   },
   {
@@ -2404,5 +2404,5 @@
    "goles": []
   }
  ],
- "actualizado": "2026-10-25T21:11:11.922Z"
+ "actualizado": "2026-10-25T21:13:50.882Z"
 }
