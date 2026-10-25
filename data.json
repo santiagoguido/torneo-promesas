@@ -1766,7 +1766,7 @@
    "visitante": "pb-cukis",
    "golesLocal": 8,
    "golesVisitante": 1,
-   "estado": "programado",
+   "estado": "jugado",
    "fechaAnterior": "",
    "nota": "",
    "goles": [
@@ -2317,5 +2317,5 @@
    "goles": []
   }
  ],
- "actualizado": "2026-10-25T18:30:53.228Z"
+ "actualizado": "2026-10-25T18:31:00.661Z"
 }
