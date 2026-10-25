@@ -750,7 +750,7 @@
    "equipo": "pa-equipo-3",
    "categoria": "pa",
    "dorsal": "",
-   "foto": "",
+   "foto": "assets/jugadores/pa-equipo-3-j01-mvobogpp.webp",
    "activo": true
   },
   {
@@ -786,7 +786,7 @@
    "equipo": "pa-equipo-3",
    "categoria": "pa",
    "dorsal": "",
-   "foto": "",
+   "foto": "assets/jugadores/pa-equipo-3-j05-mvoboim0.webp",
    "activo": true
   },
   {
@@ -2404,5 +2404,5 @@
    "goles": []
   }
  ],
- "actualizado": "2026-10-25T21:09:05.082Z"
+ "actualizado": "2026-10-25T21:11:11.922Z"
 }
