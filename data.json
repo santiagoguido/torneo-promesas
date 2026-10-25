@@ -1703,12 +1703,25 @@
    "hora": "17:00",
    "local": "pb-tere-gonzalez",
    "visitante": "pb-vianney",
-   "golesLocal": 0,
-   "golesVisitante": 0,
+   "golesLocal": 1,
+   "golesVisitante": 9,
    "estado": "programado",
    "fechaAnterior": "",
    "nota": "",
-   "goles": []
+   "goles": [
+    {
+     "jugador": "pb-tere-gonzalez-j02",
+     "cantidad": 1
+    },
+    {
+     "jugador": "pb-vianney-j02",
+     "cantidad": 8
+    },
+    {
+     "jugador": "pb-vianney-j04",
+     "cantidad": 1
+    }
+   ]
   },
   {
    "id": "pa-mvdcuom0ixop",
@@ -1751,12 +1764,29 @@
    "hora": "19:20",
    "local": "pb-jackie",
    "visitante": "pb-cukis",
-   "golesLocal": 0,
-   "golesVisitante": 0,
+   "golesLocal": 8,
+   "golesVisitante": 1,
    "estado": "programado",
    "fechaAnterior": "",
    "nota": "",
-   "goles": []
+   "goles": [
+    {
+     "jugador": "pb-cukis-j02",
+     "cantidad": 6
+    },
+    {
+     "jugador": "pb-cukis-j01",
+     "cantidad": 1
+    },
+    {
+     "jugador": "pb-cukis-j04",
+     "cantidad": 1
+    },
+    {
+     "jugador": "pb-jackie-j03",
+     "cantidad": 1
+    }
+   ]
   },
   {
    "id": "pa-mvdcvqw0h5ge",
@@ -2287,5 +2317,5 @@
    "goles": []
   }
  ],
- "actualizado": "2026-10-22T22:06:59.883Z"
+ "actualizado": "2026-10-25T18:28:33.979Z"
 }
