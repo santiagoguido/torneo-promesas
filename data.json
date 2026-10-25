@@ -696,7 +696,7 @@
    "equipo": "pa-equipo-2",
    "categoria": "pa",
    "dorsal": "",
-   "foto": "",
+   "foto": "assets/jugadores/pa-equipo-2-j05-mvob3hp6.webp",
    "activo": true
   },
   {
@@ -723,7 +723,7 @@
    "equipo": "pa-equipo-2",
    "categoria": "pa",
    "dorsal": "",
-   "foto": "",
+   "foto": "assets/jugadores/pa-equipo-2-j08-mvob3jad.webp",
    "activo": true
   },
   {
@@ -2404,5 +2404,5 @@
    "goles": []
   }
  ],
- "actualizado": "2026-10-25T20:53:15.932Z"
+ "actualizado": "2026-10-25T20:54:53.638Z"
 }
