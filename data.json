@@ -1834,8 +1834,8 @@
    "hora": "19:20",
    "local": "pb-jackie",
    "visitante": "pb-cukis",
-   "golesLocal": 8,
-   "golesVisitante": 1,
+   "golesLocal": 1,
+   "golesVisitante": 8,
    "estado": "jugado",
    "fechaAnterior": "",
    "nota": "",
@@ -2404,5 +2404,5 @@
    "goles": []
   }
  ],
- "actualizado": "2026-10-25T21:13:50.882Z"
+ "actualizado": "2026-10-26T02:59:03.911Z"
 }
