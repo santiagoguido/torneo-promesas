@@ -2445,8 +2445,8 @@
    "hora": "19:10",
    "local": "pa-equipo-3",
    "visitante": "pa-equipo-5",
-   "golesLocal": 5,
-   "golesVisitante": 3,
+   "golesLocal": 3,
+   "golesVisitante": 5,
    "estado": "jugado",
    "fechaAnterior": "",
    "nota": "",
@@ -3355,5 +3355,5 @@
    "goles": []
   }
  ],
- "actualizado": "2026-11-09T02:24:55.243Z"
+ "actualizado": "2026-11-09T02:38:48.946Z"
 }
