@@ -2170,12 +2170,25 @@
    "hora": "14:30",
    "local": "pa-equipo-1",
    "visitante": "pa-equipo-4",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "programado",
+   "golesLocal": 4,
+   "golesVisitante": 1,
+   "estado": "jugado",
    "fechaAnterior": "",
    "nota": "",
-   "goles": []
+   "goles": [
+    {
+     "jugador": "pa-equipo-1-j01",
+     "cantidad": 2
+    },
+    {
+     "jugador": "pa-equipo-1-j05",
+     "cantidad": 2
+    },
+    {
+     "jugador": "pa-equipo-4-j01",
+     "cantidad": 1
+    }
+   ]
   },
   {
    "id": "pa-mvdcuj8d0ul6",
@@ -2186,12 +2199,25 @@
    "hora": "15:20",
    "local": "pb-cukis",
    "visitante": "pb-tere-gonzalez",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "programado",
+   "golesLocal": 4,
+   "golesVisitante": 3,
+   "estado": "jugado",
    "fechaAnterior": "",
    "nota": "",
-   "goles": []
+   "goles": [
+    {
+     "jugador": "pb-cukis-j02",
+     "cantidad": 3
+    },
+    {
+     "jugador": "pb-tere-gonzalez-j06",
+     "cantidad": 1
+    },
+    {
+     "jugador": "pb-tere-gonzalez-j03",
+     "cantidad": 2
+    }
+   ]
   },
   {
    "id": "pa-mvdcuj8dc7ef",
@@ -2202,12 +2228,25 @@
    "hora": "16:00",
    "local": "pb-jackie",
    "visitante": "pb-vianney",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "programado",
+   "golesLocal": 4,
+   "golesVisitante": 1,
+   "estado": "jugado",
    "fechaAnterior": "",
    "nota": "",
-   "goles": []
+   "goles": [
+    {
+     "jugador": "pb-vianney-j02",
+     "cantidad": 1
+    },
+    {
+     "jugador": "pb-jackie-j03",
+     "cantidad": 2
+    },
+    {
+     "jugador": "pb-jackie-j02",
+     "cantidad": 2
+    }
+   ]
   },
   {
    "id": "pa-mvdcvqw0l6ns",
@@ -2218,12 +2257,29 @@
    "hora": "16:40",
    "local": "sec-leonardo",
    "visitante": "sec-deportivo-casitas",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "programado",
+   "golesLocal": 3,
+   "golesVisitante": 2,
+   "estado": "jugado",
    "fechaAnterior": "",
    "nota": "",
-   "goles": []
+   "goles": [
+    {
+     "jugador": "sec-deportivo-casitas-j01",
+     "cantidad": 1
+    },
+    {
+     "jugador": "jg-mw01gzqqkcg6",
+     "cantidad": 1
+    },
+    {
+     "jugador": "sec-leonardo-j01",
+     "cantidad": 2
+    },
+    {
+     "jugador": "sec-leonardo-j04",
+     "cantidad": 1
+    }
+   ]
   },
   {
    "id": "pa-mvdcuom0xlkt",
@@ -2234,12 +2290,25 @@
    "hora": "17:30",
    "local": "pa-equipo-2",
    "visitante": "pa-fbc-casitas",
-   "golesLocal": 0,
+   "golesLocal": 4,
    "golesVisitante": 0,
-   "estado": "programado",
+   "estado": "jugado",
    "fechaAnterior": "",
    "nota": "",
-   "goles": []
+   "goles": [
+    {
+     "jugador": "pa-equipo-2-j08",
+     "cantidad": 1
+    },
+    {
+     "jugador": "pa-equipo-2-j03",
+     "cantidad": 1
+    },
+    {
+     "jugador": "pa-equipo-2-j05",
+     "cantidad": 2
+    }
+   ]
   },
   {
    "id": "pa-mvdcvqw0d6k9",
@@ -2250,9 +2319,9 @@
    "hora": "18:20",
    "local": "sec-isauro",
    "visitante": "sec-eder",
-   "golesLocal": 0,
+   "golesLocal": 2,
    "golesVisitante": 0,
-   "estado": "programado",
+   "estado": "jugado",
    "fechaAnterior": "",
    "nota": "",
    "goles": []
@@ -2266,12 +2335,25 @@
    "hora": "19:10",
    "local": "pa-equipo-3",
    "visitante": "pa-equipo-5",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "programado",
+   "golesLocal": 5,
+   "golesVisitante": 3,
+   "estado": "jugado",
    "fechaAnterior": "",
    "nota": "",
-   "goles": []
+   "goles": [
+    {
+     "jugador": "pa-equipo-5-j11",
+     "cantidad": 5
+    },
+    {
+     "jugador": "pa-equipo-3-j01",
+     "cantidad": 2
+    },
+    {
+     "jugador": "pa-equipo-3-j05",
+     "cantidad": 1
+    }
+   ]
   },
   {
    "id": "pa-mvdcvqw0167i",
@@ -2283,11 +2365,20 @@
    "local": "sec-alfred-emiliano",
    "visitante": "sec-francisco-david",
    "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "programado",
+   "golesVisitante": 3,
+   "estado": "jugado",
    "fechaAnterior": "",
    "nota": "",
-   "goles": []
+   "goles": [
+    {
+     "jugador": "sec-francisco-david-j08",
+     "cantidad": 2
+    },
+    {
+     "jugador": "sec-francisco-david-j08",
+     "cantidad": 1
+    }
+   ]
   },
   {
    "id": "pa-mvdcuj8duh6j",
@@ -2546,5 +2637,5 @@
    "goles": []
   }
  ],
- "actualizado": "2026-11-03T01:58:52.570Z"
+ "actualizado": "2026-11-09T01:21:38.966Z"
 }
