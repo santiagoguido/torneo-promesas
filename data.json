@@ -1758,6 +1758,15 @@
    "dorsal": "",
    "foto": "",
    "activo": true
+  },
+  {
+   "id": "jg-mw8myrp8dy7n",
+   "nombre": "Scoot",
+   "equipo": "sec-isauro",
+   "categoria": "sec",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
   }
  ],
  "partidos": [
@@ -2420,7 +2429,12 @@
    "estado": "jugado",
    "fechaAnterior": "",
    "nota": "",
-   "goles": []
+   "goles": [
+    {
+     "jugador": "jg-mw8myrp8dy7n",
+     "cantidad": 2
+    }
+   ]
   },
   {
    "id": "pa-mvdcuom00uus",
@@ -3341,5 +3355,5 @@
    "goles": []
   }
  ],
- "actualizado": "2026-11-09T02:21:51.095Z"
+ "actualizado": "2026-11-09T02:24:55.243Z"
 }
