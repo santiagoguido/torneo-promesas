@@ -2576,7 +2576,7 @@
    "fase": "regular",
    "jornada": 4,
    "fecha": "2026-11-14",
-   "hora": "18:20",
+   "hora": "20:00",
    "local": "sec-deportivo-casitas",
    "visitante": "sec-eder",
    "golesLocal": 0,
@@ -2608,7 +2608,7 @@
    "fase": "regular",
    "jornada": 4,
    "fecha": "2026-11-14",
-   "hora": "20:00",
+   "hora": "18:20",
    "local": "sec-leonardo",
    "visitante": "sec-francisco-david",
    "golesLocal": 0,
@@ -3355,5 +3355,5 @@
    "goles": []
   }
  ],
- "actualizado": "2026-11-09T02:38:48.946Z"
+ "actualizado": "2026-11-09T05:11:56.213Z"
 }
