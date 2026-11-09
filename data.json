@@ -1740,6 +1740,24 @@
    "dorsal": "",
    "foto": "",
    "activo": true
+  },
+  {
+   "id": "jg-mw8mwrunceg1",
+   "nombre": "Manuel Ivan Jiménez",
+   "equipo": "pa-fbc-casitas",
+   "categoria": "pa",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
+  },
+  {
+   "id": "jg-mw8mx7o4uocq",
+   "nombre": "Israel Rodríguez",
+   "equipo": "pa-fbc-casitas",
+   "categoria": "pa",
+   "dorsal": "",
+   "foto": "",
+   "activo": true
   }
  ],
  "partidos": [
@@ -2377,6 +2395,14 @@
     {
      "jugador": "pa-equipo-2-j05",
      "cantidad": 2
+    },
+    {
+     "jugador": "jg-mw8mwrunceg1",
+     "cantidad": 1
+    },
+    {
+     "jugador": "jg-mw8mx7o4uocq",
+     "cantidad": 1
     }
    ]
   },
@@ -3315,5 +3341,5 @@
    "goles": []
   }
  ],
- "actualizado": "2026-11-09T02:13:08.057Z"
+ "actualizado": "2026-11-09T02:21:51.095Z"
 }
