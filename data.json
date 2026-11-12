@@ -2573,7 +2573,7 @@
    "fase": "regular",
    "jornada": 4,
    "fecha": "2026-11-14",
-   "hora": "17:30",
+   "hora": "16:40",
    "local": "pb-cukis",
    "visitante": "pb-jackie",
    "golesLocal": 0,
@@ -2589,7 +2589,7 @@
    "fase": "regular",
    "jornada": 4,
    "fecha": "2026-11-14",
-   "hora": "20:00",
+   "hora": "19:10",
    "local": "sec-deportivo-casitas",
    "visitante": "sec-eder",
    "golesLocal": 0,
@@ -2605,7 +2605,7 @@
    "fase": "regular",
    "jornada": 4,
    "fecha": "2026-11-14",
-   "hora": "19:10",
+   "hora": "18:20",
    "local": "pa-equipo-4",
    "visitante": "pa-fbc-casitas",
    "golesLocal": 0,
@@ -2621,7 +2621,7 @@
    "fase": "regular",
    "jornada": 4,
    "fecha": "2026-11-14",
-   "hora": "18:20",
+   "hora": "17:30",
    "local": "sec-leonardo",
    "visitante": "sec-francisco-david",
    "golesLocal": 0,
@@ -3368,5 +3368,5 @@
    "goles": []
   }
  ],
- "actualizado": "2026-11-12T21:33:34.983Z"
+ "actualizado": "2026-11-12T21:41:31.539Z"
 }
