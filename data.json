@@ -2791,16 +2791,37 @@
    "categoria": "pa",
    "fase": "regular",
    "jornada": 5,
-   "fecha": "2026-11-21",
-   "hora": "18:20",
+   "fecha": "2026-11-18",
+   "hora": "18:00",
    "local": "pa-equipo-3",
    "visitante": "pa-equipo-1",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "programado",
+   "golesLocal": 2,
+   "golesVisitante": 5,
+   "estado": "jugado",
    "fechaAnterior": "",
    "nota": "",
-   "goles": []
+   "goles": [
+    {
+     "jugador": "pa-equipo-3-j05",
+     "cantidad": 1
+    },
+    {
+     "jugador": "pa-equipo-1-j05",
+     "cantidad": 2
+    },
+    {
+     "jugador": "pa-equipo-1-j01",
+     "cantidad": 2
+    },
+    {
+     "jugador": "pa-equipo-1-j03",
+     "cantidad": 1
+    },
+    {
+     "jugador": "pa-equipo-3-j01",
+     "cantidad": 1
+    }
+   ]
   },
   {
    "id": "pa-mvdcvqw0f78z",
@@ -3443,5 +3464,5 @@
    "goles": []
   }
  ],
- "actualizado": "2026-11-17T03:33:52.536Z"
+ "actualizado": "2026-11-19T03:03:38.070Z"
 }
