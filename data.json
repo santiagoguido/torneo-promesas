@@ -2765,8 +2765,8 @@
    "visitante": "pb-jackie",
    "golesLocal": 0,
    "golesVisitante": 0,
-   "estado": "programado",
-   "fechaAnterior": "",
+   "estado": "pospuesto",
+   "fechaAnterior": "2026-11-21",
    "nota": "",
    "goles": []
   },
@@ -3464,5 +3464,5 @@
    "goles": []
   }
  ],
- "actualizado": "2026-11-20T01:08:56.055Z"
+ "actualizado": "2026-11-20T01:09:26.941Z"
 }
