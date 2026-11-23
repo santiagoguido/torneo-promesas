@@ -2893,12 +2893,33 @@
    "hora": "19:20",
    "local": "sec-alfred-emiliano",
    "visitante": "sec-leonardo",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "programado",
+   "golesLocal": 3,
+   "golesVisitante": 5,
+   "estado": "jugado",
    "fechaAnterior": "",
    "nota": "",
-   "goles": []
+   "goles": [
+    {
+     "jugador": "sec-leonardo-j01",
+     "cantidad": 2
+    },
+    {
+     "jugador": "sec-leonardo-j04",
+     "cantidad": 2
+    },
+    {
+     "jugador": "sec-leonardo-j08",
+     "cantidad": 1
+    },
+    {
+     "jugador": "sec-alfred-emiliano-j10",
+     "cantidad": 2
+    },
+    {
+     "jugador": "sec-alfred-emiliano-j05",
+     "cantidad": 1
+    }
+   ]
   },
   {
    "id": "pa-mvdcvqw0vgw2",
@@ -3534,5 +3555,5 @@
    "goles": []
   }
  ],
- "actualizado": "2026-11-23T14:26:21.666Z"
+ "actualizado": "2026-11-23T20:57:11.712Z"
 }
