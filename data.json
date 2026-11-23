@@ -2716,11 +2716,20 @@
    "local": "pa-fbc-casitas",
    "visitante": "pa-equipo-5",
    "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "programado",
+   "golesVisitante": 2,
+   "estado": "jugado",
    "fechaAnterior": "",
    "nota": "",
-   "goles": []
+   "goles": [
+    {
+     "jugador": "pa-equipo-5-j11",
+     "cantidad": 1
+    },
+    {
+     "jugador": "pa-equipo-5-j01",
+     "cantidad": 1
+    }
+   ]
   },
   {
    "id": "pa-mvdcvqw0l3hu",
@@ -2731,12 +2740,33 @@
    "hora": "16:00",
    "local": "sec-deportivo-casitas",
    "visitante": "sec-isauro",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "programado",
+   "golesLocal": 8,
+   "golesVisitante": 1,
+   "estado": "jugado",
    "fechaAnterior": "",
    "nota": "",
-   "goles": []
+   "goles": [
+    {
+     "jugador": "sec-deportivo-casitas-j01",
+     "cantidad": 4
+    },
+    {
+     "jugador": "sec-deportivo-casitas-j02",
+     "cantidad": 1
+    },
+    {
+     "jugador": "jg-mw01gzqqkcg6",
+     "cantidad": 1
+    },
+    {
+     "jugador": "sec-deportivo-casitas-j07",
+     "cantidad": 2
+    },
+    {
+     "jugador": "jg-mw8myrp8dy7n",
+     "cantidad": 1
+    }
+   ]
   },
   {
    "id": "pa-mvdcuom0wmcr",
@@ -2748,11 +2778,20 @@
    "local": "pa-equipo-4",
    "visitante": "pa-equipo-2",
    "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "programado",
+   "golesVisitante": 2,
+   "estado": "jugado",
    "fechaAnterior": "",
    "nota": "",
-   "goles": []
+   "goles": [
+    {
+     "jugador": "pa-equipo-2-j08",
+     "cantidad": 1
+    },
+    {
+     "jugador": "pa-equipo-2-j05",
+     "cantidad": 1
+    }
+   ]
   },
   {
    "id": "pa-mvdcuj8dr1zw",
@@ -2779,12 +2818,21 @@
    "hora": "17:40",
    "local": "pb-cukis",
    "visitante": "pb-vianney",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "programado",
+   "golesLocal": 1,
+   "golesVisitante": 4,
+   "estado": "jugado",
    "fechaAnterior": "",
    "nota": "",
-   "goles": []
+   "goles": [
+    {
+     "jugador": "pb-cukis-j02",
+     "cantidad": 1
+    },
+    {
+     "jugador": "pb-vianney-j02",
+     "cantidad": 4
+    }
+   ]
   },
   {
    "id": "pa-mvdcuom0duqq",
@@ -2848,12 +2896,21 @@
    "hora": "18:30",
    "local": "sec-eder",
    "visitante": "sec-francisco-david",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "programado",
+   "golesLocal": 6,
+   "golesVisitante": 1,
+   "estado": "jugado",
    "fechaAnterior": "",
    "nota": "",
-   "goles": []
+   "goles": [
+    {
+     "jugador": "sec-francisco-david-j05",
+     "cantidad": 1
+    },
+    {
+     "jugador": "sec-eder-j03",
+     "cantidad": 5
+    }
+   ]
   },
   {
    "id": "sec-39722zfvm354",
@@ -3464,5 +3521,5 @@
    "goles": []
   }
  ],
- "actualizado": "2026-11-20T01:18:13.249Z"
+ "actualizado": "2026-11-23T04:25:55.170Z"
 }
