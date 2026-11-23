@@ -2802,12 +2802,25 @@
    "hora": "16:40",
    "local": "pb-tere-gonzalez",
    "visitante": "pb-jackie",
-   "golesLocal": 0,
-   "golesVisitante": 0,
-   "estado": "pospuesto",
-   "fechaAnterior": "2026-11-21",
+   "golesLocal": 2,
+   "golesVisitante": 6,
+   "estado": "jugado",
+   "fechaAnterior": "",
    "nota": "",
-   "goles": []
+   "goles": [
+    {
+     "jugador": "pb-jackie-j02",
+     "cantidad": 4
+    },
+    {
+     "jugador": "pb-tere-gonzalez-j01",
+     "cantidad": 2
+    },
+    {
+     "jugador": "pb-tere-gonzalez-j03",
+     "cantidad": 2
+    }
+   ]
   },
   {
    "id": "pa-mvdcuj8dt4i2",
@@ -3521,5 +3534,5 @@
    "goles": []
   }
  ],
- "actualizado": "2026-11-23T04:25:55.170Z"
+ "actualizado": "2026-11-23T14:26:21.666Z"
 }
